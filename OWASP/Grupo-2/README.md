@@ -2,11 +2,6 @@ Grupo 2 Integrantes.
 
 Adriana Tobon 
 
-Diego Padilla
-
-
-
-
 
 VULNERABILIDAD, MÉTODOS DE EXPLOTACIÓN Y RECOMENDACIONES PRÁCTICAS DEL OWASP TOP 10.
 
