@@ -6,4 +6,9 @@
 ![image](https://github.com/user-attachments/assets/3f594519-fcc0-4fae-9f66-e958c7910068)
 
 3. Se debe subir la imágen a dockerhub.
+![image](https://github.com/user-attachments/assets/0d636391-55a8-4cc4-8534-4b65435f9c5b)
+![image](https://github.com/user-attachments/assets/97360546-f923-4747-af38-9d1e9fcaa652)
+
+
+
 
