@@ -1,5 +1,9 @@
 # Taller de Docker - Grupo 6
 
+## Mienbros
+##### * Erick Rommel Celis
+##### * Diego Sinsicue
+
 ## Objetivo
 Crear un contenedor de Docker con un servidor web Apache que utilice una carpeta local para almacenar los archivos del servidor. Asignarle una IP válida en la LAN y documentar cada paso del proceso.
 
@@ -26,6 +30,7 @@ Creamos una carpeta en el sistema local que será utilizada para almacenar los a
 Comando utilizado:
 ```bash
 mkdir -p ~/ApacheWebContent
+```
 
 ## Paso 2: Subir la imagen a Docker Hub
 
@@ -35,6 +40,7 @@ Iniciamos sesión en Docker Hub para poder subir la imagen.
 Comando utilizado:
 ```bash
 docker login
+```
 
 ## Paso 3: Configuración de la red y asignación de IP
 
@@ -46,6 +52,7 @@ Creamos una red personalizada en Docker con un rango de IP específico.
 Comando utilizado:
 ```bash
 docker network create --subnet=192.168.1.0/24 mynetwork
+```
 
 ## Paso 4: Evidencia de los commits de todos los miembros del equipo
 
@@ -58,7 +65,7 @@ Para cumplir con el requisito del taller de evidenciar los commits de todos los 
    Comando utilizado:
    ```bash
    git add .
-
+```
 
 
 
