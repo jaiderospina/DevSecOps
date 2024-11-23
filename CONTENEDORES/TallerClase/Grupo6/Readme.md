@@ -31,6 +31,14 @@ Comando utilizado:
 ```bash
 mkdir -p ~/ApacheWebContent
 ```
+### 2 crear el archivo html con su contenido
+creamos el archivo html en la carpeta local creada 
+Comando utilizado:
+```bash
+nano ~/ApacheWebContent/index.html
+```
+
+Se nos abrira una ventana emergente donde podemos agegar o editar la informacion del HTML
 
 ## Paso 2: Subir la imagen a Docker Hub
 
@@ -54,19 +62,21 @@ Comando utilizado:
 docker network create --subnet=192.168.1.0/24 mynetwork
 ```
 
-## Paso 4: Evidencia de los commits de todos los miembros del equipo
+## Paso 4: Crear y correr el Docker con Apache
 
-Para cumplir con el requisito del taller de evidenciar los commits de todos los miembros del equipo, cada persona debe realizar al menos un commit en el repositorio de Git. Cada miembro puede añadir una pequeña contribución, como la subida de capturas de pantalla o la edición de algún archivo en la documentación, y realizar un commit con su nombre y una breve descripción de lo que realizó.
+subiremos y crearemos el docker con las caractetisticas
 
-### Procedimiento para realizar un commit
-
-1. **Agregar los cambios**: Cada miembro debe asegurarse de que los cambios que realizó están listos para ser enviados al repositorio.
-   
-   Comando utilizado:
-   ```bash
-   git add .
+Comando utilizado:
+```bash
+docker run -d --name apache-container -p 8080:80 -v ~/ApacheWebContent:/usr/local/apache2/htdocs httpd
 ```
 
+## Paso Adicional
+En caso de que el docker ya este creado lo correremos para visualizarlo
+
+```bash
+docker star apache-container
+```
 
 
 
