@@ -1,3 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 7 - Taller en Clase</title>
+</head>
+<body>
+    <!-- Título principal con color azul -->
+    <h1 style="color: #007BFF;">¡Bienvenidos al Taller en Clase!</h1>
+
+    <!-- Subtítulo con color verde -->
+    <h2 style="color: #28A745;">Este es el servidor Apache configurado con Docker</h2>
+
+    <!-- Texto explicativo con color gris -->
+    <p style="color: #6C757D;">Este proyecto demuestra la implementación de un servidor local utilizando Docker y Apache.</p>
+</body>
+</html>
+
+
+
+
+
+
+
 # Taller en Clase
 
 Este repositorio contiene el desarrollo del taller realizado en clase para el Grupo 7. A continuación, se detalla el flujo del proyecto y los pasos realizados.
