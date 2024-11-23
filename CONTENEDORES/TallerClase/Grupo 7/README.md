@@ -1,15 +1,20 @@
 # Taller en Clase
 
-Este repositorio contiene el desarrollo del taller realizado en clase.
-<span style="color:red;">Prueba.</span>
+Este repositorio contiene el desarrollo del taller realizado en clase para el Grupo 7. A continuación, se detalla el flujo del proyecto y los pasos realizados.
+
 ## Integrantes del Grupo 7
 
-|   Nombre     |   Apellido    |
-| -------------| ------------- |
-|   Michelle   |   Gutierrez   |
-|   Harold     |   Ramirez     |
-|   Camilo     |   Porras      |
+| Nombre      | Apellido     |
+|-------------|--------------|
+| Michelle    | Gutierrez    |
+| Harold      | Ramirez      |
+| Camilo      | Porras       |
 
+---
+
+## **Descripción del Proyecto**
+
+El objetivo del taller fue implementar un servidor Apache utilizando Docker y configurar el acceso a una página web estática. Este proceso incluyó la creación de imágenes Docker, asignación de IPs y despliegue en un entorno local.
 
 ## Descripción
 ```mermaid
