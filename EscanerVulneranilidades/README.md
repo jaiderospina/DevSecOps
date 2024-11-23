@@ -1,9 +1,6 @@
 ## Escaner de Vulnerabilidades
 
-OpenVAS (Open Vulnerability Assessment System).
-
-
-
+**OpenVAS (Open Vulnerability Assessment System)**.
 
 Descripción funcional y operativa de OpenVAS
 1. Descripción general: OpenVAS (Open Vulnerability Assessment System) es una herramienta de código abierto diseñada para realizar análisis de vulnerabilidades en redes y sistemas. Forma parte del framework Greenbone Vulnerability Management (GVM) y se utiliza principalmente para identificar, clasificar y mitigar vulnerabilidades de seguridad en entornos de TI. Es altamente personalizable y adecuada para entornos corporativos, gubernamentales o académicos.
@@ -61,16 +58,18 @@ En los trabajos de grupo habitual;
 
 1. crear un contenedor de Openvas según se indica en https://greenbone.github.io/docs/latest/22.4/container/index.html .
 
-2. Acaulizar contenedore con el motor de base de datos de vulnerabilidades. 
+2. Actualizar el contenedor creado con el motor de base de datos de vulnerabilidades. 
 
-3. Descargar un contenedor vulnerable y realizar un escaneo de vulnerabilidades al mismo.
+3. Descargar un contenedor vulnerable desde dockerhub y realizar un escaneo de vulnerabilidades al mismo.
 
 5. Documentar el proceso.
 
 6. Subir la imágen a dockerhub.
 
-7. Documentar en el "overview" de dockerhub y en github mpliamente el proceso, en una carpeta titulada GrupoX y sigueindo las drectrices ya dadas en clase.
+7. Documentar en el "overview" de dockerhub y en github ampliamente el proceso, en una carpeta titulada GrupoX y siguiendo las directrices ya dadas en clase.
 
-Con aprecio; Jaider.
+Con aprecio; 
+
+Jaider Ospina Navas.
 
 
