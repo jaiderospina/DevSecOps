@@ -77,6 +77,16 @@ En caso de que el docker ya este creado lo correremos para visualizarlo
 ```bash
 docker star apache-container
 ```
+## Asigación de IP
+Con el fin de crear independencia, se asignan IP a cada contenedor con un segmento de red para estos
+
+1. Crear red
+```bash
+    docker network create --subnet=192.168.1.0/24 mynetwork  
+```
+2. Asignar IP
+   ```bash
+    docker network connect --ip 192.168.1.100 mynetwork apache-container
 
 
 
