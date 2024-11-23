@@ -43,6 +43,10 @@ graph TD;
 
  
 **3.**	Creación del archivo Dockerfile
+El Dockerfile se utilizó para construir la imagen personalizada de Apache:
+
+FROM httpd:latest
+COPY ./html /usr/local/apache2/htdocs/
 
  ![image](https://github.com/user-attachments/assets/7ac44f5d-f304-4d7d-a5bf-0637956d37f7)
 
