@@ -56,7 +56,7 @@ Curva de aprendizaje: La configuración inicial y la interpretación de resultad
 
 En los trabajos de grupo habitual; 
 
-1. crear un contenedor de Openvas según se indica en https://greenbone.github.io/docs/latest/22.4/container/index.html .
+1. Crear un contenedor de Openvas según se indica en https://greenbone.github.io/docs/latest/22.4/container/index.html .
 
 2. Actualizar el contenedor creado con el motor de base de datos de vulnerabilidades. 
 
