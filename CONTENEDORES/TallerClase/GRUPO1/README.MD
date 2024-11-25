@@ -83,6 +83,8 @@ Crear un contenedor con un servidor web apache, que haga uso de una carpeta en l
 
 4.1 se realiza el cambio en el archivo html
 
+![image]CONTENEDORES/TallerClase/GRUPO1/imagen 11.png
+
 </body>
 </html>
 
