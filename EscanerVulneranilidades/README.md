@@ -19,22 +19,28 @@ Actualización continua: La base de datos de vulnerabilidades se actualiza regul
 3. Descripción operativa:
 El proceso operativo de OpenVAS incluye las siguientes etapas:
 
-a. Instalación:
+* a. Instalación:
 Se instala como parte del GVM o como un servicio independiente.
 Requiere un servidor configurado con las dependencias necesarias (habitualmente Linux).
-b. Configuración:
+
+* b. Configuración:
 Se define el ámbito de los escaneos, incluyendo rangos de IP, sistemas específicos o redes completas.
 Permite establecer credenciales para escaneos autenticados (para análisis más profundos).
-c. Ejecución de escaneos:
+
+* c. Ejecución de escaneos:
 Los usuarios configuran tareas de escaneo desde la interfaz gráfica o la línea de comandos.
 OpenVAS realiza un análisis pasivo y activo, verificando servicios, aplicaciones y configuraciones expuestas.
-d. Análisis de resultados:
+
+* d. Análisis de resultados:
 Los resultados incluyen una lista priorizada de vulnerabilidades, basada en métricas como el CVSS (Common Vulnerability Scoring System).
 Las vulnerabilidades detectadas se clasifican en función de su criticidad.
-e. Mitigación y remediación:
+
+* e. Mitigación y remediación:
 El usuario puede utilizar las recomendaciones de OpenVAS para parchear sistemas, reforzar configuraciones o eliminar servicios innecesarios.
 f. Revisión continua:
-Se pueden programar escaneos periódicos para garantizar una evaluación continua del estado de seguridad.
+
+* Se pueden programar escaneos periódicos para garantizar una evaluación continua del estado de seguridad.
+
 4. Casos de uso típicos:
 Auditorías de seguridad internas: Evaluar la exposición a riesgos antes de una auditoría oficial.
 
