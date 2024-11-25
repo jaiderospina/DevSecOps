@@ -89,6 +89,10 @@ Crear un contenedor con un servidor web apache, que haga uso de una carpeta en l
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/CONTENEDORES/TallerClase/GRUPO1/imagen%2012.jpg)
 
+4.3 Se verifica el cambio en el localhost
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/CONTENEDORES/TallerClase/GRUPO1/imagen%2013.jpg)
+
 </body>
 </html>
 
