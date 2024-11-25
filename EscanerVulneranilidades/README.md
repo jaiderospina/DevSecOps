@@ -63,6 +63,15 @@ Curva de aprendizaje: La configuración inicial y la interpretación de resultad
 - https://www.greenbone.net/en/  
 - https://www.welivesecurity.com/es/recursos-herramientas/evaluacion-vulnerabilidades-openvas/
 
+**Escaneres  Contenedores**
+
+- https://www.aquasec.com/products/trivy/
+- https://trivy.dev/v0.57/getting-started/installation/
+- https://www.youtube.com/watch?v=i2vDJgtGAA4
+- https://greenbone.github.io/docs/latest/22.4/container/index.html
+- https://snyk.io/product/open-source-security-management/
+  
+  
 ##  TALLER EN CLASE
 
 En los trabajos de grupo habitual; 
