@@ -51,6 +51,11 @@ Carga en sistemas: Los escaneos intensivos pueden consumir recursos significativ
 
 Curva de aprendizaje: La configuración inicial y la interpretación de resultados pueden ser complejas para usuarios no familiarizados con seguridad informática.
 
+## Referencias:
+
+- https://www.openvas.org/
+- https://www.greenbone.net/en/  
+- https://www.welivesecurity.com/es/recursos-herramientas/evaluacion-vulnerabilidades-openvas/
 
 ##  TALLER EN CLASE
 
