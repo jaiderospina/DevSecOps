@@ -191,3 +191,33 @@ docker stop eaabcaca0ec5a2
 
 
 
+
+### Paso 8 ASIGNACION DE IP :white_check_mark:
+
+> * Despues procedemos a asignar una subred a nuestro contenedor con el siguiente comando
+
+#### Comando para ver el estado del contenedor
+```bash
+docker network create --subnet=192.168.1.0/24   my_network
+```
+
+![image](https://github.com/user-attachments/assets/c00f7c8d-46dd-46f9-983c-3a325e0b009f)
+
+
+> * Despues procedemos a asignar una ip a nuestro contenedor con el siguiente comando
+
+#### Comando para ver el estado del contenedor
+```bash
+docker run -d --name my_container --net my_network --ip 192.168.1.100 my_image
+```
+
+
+> * Despues procedemos a ejecutar la ip  en el navegador
+
+![image](https://github.com/user-attachments/assets/15f5153c-7f16-4b26-8c80-66dc4f1dffb2)
+
+
+#### Comando de la terminal para parar el contenedor
+
+
+
