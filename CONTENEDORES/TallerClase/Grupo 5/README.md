@@ -212,7 +212,8 @@ docker run -d --name my_container --net my_network --ip 192.168.1.100 my_image
 ```
 
 
-> * Despues procedemos a ejecutar la ip  en el navegador
+
+##Despues procedemos a ejecutar la ip  en el navegador
 
 ![image](https://github.com/user-attachments/assets/15f5153c-7f16-4b26-8c80-66dc4f1dffb2)
 
