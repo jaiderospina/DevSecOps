@@ -138,5 +138,12 @@ El navegador mostrará la página de inicio de sesión de GSA y, después de usa
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/12.png)
 </ul>
+<ul>
+4.6 Configuración y secuencia de comandos de inicio
+Descargar el script de instalación e inicio al directorio de trabajo actual
+curl -f -O https://greenbone.github.io/docs/latest/_static/setup-and-start-greenbone-community-edition.sh && chmod u+x setup-and-start-greenbone-community-edition.sh
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/13.png)
+</ul>
 
 
