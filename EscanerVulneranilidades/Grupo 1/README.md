@@ -25,3 +25,12 @@ Documentación del Taller Realizado
 2.	![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/1.png)
 
 
+
+
+2.	Instalar docker 
+2.1	Desinstalar paquetes Debian conflictivos
+for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt remove $pkg; done
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/2.png)
+
+
