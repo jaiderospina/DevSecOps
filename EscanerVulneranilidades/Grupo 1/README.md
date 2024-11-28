@@ -145,5 +145,11 @@ curl -f -O https://greenbone.github.io/docs/latest/_static/setup-and-start-green
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/13.png)
 </ul>
+<ul>
+4.7 Para ejecutar el script se debe ejecutar el siguiente comando
+Ejecutar la configuración y comenzar el script
+
+![image]( https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/14.png)
+</ul>
 
 
