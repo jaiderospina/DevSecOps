@@ -133,3 +133,10 @@ xdg-open "http://127.0.0.1:9392" 2>/dev/null >/dev/null &
 ![image]( https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/11.png)
 </ul>
 
+<ul>
+El navegador mostrará la página de inicio de sesión de GSA y, después de usar las credenciales creadas anteriormente, es posible comenzar con el escaneo de vulnerabilidades
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/12.png)
+</ul>
+
+
