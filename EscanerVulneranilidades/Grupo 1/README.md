@@ -27,6 +27,10 @@ Documentación del Taller Realizado
 
 
 
+<div align = "center">
+<h1>1.Instalar paquetes Debian/Ubuntu ca-certificates, curl y gnupg </h1>
+</div>
+
 
 2 Instalar docker 
 2.1	Desinstalar paquetes Debian conflictivos
