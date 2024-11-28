@@ -97,3 +97,13 @@ cd $DOWNLOAD_DIR && curl -f -L https://greenbone.github.io/docs/latest/_static/d
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/7.png)
 </ul>
 
+
+<ul>
+4.Archivo Docker Compose ¶
+Para ejecutar Greenbone Community Edition con contenedores, se debe utilizar el siguiente archivo de composición:
+4.1 se descarga la imagen directamente con el siguiente comando:
+cd $DOWNLOAD_DIR && curl -f -L https://greenbone.github.io/docs/latest/_static/docker-compose-22.4.yml -o docker-compose.yml
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/8.png)
+</ul>
+
