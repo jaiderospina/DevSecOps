@@ -18,28 +18,17 @@
 Documentación del Taller Realizado
 </div>
 
-
 <ul>
 <h3>Punto 1:
 1.Instalar paquetes Debian/Ubuntu ca-certificates, curl y gnupg 
   
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/1.png)
 
-
-
-<div align = "center">
-<h1>1.Instalar paquetes Debian/Ubuntu ca-certificates, curl y gnupg </h1>
-</div>
-
-
 2 Instalar docker 
 2.1	Desinstalar paquetes Debian conflictivos
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt remove $pkg; done
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/2.png)
-
-
-
 
 </ul>
 
@@ -69,7 +58,6 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 </ul>
 
-
 </ul>
 
 <h4>3.Configuración 
@@ -79,8 +67,6 @@ Para permitir que el usuario actual ejecute Docker y, por lo tanto, inicie los c
 
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/5.png)
-
-
 
 <ul>
 
@@ -103,8 +89,6 @@ cd $DOWNLOAD_DIR && curl -f -L https://greenbone.github.io/docs/latest/_static/d
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/7.png)
 </ul>
-
-
 <ul>
 4.2 Iniciando los contenedores comunitarios de Greenbone 
 Usando el archivo docker compose, se pueden descargar ( extraer ) las imágenes del contenedor y se pueden iniciar los contenedores en segundo plano.
@@ -116,8 +100,6 @@ docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-editio
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/8.png)
 </ul>
-
-
 <ul>
 4.4 Para obtener un flujo continuo de la salida del registro de todos los servicios, ejecute el siguiente comando:
 Mostrar mensajes de registro de todos los servicios de los contenedores en ejecución
@@ -126,14 +108,11 @@ docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-editio
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/9.png)
 </ul>
 
-
-
 <ul>
 4.4 Puesta en marcha de los contenedores comunitarios Greenbone
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/10.png)
 </ul>
-
 <ul>
 4.5 Iniciando la Gestión de Vulnerabilidades 
 Una vez iniciados los servicios y cargados todos los datos de las fuentes , se puede abrir la interfaz web de Greenbone Security Assistant (GSA) en el navegador.
@@ -142,7 +121,6 @@ xdg-open "http://127.0.0.1:9392" 2>/dev/null >/dev/null &
 
 ![image]( https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/11.png)
 </ul>
-
 <ul>
 El navegador mostrará la página de inicio de sesión de GSA y, después de usar las credenciales creadas anteriormente, es posible comenzar con el escaneo de vulnerabilidades
 
