@@ -116,3 +116,11 @@ docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-editio
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/9.png)
 </ul>
 
+
+
+<ul>
+4.4 Puesta en marcha de los contenedores comunitarios Greenbone
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/10.png)
+</ul>
+
