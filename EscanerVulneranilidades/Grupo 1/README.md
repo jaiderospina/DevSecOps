@@ -6,7 +6,6 @@
 </head>
 <body>
 <h2>Integrantes:</h2>
-[Integrantes](#Integrantes)
 
 <ul>
 <li><strong>Fredys Marquez</strong></li>
