@@ -27,7 +27,7 @@ Documentación del Taller Realizado
 
 
 
-2.	Instalar docker 
+2 Instalar docker 
 2.1	Desinstalar paquetes Debian conflictivos
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt remove $pkg; done
 
