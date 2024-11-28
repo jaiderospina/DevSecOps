@@ -79,3 +79,13 @@ Para permitir que el usuario actual ejecute Docker y, por lo tanto, inicie los c
 
 <ul>
 
+<ul>
+3.2 Para descargar el archivo docker compose de Greenbone Community Edition, se debe crear un directorio de destino.
+Crear directorio de descarga
+export DOWNLOAD_DIR=$HOME/greenbone-community-container && mkdir -p $DOWNLOAD_DIR
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/6.png)
+
+</ul>
+
+
