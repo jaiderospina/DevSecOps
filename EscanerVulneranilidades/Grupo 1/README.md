@@ -107,3 +107,12 @@ cd $DOWNLOAD_DIR && curl -f -L https://greenbone.github.io/docs/latest/_static/d
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/8.png)
 </ul>
 
+
+<ul>
+4.4 Para obtener un flujo continuo de la salida del registro de todos los servicios, ejecute el siguiente comando:
+Mostrar mensajes de registro de todos los servicios de los contenedores en ejecución
+docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-edition logs –f
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/9.png)
+</ul>
+
