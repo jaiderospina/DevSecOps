@@ -124,3 +124,12 @@ docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-editio
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/10.png)
 </ul>
 
+<ul>
+4.5 Iniciando la Gestión de Vulnerabilidades 
+Una vez iniciados los servicios y cargados todos los datos de las fuentes , se puede abrir la interfaz web de Greenbone Security Assistant (GSA) en el navegador.
+Cómo abrir Greenbone Security Assistant en el navegador
+xdg-open "http://127.0.0.1:9392" 2>/dev/null >/dev/null &
+
+![image]( https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/11.png)
+</ul>
+
