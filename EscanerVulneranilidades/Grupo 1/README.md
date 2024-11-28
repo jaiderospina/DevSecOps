@@ -21,5 +21,5 @@ Documentación del Taller Realizado
 <ul>
 <h3>Punto 1:
 1.	Instalar paquetes Debian/Ubuntu ca-certificates, curl y gnupg </h3>
-2.	![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/1.png
+2.	![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/1.png)
 
