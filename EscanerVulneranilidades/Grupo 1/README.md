@@ -7,7 +7,7 @@
 <body>
 <h2>Integrantes:</h2>
 
-  [Introducción](#introducción)
+  [Integrantes](#Integrantes:)
 <ul>
 <li><strong>Fredys Marquez</strong></li>
 <li><strong>Carlos Mayorga</strong></li>
