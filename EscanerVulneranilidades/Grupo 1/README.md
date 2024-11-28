@@ -56,5 +56,13 @@ sudo apt update
 </ul>
 
 <ul>
+2.3	 Instalar paquetes Docker Debian
+sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+
+![image]( https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/4.png)
+
+</ul>
+
 
 
