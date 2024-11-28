@@ -6,8 +6,8 @@
 </head>
 <body>
 <h2>Integrantes:</h2>
+[Integrantes](#Integrantes)
 
-  [Integrantes](#Integrantes:)
 <ul>
 <li><strong>Fredys Marquez</strong></li>
 <li><strong>Carlos Mayorga</strong></li>
