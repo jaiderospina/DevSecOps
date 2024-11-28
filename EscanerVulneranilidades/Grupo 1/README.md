@@ -60,9 +60,10 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 </ul>
 
-<h4>3.Configuración 
+<ul>
+3.Configuración 
 Para permitir que el usuario actual ejecute Docker y, por lo tanto, inicie los contenedores, se lo debe agregar al grupo de usuarios de Docker . Para que el cambio de grupo sea efectivo, cierre la sesión y vuelva a iniciarla o use su.
-</h4>
+<ul>
 3.1 Agregue el usuario actual al grupo de Docker y aplique los cambios del grupo para el entorno de shell actua
 
 
