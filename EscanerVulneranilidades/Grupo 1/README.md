@@ -151,5 +151,13 @@ Ejecutar la configuración y comenzar el script
 
 ![image]( https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/14.png)
 </ul>
+<ul>
+2 punto del taller 
+Actualizar el contenedor creado con el motor de base de datos de vulnerabilidades.
+docker exec -it <nombre_del_contenedor> bash
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/15.png
+
+</ul>
 
 
