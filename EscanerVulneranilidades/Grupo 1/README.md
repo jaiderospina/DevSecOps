@@ -145,6 +145,16 @@ Ejecutar la configuración y comenzar el script
 
 ![image]( https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/14.png)
 </ul>
+
+<ul>
+<h3>
+Configuración y secuencia de comandos de inicio 
+.</h3>
+
+![image]( https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/17.png)
+
+
+
 <ul>
 2 punto del taller 
 Actualizar el contenedor creado con el motor de base de datos de vulnerabilidades.
