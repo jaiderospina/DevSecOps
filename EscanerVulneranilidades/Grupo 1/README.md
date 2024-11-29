@@ -171,6 +171,14 @@ Ejecutar la configuración y comenzar el script
 
 
 </ul>
+<ul>
+<h3>
+Escaneo de vulnerabilidad. </h3>
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/20.png)
+
+
+</ul>
 
 
 </ul>
