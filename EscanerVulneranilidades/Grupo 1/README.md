@@ -153,6 +153,16 @@ Configuración y secuencia de comandos de inicio
 
 ![image]( https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/17.png)
 
+<ul>
+<h3>
+Recuerde seguir primero las instrucciones descritas en los Requisitos previos .
+Como solución rápida, proporcionamos todos los comandos anteriores en un solo script. Este script se puede descargar directamente con el siguiente comando:
+Descargar el script de instalación e inicio al directorio de trabajo actual.</h3>
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/18.png)
+
+
+</ul>
 
 
 <ul>
