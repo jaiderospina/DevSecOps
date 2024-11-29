@@ -239,6 +239,16 @@ Abre tu navegador y navega a http://localhost para verificar que la aplicación 
 
 </ul>
 
+</ul>
+
+<ul>
+3.4 realizar escaneo de vulnerabilidades
+
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/26.png)
+
+</ul>
+
 
 </body>
 </html>
