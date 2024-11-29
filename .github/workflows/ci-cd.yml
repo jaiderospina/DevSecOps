@@ -22,7 +22,6 @@ jobs:
           php-version: '8.2'
           extensions: mbstring, bcmath, xml, curl
 
-      # Ahora se especifica el directorio completo para el comando composer
       - name: Install dependencies
         run: |
           cd example-app
@@ -35,7 +34,7 @@ jobs:
           php artisan migrate --env=testing
           ./vendor/bin/phpunit --coverage-text
 
-          
+
 
 
 
