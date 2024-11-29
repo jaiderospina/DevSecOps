@@ -22,6 +22,9 @@ jobs:
           php-version: '8.1'
           extensions: mbstring, bcmath, xml, curl
 
+      - name: Change directory to example-app
+        run: cd example-app
+
       - name: Install dependencies
         run: |
           composer install --no-interaction --prefer-dist
@@ -32,9 +35,3 @@ jobs:
           php artisan migrate --env=testing
           ./vendor/bin/phpunit --coverage-text
 
-      - name: Deploy to production (Optional)
-        run: |
-          echo "Deploying to production server"
-          # Aquí puedes agregar comandos para tu despliegue
-          # Por ejemplo, si usas SSH para conectarte al servidor:
-          # ssh -o StrictHostKeyChecking=no user@your-server 'cd /path/to/your/app && git pull origin main'
