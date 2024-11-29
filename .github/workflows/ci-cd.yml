@@ -22,16 +22,16 @@ jobs:
           php-version: '8.1'
           extensions: mbstring, bcmath, xml, curl
 
-      - name: Change directory to example-app
-        run: cd example-app
-
+      # Ahora se especifica el directorio completo para el comando composer
       - name: Install dependencies
         run: |
+          cd example-app
           composer install --no-interaction --prefer-dist
 
       - name: Run PHPUnit tests
         run: |
+          cd example-app
           php artisan key:generate
           php artisan migrate --env=testing
           ./vendor/bin/phpunit --coverage-text
-          
+
