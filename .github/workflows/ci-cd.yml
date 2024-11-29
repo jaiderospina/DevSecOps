@@ -34,4 +34,5 @@ jobs:
           php artisan key:generate
           php artisan migrate --env=testing
           ./vendor/bin/phpunit --coverage-text
+
           
