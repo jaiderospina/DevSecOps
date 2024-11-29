@@ -35,3 +35,4 @@ jobs:
           php artisan migrate --env=testing
           ./vendor/bin/phpunit --coverage-text
 
+          
