@@ -161,6 +161,17 @@ Descargar el script de instalación e inicio al directorio de trabajo actual.</h
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/18.png)
 
+<ul>
+<h3>
+Para ejecutar el script se debe ejecutar el siguiente comando
+Ejecutar la configuración y comenzar el script
+.</h3>
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/19.png)
+
+
+</ul>
+
 
 </ul>
 
