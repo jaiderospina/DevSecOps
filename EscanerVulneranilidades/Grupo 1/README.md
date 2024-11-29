@@ -228,6 +228,16 @@ docker run -d -p 80:80 --name dvwa vulnerables/web-dvwa
 
 </ul>
 
+</ul>
+
+<ul>
+3.3 Acceder a la aplicación web vulnerable:
+Abre tu navegador y navega a http://localhost para verificar que la aplicación DVWA esté funcionando. Deberías ver una página de inicio de sesión. Si es la primera vez que ejecutas el contenedor, puedes ingresar con las credenciales predeterminadas (usuario: admin, contraseña: password).
+
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/25.png)
+
+</ul>
 
 
 </body>
