@@ -89,6 +89,11 @@ cd $DOWNLOAD_DIR && curl -f -L https://greenbone.github.io/docs/latest/_static/d
 </ul>
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/7.png)
+
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/16.png)
+
+
 </ul>
 <ul>
 4.2 Iniciando los contenedores comunitarios de Greenbone 
