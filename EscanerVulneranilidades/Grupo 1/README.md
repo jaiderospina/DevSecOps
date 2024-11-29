@@ -217,6 +217,16 @@ docker pull vulnerables/web-dvwa
 
 </ul>
 
+</ul>
+
+<ul>
+3.2 Iniciar el contenedor vulnerable:
+docker run -d -p 80:80 --name dvwa vulnerables/web-dvwa
+
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/24.png)
+
+</ul>
 
 
 
