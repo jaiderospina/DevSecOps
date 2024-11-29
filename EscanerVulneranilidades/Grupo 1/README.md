@@ -198,6 +198,18 @@ docker exec -it <nombre_del_contenedor> bash
 
 </ul>
 
+
+
+</ul>
+
+<ul>
+3. Descargar un contenedor vulnerable desde dockerhub y realizar un escaneo de vulnerabilidades al mismo.
+
+</ul>
+
+
+
+
 </body>
 </html>
 
