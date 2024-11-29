@@ -180,6 +180,9 @@ Escaneo de vulnerabilidad. </h3>
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/21.png)
 
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/22.png)
+
 </ul>
 
 
