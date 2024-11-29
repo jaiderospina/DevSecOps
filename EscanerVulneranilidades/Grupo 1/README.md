@@ -206,6 +206,16 @@ docker exec -it <nombre_del_contenedor> bash
 3. Descargar un contenedor vulnerable desde dockerhub y realizar un escaneo de vulnerabilidades al mismo.
 
 </ul>
+</ul>
+
+<ul>
+3.1 Descargar la imagen de DVWA desde Docker Hub:
+docker pull vulnerables/web-dvwa
+
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/23.png)
+
+</ul>
 
 
 
