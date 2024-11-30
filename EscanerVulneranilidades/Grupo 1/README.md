@@ -200,6 +200,10 @@ Actualizar el contenedor creado con el motor de base de datos de vulnerabilidade
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen31.jpg)
 
+2.2 se procede a ejecutar el script para instalar la actualización 
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen%2032.jpg)
+
 
 
 </ul>
