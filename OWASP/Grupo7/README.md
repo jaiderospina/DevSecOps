@@ -1,14 +1,14 @@
 **Análisis de Vulnerabilidades en el OWASP Top 10: Métodos de Explotación y Prevención**
 
-**Grupo: 7**
+# Taller en Clase
 
-**Integrantes:** 
+## Integrantes del Grupo 7
 
-Lenix Michell Cifuentes Gutierrez
-
-Camilo Andres Porras Vega
-
-Harold Bernardo Ramirez Reyes
+| Nombre      | Apellido     |
+|-------------|--------------|
+| Michelle    | Gutierrez    |
+| Harold      | Ramirez      |
+| Camilo      | Porras       |
 
 **1. Control de Acceso Roto (Broken Access Control)**
    
