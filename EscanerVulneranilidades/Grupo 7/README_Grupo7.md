@@ -109,9 +109,6 @@ Una vez el contenedor vulnerable estaba en ejecución, accedimos al repositorio 
 
    ![Abrir repo vulnerable](https://github.com/user-attachments/assets/0908e6d1-6820-4d30-b24b-ee770164869a)
 
-   ![image](https://github.com/user-attachments/assets/95f0cce9-7d60-46ad-8aa4-eafae00afb14)
-
-   ![image](https://github.com/user-attachments/assets/29f1d3b2-760f-4702-a37f-9a7d0cdf47f8)
 
 ---
 
@@ -122,6 +119,10 @@ Una vez el contenedor vulnerable estaba en ejecución, accedimos al repositorio 
 1. **Acceder a la interfaz web de OpenVAS**:
    - Accedimos a la interfaz de OpenVAS a través del navegador, usando la dirección `https://<ip_del_contenedor>:443`.
    - Configuramos el escaneo especificando los parámetros necesarios y seleccionamos el perfil de escaneo más adecuado.
+  
+   ![image](https://github.com/user-attachments/assets/95f0cce9-7d60-46ad-8aa4-eafae00afb14)
+
+   ![image](https://github.com/user-attachments/assets/29f1d3b2-760f-4702-a37f-9a7d0cdf47f8)
 
    ![Greenbone](https://github.com/user-attachments/assets/829ba0df-6e51-444f-b873-a84a8fcb6e2b)
 
@@ -137,23 +138,23 @@ Una vez el contenedor vulnerable estaba en ejecución, accedimos al repositorio 
 
 ---
 
-## **Subida de la Imagen a DockerHub y Documentación Final**
-
-### **Paso 10: Crear y Subir la Imagen Docker a DockerHub**
+### **Paso 10: Analisis de vulneravilidades**
 
 1. **Subir la imagen de OpenVAS a DockerHub**:
-   - Después de realizar las configuraciones y pruebas, creamos la imagen Docker de nuestro contenedor con OpenVAS y la subimos a DockerHub para compartirla.
-   - **Comando para crear y subir la imagen**:
-     ```bash
-     docker commit openvas nombre_usuario/openvas
-     docker push nombre_usuario/openvas
-     ```
+   - Podemos observar 5 vulneravulidades, una alta, 2 medias y 2 bajas
 
-   **Captura de pantalla de la subida a DockerHub**:
+   ![image](https://github.com/user-attachments/assets/20d5e7d7-f1bc-445a-af8b-24cae4f1240d)
 
-   ![Subir la imagen a DockerHub](https://github.com/user-attachments/assets/cf74cd4f-295c-43c9-a183-56ec74b82c16)
+   - Si ampliamos la informacion podemos ver el detalle de la vulnerabilidad.
+  
+   ![image](https://github.com/user-attachments/assets/eb854839-9625-456d-a342-0462e17c76e8)
 
----
+   ![image](https://github.com/user-attachments/assets/6b91eae0-3cee-492b-abec-92024f274c59)
+
+   - Adicional podemos observar con detalle los CVE del escaneo realizado
+  
+   ![image](https://github.com/user-attachments/assets/8e5eed5e-6b0e-4de0-895d-820138b42b9c)
+
 
 ## **Conclusión**
 
