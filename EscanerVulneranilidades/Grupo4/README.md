@@ -69,6 +69,26 @@ Se crea una tare donde se configura que escanee el Target anteriormente creado. 
 
 ![image](https://github.com/user-attachments/assets/eac6cdc0-c0c4-4732-803c-a47106464c3f)
 
+![image](https://github.com/user-attachments/assets/dfc9438a-8834-4cd1-8f97-da24d0182378)
+
+![image](https://github.com/user-attachments/assets/31289078-b156-46f6-b75c-d1b8dba7530b)
+
+![image](https://github.com/user-attachments/assets/841f1923-e750-4149-be0a-f23ad9c2e174)
+
+![image](https://github.com/user-attachments/assets/b498bae5-b29e-4dac-8ebe-51558e00949f)
+
+![image](https://github.com/user-attachments/assets/45a7029a-e2d5-4daa-91b6-32c5f2b8abd5)
+
+Subimos a Ducker hub la imagen correspondiente 
+
+![image](https://github.com/user-attachments/assets/8fc340e2-6943-4289-b461-f6ef90fcccfb)
+
+
+
+
+
+
+
 
 
 
