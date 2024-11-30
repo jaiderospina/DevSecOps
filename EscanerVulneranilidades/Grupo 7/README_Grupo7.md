@@ -124,7 +124,7 @@ Una vez el contenedor vulnerable estaba en ejecución, accedimos al repositorio 
 
    ![image](https://github.com/user-attachments/assets/29f1d3b2-760f-4702-a37f-9a7d0cdf47f8)
 
-   ![Greenbone](https://github.com/user-attachments/assets/829ba0df-6e51-444f-b873-a84a8fcb6e2b)
+   
 
 ### **Paso 9: Realizar el Escaneo de Vulnerabilidades**
 
@@ -132,9 +132,10 @@ Una vez el contenedor vulnerable estaba en ejecución, accedimos al repositorio 
    - Iniciamos el escaneo del contenedor vulnerable utilizando la interfaz web de OpenVAS.
    - **Captura de pantalla de los resultados del escaneo**:
 
+   ![Greenbone](https://github.com/user-attachments/assets/829ba0df-6e51-444f-b873-a84a8fcb6e2b)
+
    ![Segundo análisis](https://github.com/user-attachments/assets/7da7efe5-ef62-4faf-b43d-833c83ac3ac5)
 
-   ![image](https://github.com/user-attachments/assets/d7767405-f53c-4e22-89b8-8a12988c3ba3)
 
 ---
 
