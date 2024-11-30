@@ -9,7 +9,17 @@
 | Harold      | Ramirez      |
 | Camilo      | Porras       |
 
----
+## Descripción
+```mermaid
+graph TD;
+    A-->Confguracion_Debian-Greenbone;
+    A-->B;
+    B-->Configuracion_ip-actualizaciones;
+    B-->descarga_de_imagen_vulnerable;
+    B-->C;
+    C-->creacion_de_tarea-resultados;
+    C-->upload_dockerhub_image_scanning;
+```
 
 ## **Objetivo del Taller**
 
