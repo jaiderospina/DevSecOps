@@ -47,5 +47,25 @@ mkdir mi_sitio_web
 
 Creamos un archivo index.html con contenido  para que el servidor Apache sirva una página web.
 
+**Paso 4**
+Construir la imagen con Docker
+Desde el directorio C:\mi_proyecto_apache, ejecuta el siguiente comando en PowerShell para construir la imagen.
+docker build -t mi_apache_web .
+
+![image](https://github.com/user-attachments/assets/d9064b2b-ab75-4b57-af29-9cad40e4e710)
+
+**paso 5**
+Crear una red Docker personalizada
+Para asignar IPs fijas a los contenedores, necesitamos crear una red personalizada en Docker. Esto se hace para garantizar que ambos contenedores estén en el mismo segmento de red.
+docker network create --subnet=192.168.2.0/24 mi_red_lan
+Esta red personalizada tiene el rango de IPs de 192.168.2.0 a 192.168.1.255.
+
+![image](https://github.com/user-attachments/assets/b13dc113-7cad-40c8-ad9d-8bde488e3486)
+
+
+
+
+
+
 
 
