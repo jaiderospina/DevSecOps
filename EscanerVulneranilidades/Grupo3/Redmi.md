@@ -17,10 +17,8 @@ Paola Quiroga
 1. Creamos una carpeta y la abrimos con visual studio.  
 
 con los presentes comandos descargamos el archivo docker-compose.yaml y lo corremos 
+![image](https://github.com/user-attachments/assets/77e4f2e8-e449-4d59-aee4-7a54dae599db)
 
-<img src=https://github.com/jaiderospina/DevSecOps/blob/main/CONTENEDORES/TallerClase/Grupo3/1.Crear%20un%20contenedor.png](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo3/1.PNG)
- alt="Crear">
-</p>
 
 2. Acá visualizamos la descarga del archivo docker-compose.yml
 
