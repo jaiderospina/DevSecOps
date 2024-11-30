@@ -33,6 +33,34 @@ Nota: En Caso de algún fallo al cargar un Volumen Utilizaríamos el siguiente c
 Realizamos la configuración del Usuario administrador para realizar la sincronización  entre Docker Compose el archivo yml y greenbone, lo cual configuramos un contraseña y realizamos Logon en la IP indicada  http://127.0.0.1:9392/
 
 
+![imagen](https://github.com/user-attachments/assets/b72bd4d8-731c-4416-9576-0ea5b9ea88a1)
+
+Subimos la aplicación Greenbonepara visualizar contenedores y Visualizar las vulnerabilidades de este contenedor.
+
+![imagen](https://github.com/user-attachments/assets/86a4919f-63ed-4950-893f-1d0a4822f24c)
+
+Realizamos la validación dentro de Docker Desktop la creación del contenedor 
+
+![imagen](https://github.com/user-attachments/assets/0bbaa27b-f566-4e1f-a5e4-cab6bb0537ab)
+
+Validamos la Versión del Greenbone y no es necesario realizar la actualización
+
+![imagen](https://github.com/user-attachments/assets/eaa1ca75-4a20-4577-95c3-eafa500a947b)
+
+Dentro de Docker hub descargamos un contenedor dentro de imágenes para poder escanear las vulnerabilidades existentes 
+
+![imagen](https://github.com/user-attachments/assets/fa7475ff-2277-46ef-9ea1-b978f881977e)
+
+docker pull alpine:3.19.2
+
+
+
+
+
+
+
+
+
 
 
 
