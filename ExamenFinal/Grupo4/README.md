@@ -4,5 +4,5 @@
 - **Gustavo Ladino**
 - **Yaneth Rodríguez**
 
- ## **Exámen Final:**  
+ ## **Exámen Final**  
 **Evaluación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS 4.0**
