@@ -28,4 +28,24 @@ Creamos un archivo llamado Dockerfile con el siguiente contenido. Este archivo d
 
 ![image](https://github.com/user-attachments/assets/b7e14636-9ee8-48ad-9a08-cb8fe10b2f42)
 
+Este Dockerfile realiza lo siguiente:
+•	Usa la imagen oficial de Apache.
+•	Copia los archivos de un sitio web desde la carpeta local mi_sitio_web al contenedor (en la ruta donde Apache espera los archivos).
+•	Expone el puerto 80 para acceder al servidor web desde fuera del contenedor
+
+
+**Paso 3**
+
+Crear la carpeta con los archivos del sitio web
+Dentro de C:\mi_proyecto_apache, crea la carpeta mi_sitio_web donde guardarás tus archivos HTML y otros recursos del servidor web.
+
+mkdir mi_sitio_web
+
+![image](https://github.com/user-attachments/assets/e6a48a26-e943-4e25-bd61-a5ab447b13dc)
+
+![image](https://github.com/user-attachments/assets/332fb75a-1e03-4b2b-a2fc-28f22f46609c)
+
+Creamos un archivo index.html con contenido  para que el servidor Apache sirva una página web.
+
+
 
