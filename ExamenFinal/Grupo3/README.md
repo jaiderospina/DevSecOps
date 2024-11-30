@@ -30,6 +30,12 @@
 ![image](https://github.com/user-attachments/assets/b8560979-388d-49be-a334-11fda41bcd7e)
 
 5-Vulnerabilidades
+![image](https://github.com/user-attachments/assets/649defee-091a-4c7b-8d88-7abd56225562)
+![image](https://github.com/user-attachments/assets/31dc8d8d-919c-4fc2-b5e2-8165ce3b1a55)
+
+6-
+
+
 
 
 
