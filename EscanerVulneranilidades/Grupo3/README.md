@@ -1,17 +1,14 @@
-Taller en clase 
+## Taller Escaner Vulneravilidades
 
-Alejandro Cortes 
+## Integrantes Grupo
 
-Charles Guerrero 
 
-Mónica Flórez 
-
-Esteban Álvarez 
-
-Brayan Hernández 
-
-Paola Quiroga  
-
+> - Ingrid Paola Quiroga
+> - Juan Alvarez
+> - Brayan Hernandez
+> - Monica Florez Mejia
+> - Alejandro Cortes
+> - Charles Guerrero
  
 
 1. Creamos una carpeta y la abrimos con visual studio.  
