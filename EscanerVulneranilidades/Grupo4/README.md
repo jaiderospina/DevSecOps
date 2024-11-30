@@ -1,4 +1,4 @@
-#Integrantes
+# Integrantes
 
 - **Paola Lara**
 - **Yaneth Rodriguez**
