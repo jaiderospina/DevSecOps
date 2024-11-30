@@ -65,6 +65,11 @@ Para crear la tarea de escaneo de Vulnerabilidades realizamos primero  la creaci
 
 ![image](https://github.com/user-attachments/assets/cd17d0a3-d653-45bf-a5f9-421cd0332c09)
 
+Se crea una tare donde se configura que escanee el Target anteriormente creado. Los demás campos los dejamos por defecto y empezamos a realizar el escaneo de esta 
+
+![image](https://github.com/user-attachments/assets/eac6cdc0-c0c4-4732-803c-a47106464c3f)
+
+
 
 
 
