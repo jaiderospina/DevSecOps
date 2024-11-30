@@ -14,11 +14,6 @@
 
 OpenVAS (Open Vulnerability Assessment System) es una plataforma de código abierto diseñada para realizar evaluaciones de seguridad y auditorías de vulnerabilidades en sistemas informáticos. Es una herramienta integral que permite identificar posibles debilidades en redes, aplicaciones, servicios y dispositivos mediante el análisis de vulnerabilidades conocidas.
 
-Características principales de OpenVAS:
-Escaneo de Vulnerabilidades: OpenVAS realiza escaneos de seguridad completos en dispositivos y redes, buscando vulnerabilidades que puedan ser explotadas por atacantes. Utiliza una base de datos actualizada de más de 50,000 pruebas de vulnerabilidad (conocidas como "checks").
-
-
-
 ¿Qué es lo que evalúa?
 OpenVAS puede escanear:
 
