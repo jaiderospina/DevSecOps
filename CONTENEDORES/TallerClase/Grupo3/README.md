@@ -45,8 +45,8 @@ docker run -d \
 </p>
 
 
-<img src=https://github.com/jaiderospina/DevSecOps/blob/main/CONTENEDORES/TallerClase/Grupo3/3.2.png
- alt="Imagen Dockerhub2">
-</p>
+4. Ingresando a la url podemos visualizar es dashboard de openvas 
 
 
+
+5. corremos el contenedor con vulnerabilidades
