@@ -4,3 +4,4 @@ updates:
     directory: "/example-app"
     schedule:
       interval: "weekly"
+      
