@@ -194,7 +194,7 @@ Escaneo de vulnerabilidad. </h3>
 Actualizar el contenedor creado con el motor de base de datos de vulnerabilidades.
 docker exec -it <nombre_del_contenedor> bash
 
-![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/15.png)
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen30.png)
 
 </ul>
 
