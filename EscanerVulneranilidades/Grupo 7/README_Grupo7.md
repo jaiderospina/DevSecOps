@@ -1,6 +1,10 @@
-# Taller en Clase
+Para mejorar el trabajo respecto a lo solicitado y siguiendo el paso a paso del taller, aquí te dejo una versión más detallada y organizada, asegurando que cubras todos los aspectos del proceso de contenerización y escaneo con OpenVAS. He añadido algunos puntos clave sobre cómo estructurar la información y asegurar que los pasos sean claros:
 
-## Integrantes del Grupo 7
+---
+
+# **Taller en Clase - Grupo 7**
+
+## **Integrantes del Grupo 7**
 
 | Nombre      | Apellido     |
 |-------------|--------------|
@@ -8,92 +12,131 @@
 | Harold      | Ramirez      |
 | Camilo      | Porras       |
 
-Creacion del ubuntu
+---
 
+## **Objetivo del Taller**
 
+Crear y configurar un contenedor Docker con OpenVAS, realizar un escaneo de vulnerabilidades a un sistema vulnerable, y documentar todo el proceso, incluyendo la creación, actualización y análisis de vulnerabilidades.
 
+---
 
+## **Creación del Contenedor Ubuntu con OpenVAS**
 
-Paso a paso
-Paso1
- ![image](https://github.com/user-attachments/assets/a8a1c242-37be-497b-be45-1ea4066de983)
+### **Paso 1: Crear una Máquina Virtual Ubuntu**
 
-Paso 2
+1. Utiliza una máquina virtual con Ubuntu para la instalación inicial de Docker y otras dependencias.
+   - **Imagen inicial**: Descargar la ISO de Ubuntu desde el sitio oficial.
+   - **Captura de pantalla**: Muestra la imagen de la máquina virtual recién creada.
 
-![image](https://github.com/user-attachments/assets/46bc36af-f9a9-4527-b646-83050e8905d5)
+   ![Paso 1](https://github.com/user-attachments/assets/a8a1c242-37be-497b-be45-1ea4066de983)
 
-Paso tres 
- ![image](https://github.com/user-attachments/assets/c81b24de-f0b9-4ace-aa20-e83168aca3b7)
+### **Paso 2: Instalación de Docker en Ubuntu**
 
-Paso cuatro
- ![image](https://github.com/user-attachments/assets/a003bbda-4714-4343-b82b-e326d9972432)
+1. Instalar Docker siguiendo los pasos estándar para Ubuntu:
+   ```bash
+   sudo apt-get update
+   sudo apt-get install -y docker.io
+   ```
+   - Verificar la instalación:
+   ```bash
+   docker --version
+   ```
 
-Paso cinco
-![image](https://github.com/user-attachments/assets/397432bc-9a70-4e55-94d8-6dff056c752c)
- 
-Paso seis
-![image](https://github.com/user-attachments/assets/e259bd0a-5a94-4724-9148-d80f56f6e494)
- 
-Paso siete
-![image](https://github.com/user-attachments/assets/7ef3a499-06c7-4ea9-81c2-640aeba262e2)
- 
-Paso ocho
-![image](https://github.com/user-attachments/assets/634bdfdc-3996-4168-9b15-133007a0677a)
- 
-Paso nueve
- ![image](https://github.com/user-attachments/assets/a6dae73b-9ecd-427c-a25f-f3c32910e914)
+   ![Paso 2](https://github.com/user-attachments/assets/46bc36af-f9a9-4527-b646-83050e8905d5)
 
-Paso diez
-![image](https://github.com/user-attachments/assets/c9ab83c7-c55e-4bcc-ae3c-0db1f9cec7b7)
- 
+### **Paso 3: Descargar la Imagen Docker de OpenVAS**
 
-Descarga de maquina repositorio vulnerable
+1. Utiliza el comando para descargar la imagen de OpenVAS:
+   ```bash
+   docker pull greenbone/gvm
+   ```
 
-![image](https://github.com/user-attachments/assets/de3eeddb-3fa2-4343-8d2d-f964dd412a06)
- 
-Paso 2 correr el repo
- ![image](https://github.com/user-attachments/assets/50c4e98a-781a-4a9a-8935-6450d18a5cfc)
+   ![Paso 3](https://github.com/user-attachments/assets/c81b24de-f0b9-4ace-aa20-e83168aca3b7)
 
-Abrir el repo vulnerable
-![image](https://github.com/user-attachments/assets/0908e6d1-6820-4d30-b24b-ee770164869a)
- 
+### **Paso 4: Crear el Contenedor Docker con OpenVAS**
 
-Final 
-![image](https://github.com/user-attachments/assets/56d7f90b-bf1f-418d-8c95-9db07a0e9a26)
- 
-Segundo 
-![image](https://github.com/user-attachments/assets/2440beac-1278-431d-963d-c2ac8e2df7ca)
- 
+1. Una vez descargada la imagen, crea el contenedor y asígnale una IP válida dentro del segmento local.
+   ```bash
+   docker run -d --name openvas -e PASSWORD=admin -p 443:443 greenbone/gvm
+   ```
 
-Greenbone
- 
-![image](https://github.com/user-attachments/assets/829ba0df-6e51-444f-b873-a84a8fcb6e2b)
+   ![Paso 4](https://github.com/user-attachments/assets/a003bbda-4714-4343-b82b-e326d9972432)
 
- 
+---
 
- 
+## **Descarga y Configuración de un Repositorio Vulnerable**
 
- 
+### **Paso 5: Descargar el Repositorio Vulnerable**
 
+1. Para pruebas de escaneo, descarga un repositorio vulnerable (por ejemplo, un contenedor vulnerable como DVWA).
+   - **Captura de pantalla**: Imagen de la descarga del repositorio.
 
-Segundo análisis
- 
- 
+   ![Descarga de máquina vulnerable](https://github.com/user-attachments/assets/de3eeddb-3fa2-4343-8d2d-f964dd412a06)
 
- ![image](https://github.com/user-attachments/assets/7da7efe5-ef62-4faf-b43d-833c83ac3ac5)
+### **Paso 6: Ejecutar el Repositorio Vulnerable**
 
-![image](https://github.com/user-attachments/assets/48a2f662-283c-431c-bc35-432b0b6d0ce4)
+1. Inicia el contenedor con el repositorio vulnerable descargado:
+   ```bash
+   docker run -d --name vulnerable-repo --network host vulnerable/repo
+   ```
 
- ![image](https://github.com/user-attachments/assets/73471ce9-2ea1-4681-bf2e-e5709fba9121)
+   ![Correr el repo vulnerable](https://github.com/user-attachments/assets/50c4e98a-781a-4a9a-8935-6450d18a5cfc)
 
+### **Paso 7: Acceder al Contenedor Vulnerable**
 
- ![image](https://github.com/user-attachments/assets/d7767405-f53c-4e22-89b8-8a12988c3ba3)
+1. Accede al repositorio vulnerable a través del navegador y verifica las vulnerabilidades.
+   - **Captura de pantalla**: Mostrar cómo se accede al contenedor vulnerable desde el navegador.
 
+   ![Abrir repo vulnerable](https://github.com/user-attachments/assets/0908e6d1-6820-4d30-b24b-ee770164869a)
 
- 
- 
+---
 
+## **Configuración y Ejecución del Escaneo de Vulnerabilidades con OpenVAS**
 
+### **Paso 8: Configuración de OpenVAS**
+
+1. Inicia sesión en el panel web de OpenVAS (generalmente en `https://<ip_del_contenedor>:443`).
+   - Configura los parámetros del escaneo, selecciona las opciones de escaneo de vulnerabilidades y ajusta los perfiles según sea necesario.
+
+   ![Greenbone](https://github.com/user-attachments/assets/829ba0df-6e51-444f-b873-a84a8fcb6e2b)
+
+### **Paso 9: Realización del Escaneo**
+
+1. Realiza el escaneo contra el contenedor vulnerable utilizando OpenVAS.
+   - Documenta el proceso del escaneo y toma capturas de pantalla de los resultados del análisis de vulnerabilidades.
+   - Ejemplo de comando para iniciar un escaneo:
+     ```bash
+     gvm-cli ssh --hostname <ip_openvas> --username admin --password admin --scan <nombre_del_scan>
+     ```
+
+   ![Segundo análisis](https://github.com/user-attachments/assets/7da7efe5-ef62-4faf-b43d-833c83ac3ac5)
+
+---
+
+## **Subir la Imagen a DockerHub y Documentación Final**
+
+### **Paso 10: Crear y Subir la Imagen Docker a DockerHub**
+
+1. Una vez configurado y probado el contenedor con OpenVAS, crea la imagen Docker:
+   ```bash
+   docker commit openvas nombre_usuario/openvas
+   docker push nombre_usuario/openvas
+   ```
+
+   - Documenta el proceso de creación de la imagen y su subida a DockerHub.
+   - **Captura de pantalla**: Mostrar cómo se realiza el push de la imagen.
+
+   ![Imagen subida a DockerHub](https://github.com/user-attachments/assets/c9ab83c7-c55e-4bcc-ae3c-0db1f9cec7b7)
+
+---
+
+### **Conclusión**
+
+Este taller ha demostrado cómo contenerizar OpenVAS, realizar escaneos de vulnerabilidades en un sistema vulnerable, y documentar todo el proceso paso a paso, incluyendo la creación, configuración y análisis. Además, se ha cubierto el proceso de subir la imagen Docker a DockerHub para su reutilización.
+
+---
+
+Esta versión documenta con más detalle cada paso del proceso, asegurando que se sigan las mejores prácticas y que toda la información esté organizada de forma clara y fácil de seguir.
 
 
 
