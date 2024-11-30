@@ -22,6 +22,5 @@ con los presentes comandos descargamos el archivo docker-compose.yaml y lo corre
 
 2. Acá visualizamos la descarga del archivo docker-compose.yml
 
-<img src=(https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo3/2.PNG)
- alt="Crear contenedor2">
-</p>
+![image](https://github.com/user-attachments/assets/8fba0da1-5939-4582-b5d0-e3d483d3eb9b)
+
