@@ -42,6 +42,11 @@ Con contenerización:
 
 Esto garantiza que tu aplicación funcionará de manera consistente en cualquier entorno, simplificando el proceso de despliegue y reduciendo problemas relacionados con configuraciones inconsistentes.
 
+## VARIOS-TIPS
+
+- **Ver IP de un conenedor especifico**
+- docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' NOMBRE CONTAINER
+-  
 
 # Referencias.
 
