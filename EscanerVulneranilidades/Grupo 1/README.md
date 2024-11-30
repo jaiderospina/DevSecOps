@@ -192,9 +192,13 @@ Escaneo de vulnerabilidad. </h3>
 <ul>
 2 punto del taller 
 Actualizar el contenedor creado con el motor de base de datos de vulnerabilidades.
-docker exec -it <nombre_del_contenedor> bash
+
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen30.png)
+
+una vez descargado se debe dar permiso de ejecución al archivo
+
+
 
 </ul>
 
