@@ -13,6 +13,9 @@ Integrantes
 
 Las debilidades de la aplicación a la hora de identificar y reaccionar ante problemas de seguridad son la principal preocupación de esta vulnerabilidad del Top 10 de OWASP para 2021. Los atacantes tienen una oportunidad adecuada para llevar a cabo sus estrategias dado que el plazo estándar entre la identificación de un ataque y otro es de 197 días. Durante este período, los cibercriminales tienen tiempo de sobra para causar daños a los servidores, modificar bases de datos, robar información privada e insertar código dañino. Mitigación de la falta de registro y monitoreo
 
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/OWASP/Grupo%2001/figura2.PNG)
+
+
 1.	Descripción de cada vulnerabilidad
 Naturaleza: Esta vulnerabilidad se refiere a la falta de registros adecuados de actividades y a la incapacidad para monitorear eventos de seguridad en las aplicaciones y sistemas. Sin un registro y monitoreo efectivos, es difícil detectar, responder y analizar incidentes de seguridad.
 Causas:
