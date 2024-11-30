@@ -63,6 +63,9 @@ Para crear la tarea de escaneo de Vulnerabilidades realizamos primero  la creaci
 
 ![image](https://github.com/user-attachments/assets/41833a10-5b0f-4ddb-940d-f117f715fb9e)
 
+![image](https://github.com/user-attachments/assets/cd17d0a3-d653-45bf-a5f9-421cd0332c09)
+
+
 
 
 
