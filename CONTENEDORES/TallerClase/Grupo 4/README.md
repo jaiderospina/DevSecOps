@@ -62,6 +62,48 @@ Esta red personalizada tiene el rango de IPs de 192.168.2.0 a 192.168.1.255.
 
 ![image](https://github.com/user-attachments/assets/b13dc113-7cad-40c8-ad9d-8bde488e3486)
 
+**Paso 6**
+
+**Ejecutar los contenedores**
+Ahora, creamos y ejecutamos dos contenedores basados en la imagen con direcciones IP dentro del segmento 192.168.2.0/24.
+
+
+![image](https://github.com/user-attachments/assets/77edc52b-24f6-4957-9928-acf0d0cbcee2)
+
+![image](https://github.com/user-attachments/assets/5dfda67e-696f-4d86-a5ef-ee7b4fd8027f)
+
+Con estos comandos:
+
+· Se crean dos contenedores llamados contenedor8 y contenedor9.
+
+· Ambos contenedores están conectados a la red mi_red_lan y tienen asignadas direcciones IP dentro del segmento local.
+
+· Se usan como imagen la que hemos creado (mi_apache_web), y Apache se ejecuta automáticamente en ambos.
+**Paso 7**
+
+**Verificar contenedores**
+
+verificar que los contenedores están corriendo con el siguiente comando:
+
+docker ps
+
+Muestra la lista de contenedores en ejecución, los dos que acabas de crear (contenedor8 y contenedor9).
+![image](https://github.com/user-attachments/assets/af3ff17f-7d7a-4b9d-a787-c94e41664d9e)
+
+**Paso 8**
+
+**PROBAR LOS PUERTOS Y MOSTRAR IMAGEN**
+
+Probar los puertos de los contenedores, para ver el mensaje del servidor Apache en cada contenedor.
+
+![image](https://github.com/user-attachments/assets/939a9161-9b20-40ce-992b-f3f5669222ab)
+Primera imagen del puerto 8088
+![image](https://github.com/user-attachments/assets/393bbfb7-31e5-4efa-b33e-f824263d6dfe)
+Segunda imagen en puerto 8089 modificado el mensaje y actualizado.
+![image](https://github.com/user-attachments/assets/a95f61f7-83fa-4499-8bce-8c57c3eb9b0b)
+
+
+
 
 
 
