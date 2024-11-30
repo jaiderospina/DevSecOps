@@ -79,6 +79,7 @@ Con estos comandos:
 · Ambos contenedores están conectados a la red mi_red_lan y tienen asignadas direcciones IP dentro del segmento local.
 
 · Se usan como imagen la que hemos creado (mi_apache_web), y Apache se ejecuta automáticamente en ambos.
+
 **Paso 7**
 
 **Verificar contenedores**
