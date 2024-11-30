@@ -2,7 +2,7 @@
 - **Maria Mahecha**
 - **Paola Lara**
 - **Gustavo Ladino**
-- **yaneth Rodríguez**
+- **Yaneth Rodríguez**
 
  ## **Exámen Final:**  
 **Evaluación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS 4.0**
