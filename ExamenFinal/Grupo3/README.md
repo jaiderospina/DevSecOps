@@ -33,7 +33,29 @@
 ![image](https://github.com/user-attachments/assets/649defee-091a-4c7b-8d88-7abd56225562)
 ![image](https://github.com/user-attachments/assets/31dc8d8d-919c-4fc2-b5e2-8165ce3b1a55)
 
-6-
+6-https://cwe.mitre.org/data/definitions/78.html 
+![image](https://github.com/user-attachments/assets/c2c7bd9f-b356-4147-b76c-12b9e61ea8e1)
+
+7.Lista priorizada 
+![image](https://github.com/user-attachments/assets/602b1153-3745-42b2-8de2-d3552e40b643)
+
+8.Instalamos nmap desde py para la evaluacion cvss3 
+![image](https://github.com/user-attachments/assets/5862b5ae-1105-46eb-be46-d8b44287249a)
+
+9.Creamos el archivo de configuración para el escaneo 
+
+![image](https://github.com/user-attachments/assets/5ea2a14a-87ba-49c6-8fa2-5b4b517d135b)
+
+10.Creamos el docker para correr
+
+![image](https://github.com/user-attachments/assets/026bc50b-80b4-4a2e-b8b7-b5f7c259473f)
+
+
+
+
+
+
+
 
 
 
