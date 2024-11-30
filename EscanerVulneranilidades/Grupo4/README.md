@@ -84,8 +84,9 @@ Subimos a Ducker hub la imagen correspondiente
 
 ![image](https://github.com/user-attachments/assets/8fc340e2-6943-4289-b461-f6ef90fcccfb)
 
+Se indica el Link de docker hub donde se cargo la imagen
 
-
+https://hub.docker.com/repository/docker/mariacmahecha/greenbone-scan/general
 
 
 
