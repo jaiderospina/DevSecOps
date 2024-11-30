@@ -1,8 +1,3 @@
-Para mejorar el trabajo respecto a lo solicitado y siguiendo el paso a paso del taller, aquí te dejo una versión más detallada y organizada, asegurando que cubras todos los aspectos del proceso de contenerización y escaneo con OpenVAS. He añadido algunos puntos clave sobre cómo estructurar la información y asegurar que los pasos sean claros:
-
----
-
-# **Taller en Clase - Grupo 7**
 
 ## **Integrantes del Grupo 7**
 
