@@ -14,6 +14,8 @@ INSTALACIÓN DE DOCKER
 4.	Instalar paquetes Docker Debian.
  
 
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%202/1.png)
+
 5.	Se debe dar permiso de super user para permitir que el usuario ejecutre Docker. 
  
 
