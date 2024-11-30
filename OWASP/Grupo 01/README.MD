@@ -7,7 +7,11 @@ Integrantes
 
 ![image](https://github-production-user-asset-6210df.s3.amazonaws.com/182354609/381558077-063d4d11-52cc-4fa4-8991-db9338189b88.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241130T144604Z&X-Amz-Expires=300&X-Amz-Signature=820c9dec85e2649b0630643b3b880478477f5a414a495d9bbc3142c9b2bb7c69&X-Amz-SignedHeaders=host)
 
-1.  REGISTRO Y MONITOREO INSUFICIENTES)
+
+1.  REGISTRO Y MONITOREO INSUFICIENTES
+
+
+Las debilidades de la aplicación a la hora de identificar y reaccionar ante problemas de seguridad son la principal preocupación de esta vulnerabilidad del Top 10 de OWASP para 2021. Los atacantes tienen una oportunidad adecuada para llevar a cabo sus estrategias dado que el plazo estándar entre la identificación de un ataque y otro es de 197 días. Durante este período, los cibercriminales tienen tiempo de sobra para causar daños a los servidores, modificar bases de datos, robar información privada e insertar código dañino. Mitigación de la falta de registro y monitoreo
 
 1.	Descripción de cada vulnerabilidad
 Naturaleza: Esta vulnerabilidad se refiere a la falta de registros adecuados de actividades y a la incapacidad para monitorear eventos de seguridad en las aplicaciones y sistemas. Sin un registro y monitoreo efectivos, es difícil detectar, responder y analizar incidentes de seguridad.
