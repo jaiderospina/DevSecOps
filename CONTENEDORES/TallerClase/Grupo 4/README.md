@@ -107,7 +107,28 @@ Segunda imagen en puerto 8089 modificado el mensaje y actualizado.
 
 ![image](https://github.com/user-attachments/assets/a95f61f7-83fa-4499-8bce-8c57c3eb9b0b)
 
+**Paso 9**
+Subir la imagen a Docker Hub
+Inicia sesión en Docker Hub usando el siguiente comando:
+docker login
+Introduce tu nombre de usuario y contraseña de Docker Hub.
 
+ ![image](https://github.com/user-attachments/assets/4627f5bc-c070-4cfa-97d0-d24dd7bf5b82)
+
+ 
+**Paso 10** 
+Etiquetar la imagen
+Antes de subir la imagen, necesitas etiquetarla con tu nombre de usuario de Docker Hub. 
+docker tag mi_apache_web yaro138/mi_apache_web:v1
+
+ ![image](https://github.com/user-attachments/assets/a85c1c45-a9cb-4290-9a93-086f92ba34d6)
+
+**Subir la imagen a Docker Hub** 
+Finalmente, sube la imagen a Docker Hub con el siguiente comando:
+docker push usuario_docker/mi_apache_web:v1
+Este comando subirá tu imagen etiquetada a tu repositorio en Docker Hub.
+ 
+![image](https://github.com/user-attachments/assets/f07ccd94-2354-4476-91cc-52f2dfd8f014)
 
 
 
