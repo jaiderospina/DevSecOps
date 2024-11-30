@@ -53,6 +53,19 @@ Dentro de Docker hub descargamos un contenedor dentro de imágenes para poder es
 
 docker pull alpine:3.19.2
 
+![image](https://github.com/user-attachments/assets/c66a10fe-0674-424b-8be8-79f1f09e1940)
+
+Realizamos la descarga dentro de PowerShell para guardarla dentro de la máquina y poder escanearla en la aplicación Greenbone
+
+![image](https://github.com/user-attachments/assets/da542334-00b1-4e6f-827f-a73da677683d)
+
+Para crear la tarea de escaneo de Vulnerabilidades realizamos primero  la creación de un Targets donde configuramos el Nombre y la IP para inicio del escaneo 
+
+![image](https://github.com/user-attachments/assets/41833a10-5b0f-4ddb-940d-f117f715fb9e)
+
+
+
+
 
 
 
