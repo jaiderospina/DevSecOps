@@ -196,7 +196,9 @@ Actualizar el contenedor creado con el motor de base de datos de vulnerabilidade
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen30.png)
 
-una vez descargado se debe dar permiso de ejecución al archivo
+2.1 una vez descargado se debe dar permiso de ejecución al archivo
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen31.jpg)
 
 
 
