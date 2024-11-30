@@ -52,9 +52,6 @@ Auditoría de sistemas operativos: Analizar máquinas con sistemas como Linux, W
 Escaneo de aplicaciones web: Detectar fallos en servidores y aplicaciones web.
 
 
-## Conclusión:
-
-OpenVAS es una herramienta esencial para la gestión de seguridad en infraestructuras IT, permitiendo detectar vulnerabilidades antes de que los atacantes puedan explotarlas. Es ideal para profesionales de seguridad que buscan una solución poderosa y gratuita para proteger sus sistemas y redes.
 
 ## PROCESO DE ESCANEO CON OPEN VAS
 
@@ -120,6 +117,10 @@ Modificación de configuraciones inseguras.
 Desactivación de servicios no necesarios.
 Re-escaneo: Después de aplicar las correcciones, es común realizar un nuevo escaneo para verificar que las vulnerabilidades hayan sido efectivamente solucionadas
 
+
+## Conclusión:
+
+OpenVAS es una herramienta esencial para la gestión de seguridad en infraestructuras IT, permitiendo detectar vulnerabilidades antes de que los atacantes puedan explotarlas. Es ideal para profesionales de seguridad que buscan una solución poderosa y gratuita para proteger sus sistemas y redes.
 
 
 
