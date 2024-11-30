@@ -50,6 +50,18 @@
 
 ![image](https://github.com/user-attachments/assets/026bc50b-80b4-4a2e-b8b7-b5f7c259473f)
 
+11. Construimos la imagen
+![image](https://github.com/user-attachments/assets/7f7b8f4e-b45c-4136-8182-d68979d071d2)
+
+12.Ejecutamos el contenedor
+
+
+![image](https://github.com/user-attachments/assets/fc34b0de-f13b-4b5e-9256-a1a5c685d58e)
+
+13.Configuramos la ruta del contenedor a escanear
+![image](https://github.com/user-attachments/assets/b36ebc5f-bfb0-4dba-ab8a-6f47dd7cdd04)
+
+
 
 
 
