@@ -193,3 +193,17 @@ o	Limitar el acceso del servidor a recursos internos no necesarios.
 o	Validar y restringir todas las solicitudes salientes desde el servidor.
 
 o	Implementar filtros y políticas de control de acceso en el servidor.
+
+### **Conclusión del Taller: Análisis de Vulnerabilidades OWASP Top 10**
+
+Este trabajo resalta la importancia de identificar, comprender y mitigar las principales vulnerabilidades clasificadas en el OWASP Top 10, que representan los riesgos más críticos en la seguridad de aplicaciones modernas. A través del análisis detallado de cada vulnerabilidad, se concluye que:
+
+1. **La seguridad es un proceso continuo**: La prevención de ataques no depende únicamente de soluciones técnicas, sino de un enfoque integral que abarque desde el diseño seguro hasta la monitorización activa.
+
+2. **La educación y la concienciación son fundamentales**: El conocimiento de las vulnerabilidades y sus métodos de explotación permite a los desarrolladores y administradores implementar controles efectivos desde las etapas iniciales del ciclo de vida del software.
+
+3. **La colaboración es clave para la ciberseguridad**: Al trabajar en grupo, cada integrante aporta perspectivas y habilidades únicas, fortaleciendo la comprensión y aplicación de mejores prácticas de seguridad.
+
+4. **La automatización y las herramientas adecuadas mejoran la protección**: Utilizar herramientas como OWASP Dependency-Check, Burp Suite o firewalls de aplicaciones (WAF) ayuda a identificar y mitigar riesgos más rápidamente.
+
+En resumen, este taller demuestra que al adoptar un enfoque preventivo, implementar controles efectivos y mantenerse actualizado frente a nuevas amenazas, es posible minimizar significativamente los riesgos y garantizar la seguridad de las aplicaciones en entornos modernos.
