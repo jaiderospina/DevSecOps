@@ -24,7 +24,7 @@
 
 ![image](https://github.com/user-attachments/assets/8aceca9d-65b2-40e3-8702-f0629cdbca1a)
 
-4-entramos a la consola de skyk  
+4-entramos a la consola de snyk  
 
 ![image](https://github.com/user-attachments/assets/c9488861-b77c-40d9-a4ae-a0d50b31777b)
 ![image](https://github.com/user-attachments/assets/b8560979-388d-49be-a334-11fda41bcd7e)
@@ -62,6 +62,7 @@
 ![image](https://github.com/user-attachments/assets/b36ebc5f-bfb0-4dba-ab8a-6f47dd7cdd04)
 
 
+https://github.com/acortes2/examen_devsecops
 
 
 
