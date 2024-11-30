@@ -257,6 +257,8 @@ Abre tu navegador y navega a http://localhost para verificar que la aplicación 
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/26.png)
 
+4 Se realiza la autenticación en docker 
+
 </ul>
 
 
