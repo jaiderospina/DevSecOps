@@ -2,8 +2,8 @@ Adriana Tobón Dávila.
 
 
                           Taller Escaneo de Vulnerabilidades.
-
-INSTALAR DEPENDENCIAS 
+PUNTO 1
+Crear un contenedor de Openvas.
 
 1.	Se realiza la instalacion de paquetes Debian/Ubuntu.
  ![image](https://github.com/user-attachments/assets/788d6641-4125-4b78-9f46-74908b531f05)
@@ -73,8 +73,21 @@ CONFIGURACIÓN Y SECUENCIA DE COMANDOS DE INICIO
 11.	Actualizar el contenedor creado con la base de datos de vulnerabilidades, docker exec -it bash
  ![image](https://github.com/user-attachments/assets/8fd84bbb-149e-4b77-af15-1e623439e8e2)
 
-12.	Finalmete se sube la imagen a Docker hub.
- ![image](https://github.com/user-attachments/assets/b9e1632b-f6cc-4347-97fe-c18b258fd5bb)
+PUNTO 2.
+1. Actualizar el contenedor creado con el motor de base de datos de vulnerabilidades.
+![image](https://github.com/user-attachments/assets/789b741f-e591-4417-80dc-208a00f1208a)
+![image](https://github.com/user-attachments/assets/a1c527cd-e6ca-4dd2-a180-7749daa721f4)
+
+PUNTO 3.
+Descargar un contenedor vulnerable desde dockerhub y realizar un escaneo de vulnerabilidades al mismo.
+![image](https://github.com/user-attachments/assets/5a0faee1-2546-4f07-9d11-282ca4d2bb26)
+
+3.1 Iniciamos el contenedor vulnerable.
+![image](https://github.com/user-attachments/assets/3c7a324f-64a1-4bd1-af9f-22eab2538994)
+
+3.2 Mostramos que la pagina de DVWA si esta funcionando.
+![image](https://github.com/user-attachments/assets/a13024fd-7d96-4cb5-bda3-7184b084a39b)
+
 
 
 
