@@ -1,3 +1,8 @@
+#Integrantes: 
+- Erik Celis
+- Diego Padilla
+- Diego Sindicue
+
 # Noticias DevSecOps
 
 Aplicación web creada con Flask para publicar noticias relacionadas con DevSecOps.
