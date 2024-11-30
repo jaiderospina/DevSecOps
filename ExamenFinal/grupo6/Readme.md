@@ -3,7 +3,15 @@
 - Diego Padilla
 - Diego Sindicue
 
-# Noticias DevSecOps
+![Texto alternativo](ExamenFinal/grupo6/1.png)
+![Texto alternativo](ExamenFinal/grupo6/2.png)
+![Texto alternativo](ExamenFinal/grupo6/3.png)
+![Texto alternativo](ExamenFinal/grupo6/4.png)
+![Texto alternativo](ExamenFinal/grupo6/5.png)
+![Texto alternativo](ExamenFinal/grupo6/6.png)
+![Texto alternativo](ExamenFinal/grupo6/7.png)
+
+# DevSecOps
 
 Aplicación web creada con Flask para publicar noticias relacionadas con DevSecOps.
 
