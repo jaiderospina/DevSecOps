@@ -110,6 +110,42 @@ con los presentes comandos descargamos el archivo docker-compose.yaml y lo corre
 ![image](https://github.com/user-attachments/assets/e03d9446-820d-44af-9312-55f31b7d5b1b)
 
 
+Cuando escaneamos una vulnerabilidad con OpenVAS, el proceso implica varias etapas clave para detectar y evaluar posibles fallos de seguridad en el sistema objetivo. Aquí te explico qué sucede paso a paso durante el escaneo:
+
+## 1. Inicio del Escaneo:
+Configuración del Escaneo: Se configura el escaneo en OpenVAS, donde seleccionas el objetivo (la IP o rango de IPs), el tipo de escaneo y las políticas de seguridad (por ejemplo, si quieres realizar un escaneo rápido o profundo).
+Selección de pruebas (NVTs): OpenVAS utiliza pruebas conocidas como NVTs (Network Vulnerability Tests), que son scripts diseñados para detectar vulnerabilidades específicas en servicios, aplicaciones y sistemas operativos. Estas pruebas están basadas en una base de datos de vulnerabilidades conocida y se actualizan frecuentemente.
+## 2. Exploración de Servicios y Puertos:
+Descubrimiento de Servicios: OpenVAS escanea los puertos abiertos del objetivo para identificar los servicios activos (como HTTP, FTP, SSH, bases de datos, etc.).
+Identificación de Versiones: Una vez detectados los servicios, OpenVAS intenta identificar las versiones exactas de las aplicaciones y sistemas operativos en ejecución. Esto es crucial para detectar vulnerabilidades específicas relacionadas con una versión particular del software.
+## 3. Ejecución de las Pruebas de Vulnerabilidades (NVTs):
+Pruebas de Vulnerabilidad: OpenVAS ejecuta una serie de pruebas automatizadas en cada servicio y aplicación identificados. Estas pruebas buscan vulnerabilidades conocidas que puedan ser explotadas. Algunos ejemplos son:
+Desbordamientos de búfer.
+Fallas en la autenticación.
+Inyección de comandos o SQL.
+Configuraciones incorrectas de seguridad.
+Comparación con Base de Datos de Vulnerabilidades: Cada NVT compara la información obtenida de los servicios y las configuraciones con su base de datos de vulnerabilidades conocida. Esto le permite identificar si una vulnerabilidad es relevante para el servicio o la versión del software.
+## 4. Evaluación de la Severidad:
+Clasificación de Vulnerabilidades: OpenVAS clasifica las vulnerabilidades detectadas según su gravedad, que puede ser:
+Crítica (posibles exploits inmediatos, alto riesgo).
+Alta (puede ser explotada, pero con menor impacto inmediato).
+Media o Baja (requiere condiciones específicas para ser explotada o es de menor riesgo).
+Impacto Potencial: Además de la severidad, OpenVAS evalúa el impacto potencial de la vulnerabilidad, indicando si puede comprometer la confidencialidad, integridad o disponibilidad del sistema.
+## 5. Generación de Informes:
+Informe de Resultados: Una vez que el escaneo ha terminado, OpenVAS genera un informe detallado que incluye:
+Vulnerabilidades detectadas.
+Descripción de cada vulnerabilidad.
+Nivel de severidad.
+Recomendaciones de mitigación o corrección (como actualizar una aplicación, cambiar configuraciones inseguras, etc.).
+Opciones de Informe: Los informes pueden ser personalizados para incluir detalles específicos o para ser exportados en diferentes formatos (PDF, HTML, XML, etc.).
+## 6. Acciones Posteriores:
+Mitigación de Vulnerabilidades: Basado en los informes generados, los administradores de sistemas o equipos de seguridad deben tomar medidas correctivas, que pueden incluir:
+Aplicación de parches de seguridad.
+Modificación de configuraciones inseguras.
+Desactivación de servicios no necesarios.
+Re-escaneo: Después de aplicar las correcciones, es común realizar un nuevo escaneo para verificar que las vulnerabilidades hayan sido efectivamente solucionadas
+
+
 
 
 
