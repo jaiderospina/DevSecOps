@@ -1,6 +1,6 @@
 **Análisis de Vulnerabilidades en el OWASP Top 10: Métodos de Explotación y Prevención**
 
-# Taller en Clase
+# Taller OWASP
 
 ## Integrantes del Grupo 7
 
