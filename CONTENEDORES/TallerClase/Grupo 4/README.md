@@ -98,9 +98,13 @@ Muestra la lista de contenedores en ejecución, los dos que acabas de crear (con
 Probar los puertos de los contenedores, para ver el mensaje del servidor Apache en cada contenedor.
 
 ![image](https://github.com/user-attachments/assets/939a9161-9b20-40ce-992b-f3f5669222ab)
-Primera imagen del puerto 8088
+
+Primera imagen del puerto 8088.
+
 ![image](https://github.com/user-attachments/assets/393bbfb7-31e5-4efa-b33e-f824263d6dfe)
+
 Segunda imagen en puerto 8089 modificado el mensaje y actualizado.
+
 ![image](https://github.com/user-attachments/assets/a95f61f7-83fa-4499-8bce-8c57c3eb9b0b)
 
 
