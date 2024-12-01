@@ -190,6 +190,12 @@ Actualizar el contenedor creado con el motor de base de datos de vulnerabilidade
 
 3.3 se procede a realizar el escaneo de vulnerabilidades.
 
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/20.png)
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/21.png)
+
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/22.png)
+
 
 </ul>
 
