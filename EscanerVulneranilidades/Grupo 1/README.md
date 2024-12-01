@@ -133,6 +133,7 @@ El navegador mostrará la página de inicio de sesión de GSA y, después de usa
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/12.png)
 </ul>
 <ul>
+  
 4.6 Configuración y secuencia de comandos de inicio
 Descargar el script de instalación e inicio al directorio de trabajo actual
 curl -f -O https://greenbone.github.io/docs/latest/_static/setup-and-start-greenbone-community-edition.sh && chmod u+x setup-and-start-greenbone-community-edition.sh
@@ -171,9 +172,9 @@ Ejecutar la configuración y comenzar el script
 
 2.Dar al contenedor una IP valida dentro del segmento local
 
+![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen%2060.PNG)
 
-
-2 punto del taller 
+3 punto del taller 
 Actualizar el contenedor creado con el motor de base de datos de vulnerabilidades.
 
 
