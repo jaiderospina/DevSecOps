@@ -243,10 +243,17 @@ Abre tu navegador y navega a http://localhost para verificar que la aplicación 
 </ul>
 
 <ul>
-4.4 realizar escaneo de vulnerabilidades
+4.4 Ejemplo de ataque
+
+Ataque de inyección sql manual
+El ataque consite en inyectar sentencias SQL a través de los imputs del aplicativo web vulnerable, para la manipulación de bases de datos.
+
+Paso 1
+En la opción “SQL INYECTION” del aplicativo web ejecutamos el parámetro ´or ´1=1 en la casilla de user id 
 
 
-![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/26.png)
+Se obtiene los datos first name y Surname
+
 
 5 Se realiza la autenticación en docker 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen%2033.jpg)
