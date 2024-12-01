@@ -204,13 +204,13 @@ Actualizar el contenedor creado con el motor de base de datos de vulnerabilidade
 </ul>
 
 <ul>
-3. Descargar un contenedor vulnerable desde dockerhub y realizar un escaneo de vulnerabilidades al mismo.
+4. Realizar y documentar un escaneo a otro contenedor o máquina vulnerable.
 
 </ul>
 </ul>
 
 <ul>
-3.1 Descargar la imagen de DVWA desde Docker Hub:
+4.1 Descargar la imagen de DVWA desde Docker Hub:
 docker pull vulnerables/web-dvwa
 
 
@@ -221,7 +221,7 @@ docker pull vulnerables/web-dvwa
 </ul>
 
 <ul>
-3.2 Iniciar el contenedor vulnerable:
+4.2 Iniciar el contenedor vulnerable:
 docker run -d -p 80:80 --name dvwa vulnerables/web-dvwa
 
 
@@ -232,7 +232,7 @@ docker run -d -p 80:80 --name dvwa vulnerables/web-dvwa
 </ul>
 
 <ul>
-3.3 Acceder a la aplicación web vulnerable:
+4.3 Acceder a la aplicación web vulnerable:
 Abre tu navegador y navega a http://localhost para verificar que la aplicación DVWA esté funcionando. Deberías ver una página de inicio de sesión. Si es la primera vez que ejecutas el contenedor, puedes ingresar con las credenciales predeterminadas (usuario: admin, contraseña: password).
 
 
@@ -243,12 +243,12 @@ Abre tu navegador y navega a http://localhost para verificar que la aplicación 
 </ul>
 
 <ul>
-3.4 realizar escaneo de vulnerabilidades
+4.4 realizar escaneo de vulnerabilidades
 
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/26.png)
 
-4 Se realiza la autenticación en docker 
+5 Se realiza la autenticación en docker 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen%2033.jpg)
 
 </ul>
