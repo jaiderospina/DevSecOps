@@ -174,20 +174,21 @@ Ejecutar la configuración y comenzar el script
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen%2060.PNG)
 
-3 punto del taller 
+3 Actualizar las bases de datos
 Actualizar el contenedor creado con el motor de base de datos de vulnerabilidades.
 
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen30.png)
 
-2.1 una vez descargado se debe dar permiso de ejecución al archivo
+3.1 una vez descargado se debe dar permiso de ejecución al archivo
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen31.jpg)
 
-2.2 se procede a ejecutar el script para instalar la actualización 
+3.2 se procede a ejecutar el script para instalar la actualización 
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen%2032.jpg)
 
+3.3 se procede a realizar el escaneo de vulnerabilidades.
 
 
 </ul>
