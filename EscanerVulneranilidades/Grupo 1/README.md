@@ -169,27 +169,10 @@ Ejecutar la configuración y comenzar el script
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/19.png)
 
-
-</ul>
-<ul>
-<h3>
-Escaneo de vulnerabilidad. </h3>
-
-![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/20.png)
+2.Dar al contenedor una IP valida dentro del segmento local
 
 
-![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/21.png)
 
-
-![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/22.png)
-
-</ul>
-
-
-</ul>
-
-
-<ul>
 2 punto del taller 
 Actualizar el contenedor creado con el motor de base de datos de vulnerabilidades.
 
