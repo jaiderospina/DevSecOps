@@ -24,8 +24,8 @@ Documentación del Taller Realizado
   
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/1.png)
 
-2 Instalar docker 
-2.1	Desinstalar paquetes Debian conflictivos
+1.1 Instalar docker 
+1.2	Desinstalar paquetes Debian conflictivos
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt remove $pkg; done
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/2.png)
@@ -34,7 +34,7 @@ for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do
 
 <ul>
 
-2.1	Configurar el repositorio docker
+1.3	Configurar el repositorio docker
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
@@ -50,7 +50,7 @@ sudo apt update
 </ul>
 
 <ul>
-2.3	 Instalar paquetes Docker Debian
+1.4	 Instalar paquetes Docker Debian
 sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 
@@ -61,7 +61,7 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 </ul>
 
 <ul>
-3.Configuración 
+1.5.Configuración 
 Para permitir que el usuario actual ejecute Docker y, por lo tanto, inicie los contenedores, se lo debe agregar al grupo de usuarios de Docker . Para que el cambio de grupo sea efectivo, cierre la sesión y vuelva a iniciarla o use su.
 <ul>
 3.1 Agregue el usuario actual al grupo de Docker y aplique los cambios del grupo para el entorno de shell actua
@@ -72,7 +72,7 @@ Para permitir que el usuario actual ejecute Docker y, por lo tanto, inicie los c
 <ul>
 
 <ul>
-3.2 Para descargar el archivo docker compose de Greenbone Community Edition, se debe crear un directorio de destino.
+1.6 Para descargar el archivo docker compose de Greenbone Community Edition, se debe crear un directorio de destino.
 Crear directorio de descarga
 export DOWNLOAD_DIR=$HOME/greenbone-community-container && mkdir -p $DOWNLOAD_DIR
 
@@ -81,10 +81,10 @@ export DOWNLOAD_DIR=$HOME/greenbone-community-container && mkdir -p $DOWNLOAD_DI
 </ul>
 
 <ul>
-4.Archivo Docker Compose ¶
+1.7.Archivo Docker Compose ¶
 Para ejecutar Greenbone Community Edition con contenedores, se debe utilizar el siguiente archivo de composición:
   <ul>
-4.1 se descarga la imagen directamente con el siguiente comando:
+1.8 se descarga la imagen directamente con el siguiente comando:
 cd $DOWNLOAD_DIR && curl -f -L https://greenbone.github.io/docs/latest/_static/docker-compose-22.4.yml -o docker-compose.yml
 </ul>
 
@@ -96,10 +96,10 @@ cd $DOWNLOAD_DIR && curl -f -L https://greenbone.github.io/docs/latest/_static/d
 
 </ul>
 <ul>
-4.2 Iniciando los contenedores comunitarios de Greenbone 
+1.9 Iniciando los contenedores comunitarios de Greenbone 
 Usando el archivo docker compose, se pueden descargar ( extraer ) las imágenes del contenedor y se pueden iniciar los contenedores en segundo plano.
   </ul>
-4.3 Para eso utilizamos el siguiente comando
+1.10 Para eso utilizamos el siguiente comando
 Descarga de los contenedores comunitarios de Greenbone
 docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-edition pull
   <ul>
@@ -107,7 +107,7 @@ docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-editio
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/8.png)
 </ul>
 <ul>
-4.4 Para obtener un flujo continuo de la salida del registro de todos los servicios, ejecute el siguiente comando:
+1.11 Para obtener un flujo continuo de la salida del registro de todos los servicios, ejecute el siguiente comando:
 Mostrar mensajes de registro de todos los servicios de los contenedores en ejecución
 docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-edition logs –f
 
@@ -115,12 +115,12 @@ docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-editio
 </ul>
 
 <ul>
-4.4 Puesta en marcha de los contenedores comunitarios Greenbone
+1.12 Puesta en marcha de los contenedores comunitarios Greenbone
 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/10.png)
 </ul>
 <ul>
-4.5 Iniciando la Gestión de Vulnerabilidades 
+1.13 Iniciando la Gestión de Vulnerabilidades 
 Una vez iniciados los servicios y cargados todos los datos de las fuentes , se puede abrir la interfaz web de Greenbone Security Assistant (GSA) en el navegador.
 Cómo abrir Greenbone Security Assistant en el navegador
 xdg-open "http://127.0.0.1:9392" 2>/dev/null >/dev/null &
