@@ -14,7 +14,9 @@
 
 <br></br>
 
-1-se crea el repositorio de la aplicación 
+### Paso 1 :white_check_mark:
+
+> - se crea el repositorio de la aplicación 
 
 ![image](https://github.com/user-attachments/assets/4638c2b7-d278-4a5b-9ec9-84bed411786f)
 
