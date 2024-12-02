@@ -61,6 +61,37 @@ Recolección de Datos de Vulnerabilidades: Los equipos de DevSecOps deben integr
 > - Contextualización con Métricas de Entorno: Una vez calculada la puntuación base, se pueden aplicar métricas de entorno que ajusten la gravedad en función de las características del entorno en el que la vulnerabilidad se encuentra. Esto incluye la exposición pública de la vulnerabilidad, la presencia de defensas adicionales o la criticidad de la infraestructura afectada.
 
 
+<h2 style="text-align:center"> Estrategias de Priorización y Remediacións </h2>
+
+
+La priorización de vulnerabilidades no solo depende de la puntuación CVSS, sino también de otros factores del entorno DevSecOps, tales como la criticidad del servicio afectado, el impacto en la experiencia del usuario y los recursos disponibles para la corrección.
+
+Algunos enfoques clave para la remediación incluyen:
+> - Automatización de la Remediación: En un entorno DevSecOps, la automatización es esencial para aplicar correcciones rápidamente. Las vulnerabilidades con puntuaciones CVSS más altas deben ser tratadas primero mediante parches automáticos o soluciones de mitigación.
+> - Categorización por Impacto: Las vulnerabilidades de alto impacto en sistemas críticos deben ser priorizadas sobre las que afectan a componentes menos sensibles.
+> - Integración con el Ciclo de Vida del Desarrollo: Los equipos deben integrar la gestión de vulnerabilidades en cada fase del ciclo de vida del desarrollo (planificación, codificación, pruebas, despliegue y mantenimiento) para detectar y corregir vulnerabilidades en tiempo real.
+
+
+<h2 style="text-align:center"> Beneficios de Usar CVSS en DevSecOps </h2>
+
+Al aplicar el CVSS en un entorno DevSecOps, las organizaciones pueden lograr varios beneficios:
+> - Evaluación Objetiva de Riesgos: CVSS proporciona una puntuación estandarizada que permite a los equipos de desarrollo y operaciones tomar decisiones basadas en hechos, en lugar de en suposiciones o juicios subjetivos.
+> - Priorización Eficiente: Las vulnerabilidades con mayor puntuación se pueden abordar con mayor rapidez, lo que reduce el riesgo general de explotación.
+> - Transparencia y Colaboración: El uso de CVSS fomenta la comunicación y colaboración entre los equipos de seguridad, desarrollo y operaciones al proporcionar un marco común para la evaluación de vulnerabilidades.
+> - Mejora Continua: Al integrar la gestión de vulnerabilidades y la puntuación CVSS en el ciclo de vida del desarrollo, las organizaciones pueden mejorar continuamente la seguridad de sus aplicaciones y sistemas, adaptándose rápidamente a nuevas amenazas.
+
+
+> <h2 style="text-align:center">  Desafíos y Consideraciones </h2>
+> - el uso de CVSS en DevSecOps ofrece importantes ventajas, también presenta algunos desafíos:
+> - Dependencia de la Precisión de las Herramientas de Escaneo: Las herramientas de escaneo deben estar bien configuradas y mantenerse actualizadas para garantizar que las vulnerabilidades sean detectadas correctamente.
+> - Sobrecarga de Vulnerabilidades de Baja Prioridad: Un exceso de vulnerabilidades de baja prioridad puede generar una sobrecarga de trabajo para los equipos, haciendo difícil centrarse en las vulnerabilidades críticas.
+> - Manejo de Falsos Positivos: Las puntuaciones CVSS pueden no reflejar siempre el contexto completo de la vulnerabilidad, por lo que es importante realizar una revisión manual para asegurar que la prioridad sea correcta.
+
+
+
+
+
+
 
 
 
