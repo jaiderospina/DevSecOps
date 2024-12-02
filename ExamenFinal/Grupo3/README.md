@@ -43,9 +43,7 @@ En un entorno DevSecOps, la integración continua y la entrega continua (CI/CD) 
 La priorización de vulnerabilidades en DevSecOps implica tres pasos principales:
 
 > - Identificación de vulnerabilidades: Usando herramientas de análisis estático y dinámico de código, así como de escaneo de dependencias, se detectan vulnerabilidades en las aplicaciones y sistemas.
-
 > - Evaluación de las vulnerabilidades: Utilizando el CVSS, se calcula la puntuación de cada vulnerabilidad identificada en función de su gravedad.
-
 > - Priorización y Remediación: Una vez evaluadas las vulnerabilidades, los equipos de DevSecOps deben priorizarlas en función de varios factores, incluidos la gravedad (puntuación CVSS), el impacto en la infraestructura, la facilidad de explotación y la criticidad para el negocio.
 
 
