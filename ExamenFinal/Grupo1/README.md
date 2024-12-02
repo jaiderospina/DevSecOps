@@ -15,10 +15,6 @@
 <li><strong>Ricardo Clavijo</strong></li>
 </ul>
 
-<div align = "center">
-Documentación del Taller Realizado
-</div>
-
 <ul>
 <h3>
 valuación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS 4.0  
