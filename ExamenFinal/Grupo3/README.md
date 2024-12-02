@@ -140,7 +140,9 @@ El uso de CVSS en DevSecOps ofrece importantes ventajas, también presenta algun
 
 <h2 style="text-align:center">Soluciones implementadas para mitigar riesgos</h2>
 
-Snyk es una plataforma de seguridad enfocada en el análisis y la gestión de vulnerabilidades en aplicaciones, infraestructura y dependencias de código abierto. Está diseñada para ayudar a los equipos de desarrollo y operaciones (DevSecOps) a detectar, corregir y prevenir vulnerabilidades en el software de manera continua, integrándose de manera fluida en los flujos de trabajo de desarrollo ágil y DevOps.
+Para Este proceso se utilizara la herramienta Snyk, una plataforma de seguridad especializada en el análisis y la gestión de vulnerabilidades en aplicaciones, infraestructuras y dependencias de código abierto. Diseñada para asistir a los equipos de desarrollo y operaciones (DevSecOps), Snyk permite detectar, corregir y prevenir vulnerabilidades en el software de manera continua, integrándose de forma fluida en los flujos de trabajo ágiles y DevOps
+
+
 aqui mostraremos el paso a paso de como se utilizo la herramienta
 
 > - Escaneo de vulnerabilidades: Snyk analiza tanto las dependencias de código abierto (como bibliotecas de JavaScript, Python, Java, Ruby, entre otros) como el código fuente, para identificar vulnerabilidades conocidas. También examina contenedores, infraestructura como código (IaC), y proyectos de infraestructura en la nube.
