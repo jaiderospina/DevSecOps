@@ -82,6 +82,8 @@ Al aplicar el CVSS en un entorno DevSecOps, las organizaciones pueden lograr var
 
 
 > <h2 style="text-align:center">  Desafíos y Consideraciones </h2>
+
+
 > - el uso de CVSS en DevSecOps ofrece importantes ventajas, también presenta algunos desafíos:
 > - Dependencia de la Precisión de las Herramientas de Escaneo: Las herramientas de escaneo deben estar bien configuradas y mantenerse actualizadas para garantizar que las vulnerabilidades sean detectadas correctamente.
 > - Sobrecarga de Vulnerabilidades de Baja Prioridad: Un exceso de vulnerabilidades de baja prioridad puede generar una sobrecarga de trabajo para los equipos, haciendo difícil centrarse en las vulnerabilidades críticas.
