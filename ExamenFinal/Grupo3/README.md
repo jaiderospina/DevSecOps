@@ -81,8 +81,8 @@ Al aplicar el CVSS en un entorno DevSecOps, las organizaciones pueden lograr var
 > - Mejora Continua: Al integrar la gestión de vulnerabilidades y la puntuación CVSS en el ciclo de vida del desarrollo, las organizaciones pueden mejorar continuamente la seguridad de sus aplicaciones y sistemas, adaptándose rápidamente a nuevas amenazas.
 
 
-> <h2 style="text-align:center">  Desafíos y Consideraciones </h2>
 
+<h2 style="text-align:center">Desafíos y Consideraciones</h2>
 
 > - el uso de CVSS en DevSecOps ofrece importantes ventajas, también presenta algunos desafíos:
 > - Dependencia de la Precisión de las Herramientas de Escaneo: Las herramientas de escaneo deben estar bien configuradas y mantenerse actualizadas para garantizar que las vulnerabilidades sean detectadas correctamente.
