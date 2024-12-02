@@ -28,5 +28,9 @@ Un repositorio de código con una aplicación web básica.
 
 Usamos WSL para entrar al entorno creado previamente de UBUNTU 
 </ul>
+![image](https://github.com/user-attachments/assets/54ce7a37-0c6e-4728-8145-4fed4ddd69ce)
+
+
+
 
 
