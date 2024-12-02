@@ -43,5 +43,18 @@ Se crea el entorno de desarrollo laravel con el comando “curl -s https://larav
 
 ![image](https://github.com/user-attachments/assets/e1415679-38ef-435e-beeb-a45457690e7f)
 
+<ul>
+<h3>
+Creando recursos de red con comando “./vendor/bin/sail up”
+
+</ul>
+
+
+![image](https://github.com/user-attachments/assets/7aea075d-8e3a-4113-b9cd-f273e308912c)
+
+
+
+
+
 
 
