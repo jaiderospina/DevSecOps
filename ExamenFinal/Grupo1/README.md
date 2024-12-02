@@ -612,6 +612,11 @@ Se puede observar que mientras SNYK asigna a la vulnerabilidad un puntaje elevad
 
 
 
+<ul>
+<h3>
+Priorización:
+</ul>
+
 
 
 
