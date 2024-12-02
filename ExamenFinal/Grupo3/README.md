@@ -13,7 +13,7 @@
 ---
 <h2 style="text-align:center">Desarrollo del Examen Final</h2>
 
-En las siguientes imagenes se explicará detalladamente el proceso para
+En las siguientes imagenes y informacion se explicará detalladamente de escaneo de una vulnerabilidad, mediante una aplicacion llamada
 
 <br></br>
 
