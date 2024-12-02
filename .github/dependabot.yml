@@ -1,7 +1,0 @@
-version: 2
-updates:
-  - package-ecosystem: "composer" 
-    directory: "/example-app"
-    schedule:
-      interval: "weekly"
-      
