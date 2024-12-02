@@ -13,7 +13,7 @@
 ---
 <h2 style="text-align:center">Desarrollo del Examen Final</h2>
 
-En las siguientes imagenes y informacion se explicará detalladamente de escaneo de una vulnerabilidad, mediante una aplicacion llamada
+En el siguiente informe se presentarán las imágenes y la información detallada sobre el escaneo de una vulnerabilidad, utilizando una aplicación llamada..
 
 <br></br>
 
@@ -24,6 +24,21 @@ En las siguientes imagenes y informacion se explicará detalladamente de escaneo
 La gestión de vulnerabilidades es una parte crítica de cualquier estrategia de seguridad cibernética. En entornos DevSecOps, donde el desarrollo y la seguridad se integran de manera continua, la identificación y priorización de vulnerabilidades deben realizarse de manera ágil y efectiva. En este contexto, el uso del Sistema Común de Puntuación de Vulnerabilidades (CVSS, por sus siglas en inglés) se presenta como una herramienta valiosa para clasificar y priorizar las vulnerabilidades, permitiendo a los equipos de desarrollo y operaciones tomar decisiones informadas sobre qué problemas deben abordarse con urgencia.
 
 Este informe aborda cómo se puede aplicar CVSS en un entorno DevSecOps para la priorización de vulnerabilidades, considerando los desafíos, las mejores prácticas y los beneficios de este enfoque.
+
+
+<h2 style="text-align:center">Qué es el CVSS</h2>
+
+El Common Vulnerability Scoring System (CVSS) es un marco abierto y estándar utilizado para evaluar la gravedad de las vulnerabilidades de seguridad en software y sistemas. CVSS proporciona una puntuación numérica en una escala de 0 a 10, que refleja la gravedad de una vulnerabilidad, permitiendo priorizar las acciones correctivas en función de su impacto y facilidad de explotación.
+
+La puntuación CVSS se calcula a partir de tres métricas principales:
+
+Métricas Base: Evalúan las características fundamentales de la vulnerabilidad, como su impacto en la confidencialidad, integridad y disponibilidad, así como la facilidad con que puede ser explotada.
+Métricas Temporal: Consideran factores que pueden cambiar con el tiempo, como la disponibilidad de parches o la efectividad de las mitigaciones.
+Métricas de Entorno: Permiten personalizar la puntuación en función de las características y configuraciones específicas del entorno en el que se encuentra la vulnerabilidad.
+
+
+
+
 
 <br></br>
 
