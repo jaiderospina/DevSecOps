@@ -619,6 +619,16 @@ Se puede observar que mientras SNYK asigna a la vulnerabilidad un puntaje elevad
 
 
 
+<ul>
+<h3>
+Integración en DevSecOps:
+
+Configuración de validaciones automáticas: Implementar herramientas de análisis estático y dinámico de código (SAST y DAST) en el pipeline, para detectar vulnerabilidades automáticamente en el código y en las aplicaciones durante la integración continua.
+Estrategias de remediación: Incluir pasos en el pipeline para aplicar parches automáticamente, configurar las aplicaciones de manera segura y realizar refactorización de código cuando se detecten vulnerabilidades, asegurando que las correcciones sean rápidas y efectivas.
+Alertas automatizadas para nuevas vulnerabilidades: Configurar alertas automáticas para notificar a los equipos sobre nuevas vulnerabilidades detectadas, tanto en el código como en las dependencias, permitiendo una respuesta ágil y eficaz.
+
+</ul>
+
 
 
 
