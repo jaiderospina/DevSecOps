@@ -57,8 +57,8 @@
 
 
 
+5-Vulnerabilidades.
 
-5-Vulnerabilidades
 ![image](https://github.com/user-attachments/assets/649defee-091a-4c7b-8d88-7abd56225562)
 
 
