@@ -269,19 +269,19 @@ Seleccionar la opción “SQL Inyection” del aplicativo web, ejecutar el pará
 5 Se realiza la autenticación en docker 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen%2033.jpg)
 
-Se crea la imagen en docker 
+5.1 Se crea la imagen en docker 
 
 ![image](https://github.com/user-attachments/assets/4eedb19c-51ff-4dbf-848c-214e657d708f)
 
-Se verifica que la imagen este cargada
+5.2 Se verifica que la imagen este cargada
 
 ![image](https://github.com/user-attachments/assets/f819139d-1f3d-4155-b1ca-878c7d9769d8)
 
-Se sube la imagen a docker
+5.3 Se sube la imagen a docker
 
 ![image](https://github.com/user-attachments/assets/6bb73638-80bb-483c-8908-668f438bd5d0)
 
-Se verifica que la imagen quedo cargada
+5.4 Se verifica que la imagen quedo cargada
 
 ![image](https://github.com/user-attachments/assets/8ad15b23-3470-4ed8-8862-2258a160fa46)
 
