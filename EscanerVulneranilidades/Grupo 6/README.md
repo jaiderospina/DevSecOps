@@ -147,6 +147,8 @@ El propósito principal de esta actividad es aprender a identificar vulnerabilid
    - Descargamos el informe en formato PDF, HTML o XML para análisis posterior.
    - Vista del objetivo:  
      ![OpenVAS](Imagen16.png)
+     ![OpenVAS](Imagen21.png)
+     
 
 
 ## Paso 4: Análisis de Vulnerabilidades Detectadas
