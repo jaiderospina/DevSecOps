@@ -36,7 +36,7 @@ Métricas Base: Evalúan las características fundamentales de la vulnerabilidad
 Métricas Temporal: Consideran factores que pueden cambiar con el tiempo, como la disponibilidad de parches o la efectividad de las mitigaciones.
 Métricas de Entorno: Permiten personalizar la puntuación en función de las características y configuraciones específicas del entorno en el que se encuentra la vulnerabilidad.
 
-<h2 style="text-align:center">3. Priorización de Vulnerabilidades en un Entorno DevSecOps </h2>
+<h2 style="text-align:center"> Priorización de Vulnerabilidades en un Entorno DevSecOps </h2>
 
 En un entorno DevSecOps, la integración continua y la entrega continua (CI/CD) permiten a los desarrolladores y a los equipos de operaciones desplegar código de forma rápida y eficiente. Sin embargo, este ritmo acelerado aumenta la complejidad de gestionar las vulnerabilidades de seguridad, ya que las actualizaciones y cambios son constantes. Aquí es donde CVSS juega un papel fundamental al proporcionar una puntuación objetiva que ayuda a los equipos a tomar decisiones informadas.
 
@@ -45,6 +45,21 @@ La priorización de vulnerabilidades en DevSecOps implica tres pasos principales
 > - Identificación de vulnerabilidades: Usando herramientas de análisis estático y dinámico de código, así como de escaneo de dependencias, se detectan vulnerabilidades en las aplicaciones y sistemas.
 > - Evaluación de las vulnerabilidades: Utilizando el CVSS, se calcula la puntuación de cada vulnerabilidad identificada en función de su gravedad.
 > - Priorización y Remediación: Una vez evaluadas las vulnerabilidades, los equipos de DevSecOps deben priorizarlas en función de varios factores, incluidos la gravedad (puntuación CVSS), el impacto en la infraestructura, la facilidad de explotación y la criticidad para el negocio.
+
+
+<h2 style="text-align:center"> Aplicación de CVSS en la Priorización de Vulnerabilidades </h2>
+
+
+ ## El uso de CVSS para priorizar vulnerabilidades en un entorno DevSecOps puede incluir los siguientes pasos detallados:
+
+Recolección de Datos de Vulnerabilidades: Los equipos de DevSecOps deben integrar herramientas automatizadas de escaneo de seguridad (como Snyk, OWASP Dependency-Check, etc.) dentro de su pipeline CI/CD. Estas herramientas identifican vulnerabilidades en el código fuente y en las dependencias, proporcionando información sobre la severidad y el tipo de vulnerabilidad.
+
+> - cCálculo de la Puntuación CVSS: Cada vulnerabilidad identificada debe ser evaluada utilizando la puntuación CVSS. Esto incluye la evaluación de los factores clave:
+
+> - Impacto en la Confidencialidad, Integridad y Disponibilidad (C, I, A): Se evalúa el impacto directo en la seguridad del sistema. Si la vulnerabilidad afecta gravemente la confidencialidad, integridad o disponibilidad, recibirá una puntuación alta.
+> - Complejidad de la Explotación (Exploitability): Se analiza cuán fácil es para un atacante explotar la vulnerabilidad. Si la explotación es sencilla, la puntuación CVSS será más alta.
+> - Requerimientos de Autenticación: Determina si la vulnerabilidad puede ser explotada sin autenticación o si es necesario un acceso previo.
+> - Contextualización con Métricas de Entorno: Una vez calculada la puntuación base, se pueden aplicar métricas de entorno que ajusten la gravedad en función de las características del entorno en el que la vulnerabilidad se encuentra. Esto incluye la exposición pública de la vulnerabilidad, la presencia de defensas adicionales o la criticidad de la infraestructura afectada.
 
 
 
