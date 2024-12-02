@@ -121,7 +121,7 @@
 
 
 
-11. Construimos la imagen
+11. Construimos la imagen.
 ![image](https://github.com/user-attachments/assets/7f7b8f4e-b45c-4136-8182-d68979d071d2)
 
 
