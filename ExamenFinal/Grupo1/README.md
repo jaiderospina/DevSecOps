@@ -20,3 +20,13 @@
 valuación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS 4.0  
 </ul>
 
+<ul>
+<h3>
+1-Elementos:
+Se debe implementar un entorno de desarrollo ágil. Este incluye:
+Un repositorio de código con una aplicación web básica.
+
+Usamos WSL para entrar al entorno creado previamente de UBUNTU 
+</ul>
+
+
