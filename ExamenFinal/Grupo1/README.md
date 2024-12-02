@@ -20,7 +20,7 @@ Documentación del Taller Realizado
 </div>
 
 <ul>
-<h3>Punto 1:
+<h3>
 valuación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS 4.0  
 </ul>
 
