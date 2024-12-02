@@ -20,17 +20,20 @@ El propósito principal de esta actividad es aprender a identificar vulnerabilid
    ```
 2. **Instalar OpenVAS: Instalamos OpenVAS, que forma parte de gvm**
    ```bash
-   sudo apt-get install -y gvm```
-3. **Configurar OpenVAS: Configuramos todos los componentes necesarios, como la base de datos de vulnerabilidades y las dependencias.**
+   sudo apt-get install -y gvm
+   ```
+   ![OpenVAS](image1.png)
+   
+4. **Configurar OpenVAS: Configuramos todos los componentes necesarios, como la base de datos de vulnerabilidades y las dependencias.**
    ```bash
    sudo gvm-setup
    ```
-4. **Verificar la configuración:**
+5. **Verificar la configuración:**
    Actualizamos los paquetes del sistema para asegurarnos de contar con las últimas versiones.
    ```bash
    sudo gvm-check-setup
    ```
-5. **Iniciar los servicios:**
+6. **Iniciar los servicios:**
    Ejecutamos OpenVAS y accedemos a la interfaz gráfica desde un navegador.
    ```bash
    sudo gvm-start
