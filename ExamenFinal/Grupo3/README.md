@@ -11,7 +11,23 @@
 > - Charles Guerrero
 
 ---
+<h2 style="text-align:center">Desarrollo del Examen Final</h2>
 
+En las siguientes imagenes se explicará detalladamente el proceso para
+
+<br></br>
+
+----
+
+<h2 style="text-align:center">Introduccion</h2>
+
+La gestión de vulnerabilidades es una parte crítica de cualquier estrategia de seguridad cibernética. En entornos DevSecOps, donde el desarrollo y la seguridad se integran de manera continua, la identificación y priorización de vulnerabilidades deben realizarse de manera ágil y efectiva. En este contexto, el uso del Sistema Común de Puntuación de Vulnerabilidades (CVSS, por sus siglas en inglés) se presenta como una herramienta valiosa para clasificar y priorizar las vulnerabilidades, permitiendo a los equipos de desarrollo y operaciones tomar decisiones informadas sobre qué problemas deben abordarse con urgencia.
+
+Este informe aborda cómo se puede aplicar CVSS en un entorno DevSecOps para la priorización de vulnerabilidades, considerando los desafíos, las mejores prácticas y los beneficios de este enfoque.
+
+<br></br>
+
+--
 <br></br>
 
 ### Paso 1 :white_check_mark:
