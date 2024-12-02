@@ -261,6 +261,13 @@ Se obtiene los datos first name y Surname
 5 Se realiza la autenticación en docker 
 ![image](https://github.com/jaiderospina/DevSecOps/blob/main/EscanerVulneranilidades/Grupo%201/imagen%2033.jpg)
 
+Ejemplo 2 
+
+Otro ejemplo de este tipo de ataque que se puede realizar es insertando el siguiente script
+Seleccionar la opción “SQL Inyection” del aplicativo web, ejecutar el parámetro 1`or 1=1 union select null, table_name from information_schema.tables# en la entrada de texto “User ID” del aplicativo web.
+
+
+
 </ul>
 
 
