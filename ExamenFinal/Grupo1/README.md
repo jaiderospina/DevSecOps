@@ -34,6 +34,14 @@ Usamos WSL para entrar al entorno creado previamente de UBUNTU
 
 
 
+<ul>
+<h3>
+Se crea el entorno de desarrollo laravel con el comando “curl -s https://laravel.build/example-app | bashvv”
+
+</ul>
+
+
+![image](https://github.com/user-attachments/assets/e1415679-38ef-435e-beeb-a45457690e7f)
 
 
 
