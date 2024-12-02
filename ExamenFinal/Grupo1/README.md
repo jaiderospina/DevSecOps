@@ -617,8 +617,41 @@ Se puede observar que mientras SNYK asigna a la vulnerabilidad un puntaje elevad
 Priorización:
 </ul>
 
+<ul>
+<h3>
+Resultado del escaneo de vulnerabilidades con Snyk en VS con el código con vulnerabilidades.
+</ul>
 
 
+
+![image](https://github.com/user-attachments/assets/1cea6f77-f9cc-48c7-85c1-82a402d960c9)
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/3e2b7125-e0d3-4667-831e-03d1a6f27ea2)
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/2325090d-6fa8-4cec-b51c-9c878e994181)
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/61b969c3-b9ac-4b79-8ba0-0ff4d56f42e1)
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/801a6412-7449-4c8f-afc6-cc12bcd767e2)
 
 
 
