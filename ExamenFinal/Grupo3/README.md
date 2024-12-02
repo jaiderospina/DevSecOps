@@ -138,14 +138,21 @@ El uso de CVSS en DevSecOps ofrece importantes ventajas, también presenta algun
 
 <br></br>
 
+<h2 style="text-align:center">Soluciones implementadas para mitigar riesgos</h2>
 
+Snyk es una plataforma de seguridad enfocada en el análisis y la gestión de vulnerabilidades en aplicaciones, infraestructura y dependencias de código abierto. Está diseñada para ayudar a los equipos de desarrollo y operaciones (DevSecOps) a detectar, corregir y prevenir vulnerabilidades en el software de manera continua, integrándose de manera fluida en los flujos de trabajo de desarrollo ágil y DevOps.
+aqui mostraremos el paso a paso de como se utilizo la herramienta
+
+> - Escaneo de vulnerabilidades: Snyk analiza tanto las dependencias de código abierto (como bibliotecas de JavaScript, Python, Java, Ruby, entre otros) como el código fuente, para identificar vulnerabilidades conocidas. También examina contenedores, infraestructura como código (IaC), y proyectos de infraestructura en la nube.
+> - Integración en pipelines de CI/CD: Snyk se puede integrar fácilmente en los pipelines de integración continua y entrega continua (CI/CD), lo que permite a los equipos detectar vulnerabilidades en las primeras fases del desarrollo y corregirlas de forma ágil.
+> - Base de datos de vulnerabilidades: Snyk utiliza una base de datos de vulnerabilidades que se actualiza constantemente, brindando a los desarrolladores información precisa y al día sobre los riesgos de seguridad.
+> - Automatización de correcciones: Además de detectar vulnerabilidades, Snyk ofrece recomendaciones de corrección, incluyendo actualizaciones de dependencias y parches, y en algunos casos, puede realizar la corrección automáticamente.
+> - Pruebas de código y contenedores: Snyk permite realizar pruebas de seguridad tanto en el código fuente como en las imágenes de contenedores, lo que ayuda a identificar configuraciones incorrectas o vulnerabilidades en tiempo de ejecución.
 
 ### Paso 4 :white_check_mark:
 
 > - entramos a la consola de snyk
 
-Snyk es una plataforma de seguridad enfocada en el análisis y la gestión de vulnerabilidades en aplicaciones, infraestructura y dependencias de código abierto. Está diseñada para ayudar a los equipos de desarrollo y operaciones (DevSecOps) a detectar, corregir y prevenir vulnerabilidades en el software de manera continua, integrándose de manera fluida en los flujos de trabajo de desarrollo ágil y DevOps.
-aqui mostraremos el paso a paso de como se utilizo la herramienta
 ![image](https://github.com/user-attachments/assets/c9488861-b77c-40d9-a4ae-a0d50b31777b)
 ![image](https://github.com/user-attachments/assets/b8560979-388d-49be-a334-11fda41bcd7e)
 
