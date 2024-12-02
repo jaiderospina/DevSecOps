@@ -533,6 +533,86 @@ Alcance:
 
 
 
+<ul>
+<h3>
+Tipo de vulnerabilidad: Path Traversal
+
+Nombre: CWE-23: Relative Path Traversal
+
+Descripción:
+La vulnerabilidad CWE-23 se refiere al "Recorrido de Ruta Relativa" o "Relative Path Traversal". Esta vulnerabilidad ocurre cuando una aplicación permite a un atacante manipular rutas de archivos a través de la entrada proporcionada por el usuario, lo que puede permitir que el atacante acceda a archivos fuera del directorio previsto. Esto se produce cuando una aplicación construye una ruta de archivo sin una validación adecuada de los datos de entrada, lo que permite que los usuarios modifiquen la ruta y accedan a directorios o archivos no autorizados.
+Un atacante puede usar secuencias especiales de caracteres como ../ (puntos y barra) para navegar fuera de las carpetas que deberían estar restringidas.
+</ul>
+
+
+<ul>
+<h3>
+Vector de Ataque:
+El vector de ataque para Relative Path Traversal generalmente implica la manipulación de parámetros de entrada de la aplicación que afectan la ruta de un archivo, como valores de URL, nombres de archivo o parámetros de formulario. Si la aplicación no valida correctamente estas entradas, un atacante puede explotar esta vulnerabilidad para leer archivos sensibles o ejecutar código arbitrario.
+</ul>
+
+
+
+
+
+
+
+
+<ul>
+<h3>
+Alcance:
+•	Afecta: La vulnerabilidad afecta a aplicaciones web que permiten el acceso a archivos mediante parámetros manipulables por el usuario. Es común en aplicaciones que leen archivos de configuración, archivos de log o archivos subidos por los usuarios.
+•	Riesgo: Un atacante podría acceder a archivos sensibles en el servidor, como contraseñas, claves privadas, o archivos de configuración. En algunos casos, también podría ejecutar código malicioso o comprometer la seguridad del sistema.
+</ul>
+
+
+
+<ul>
+<h3>
+Evaluación con CVSS 4.0:
+Vulnerabilidad Cross-site Scripting (XSS)
+Con base en el escaneo de vulnerabilidades realizado mediante la herramienta SNYK, se ha identificado el puntaje (Score) asignado por la misma para cada hallazgo detectado. A partir de estos resultados, se procede a comparar dichos puntajes con los proporcionados por otras plataformas, en este caso, VulnDB. Este análisis comparativo nos permite evaluar la criticidad de las vulnerabilidades encontradas de manera más robusta, obteniendo así una perspectiva más completa de los riesgos asociados.
+
+
+</ul>
+
+
+<ul>
+<h3>
+SNYK
+</ul>
+
+
+
+
+![image](https://github.com/user-attachments/assets/770d404d-b2b3-44e7-bc70-4f32692b1819)
+
+
+
+
+<ul>
+<h3>
+VulnDB
+</ul>
+
+
+
+![image](https://github.com/user-attachments/assets/61a4ec02-ae09-4ab1-a7a5-9769ed8fefbe)
+
+
+
+
+
+
+<ul>
+<h3>
+Se puede observar que mientras SNYK asigna a la vulnerabilidad un puntaje elevado, como 822 (o más de 8 en escala CVSS), VulnDB analiza vulnerabilidades relacionadas y les asigna puntajes diferentes, siendo el más alto en este caso 5.7. Esta disparidad refleja las diferencias en los enfoques de evaluación de criticidad de cada herramienta, destacando la importancia de utilizar múltiples fuentes para una valoración integral.
+</ul>
+
+
+
+
+
 
 
 
