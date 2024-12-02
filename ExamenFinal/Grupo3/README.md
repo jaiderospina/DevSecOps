@@ -36,6 +36,23 @@ Métricas Base: Evalúan las características fundamentales de la vulnerabilidad
 Métricas Temporal: Consideran factores que pueden cambiar con el tiempo, como la disponibilidad de parches o la efectividad de las mitigaciones.
 Métricas de Entorno: Permiten personalizar la puntuación en función de las características y configuraciones específicas del entorno en el que se encuentra la vulnerabilidad.
 
+<h2 style="text-align:center">3. Priorización de Vulnerabilidades en un Entorno DevSecOps </h2>
+
+En un entorno DevSecOps, la integración continua y la entrega continua (CI/CD) permiten a los desarrolladores y a los equipos de operaciones desplegar código de forma rápida y eficiente. Sin embargo, este ritmo acelerado aumenta la complejidad de gestionar las vulnerabilidades de seguridad, ya que las actualizaciones y cambios son constantes. Aquí es donde CVSS juega un papel fundamental al proporcionar una puntuación objetiva que ayuda a los equipos a tomar decisiones informadas.
+
+La priorización de vulnerabilidades en DevSecOps implica tres pasos principales:
+
+## Identificación de vulnerabilidades: 
+Usando herramientas de análisis estático y dinámico de código, así como de escaneo de dependencias, se detectan vulnerabilidades en las aplicaciones y sistemas.
+
+## Evaluación de las vulnerabilidades:
+
+Utilizando el CVSS, se calcula la puntuación de cada vulnerabilidad identificada en función de su gravedad.
+
+## Priorización y Remediación: 
+
+Una vez evaluadas las vulnerabilidades, los equipos de DevSecOps deben priorizarlas en función de varios factores, incluidos la gravedad (puntuación CVSS), el impacto en la infraestructura, la facilidad de explotación y la criticidad para el negocio.
+
 
 
 
