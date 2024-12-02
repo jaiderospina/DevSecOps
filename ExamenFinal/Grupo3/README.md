@@ -50,7 +50,7 @@ La priorización de vulnerabilidades en DevSecOps implica tres pasos principales
 <h2 style="text-align:center"> Aplicación de CVSS en la Priorización de Vulnerabilidades </h2>
 
 
- # El uso de CVSS para priorizar vulnerabilidades en un entorno DevSecOps puede incluir los siguientes pasos detallados:
+ El uso de CVSS para priorizar vulnerabilidades en un entorno DevSecOps puede incluir los siguientes pasos detallados:
 
 Recolección de Datos de Vulnerabilidades: Los equipos de DevSecOps deben integrar herramientas automatizadas de escaneo de seguridad (como Snyk, OWASP Dependency-Check, etc.) dentro de su pipeline CI/CD. Estas herramientas identifican vulnerabilidades en el código fuente y en las dependencias, proporcionando información sobre la severidad y el tipo de vulnerabilidad.
 
