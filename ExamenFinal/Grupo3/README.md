@@ -54,7 +54,7 @@ La priorización de vulnerabilidades en DevSecOps implica tres pasos principales
 
 Recolección de Datos de Vulnerabilidades: Los equipos de DevSecOps deben integrar herramientas automatizadas de escaneo de seguridad (como Snyk, OWASP Dependency-Check, etc.) dentro de su pipeline CI/CD. Estas herramientas identifican vulnerabilidades en el código fuente y en las dependencias, proporcionando información sobre la severidad y el tipo de vulnerabilidad.
 
-> - cCálculo de la Puntuación CVSS: Cada vulnerabilidad identificada debe ser evaluada utilizando la puntuación CVSS. Esto incluye la evaluación de los factores clave:
+> - Cálculo de la Puntuación CVSS: Cada vulnerabilidad identificada debe ser evaluada utilizando la puntuación CVSS. Esto incluye la evaluación de los factores clave:
 
 > - Impacto en la Confidencialidad, Integridad y Disponibilidad (C, I, A): Se evalúa el impacto directo en la seguridad del sistema. Si la vulnerabilidad afecta gravemente la confidencialidad, integridad o disponibilidad, recibirá una puntuación alta.
 > - Complejidad de la Explotación (Exploitability): Se analiza cuán fácil es para un atacante explotar la vulnerabilidad. Si la explotación es sencilla, la puntuación CVSS será más alta.
