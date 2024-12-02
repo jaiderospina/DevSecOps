@@ -99,7 +99,7 @@ El uso de CVSS en DevSecOps ofrece importantes ventajas, también presenta algun
 
 <br></br>
 
---
+
 <br></br>
 
 <h2 style="text-align:center">El proceso de evaluación y priorización</h2>
