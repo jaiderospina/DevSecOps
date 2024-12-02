@@ -79,7 +79,8 @@
 <br></br>
 
 
-7.Lista priorizada 
+7.Lista priorizada.
+
 ![image](https://github.com/user-attachments/assets/602b1153-3745-42b2-8de2-d3552e40b643)
 
 
