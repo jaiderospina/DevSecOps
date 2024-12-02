@@ -102,6 +102,7 @@ El uso de CVSS en DevSecOps ofrece importantes ventajas, también presenta algun
 --
 <br></br>
 
+<h2 style="text-align:center">El proceso de evaluación y priorización</h2>
 ### Paso 1 :white_check_mark:
 
 > - se crea el repositorio de la aplicación 
