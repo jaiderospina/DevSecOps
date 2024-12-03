@@ -88,6 +88,17 @@ Descargar un contenedor vulnerable desde dockerhub y realizar un escaneo de vuln
 3.2 Mostramos que la pagina de DVWA si esta funcionando.
 ![image](https://github.com/user-attachments/assets/a13024fd-7d96-4cb5-bda3-7184b084a39b)
 
+3.4 Ataque de inyección sql manual El ataque consite en inyectar sentencias SQL a través de los imputs del aplicativo web vulnerable, para la manipulación de bases de datos.
 
+Paso 1 En la opción “SQL INYECTION” del aplicativo web ejecutamos el parámetro ´or ´1=1 en la casilla de user id
+![image](https://github.com/user-attachments/assets/7c66f809-63c5-4d21-af46-630e64860a71)
+![image](https://github.com/user-attachments/assets/17648e7f-29e3-4cd3-9600-0773a33781cd)
+
+PUNTO 4. 
+Finalmente se realiza la autenticación en docker.
+![image](https://github.com/user-attachments/assets/c165558b-179d-4225-94cc-acca76febe75)
+
+Y se sube la imagen a DockerHub.
+ ![image](https://github.com/user-attachments/assets/b9e1632b-f6cc-4347-97fe-c18b258fd5bb)
 
 
