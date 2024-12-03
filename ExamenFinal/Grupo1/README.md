@@ -688,11 +688,18 @@ https://github.com/JuaFelCaiBar/proyectofinaluniminuto
 
 
 
+<ul>
+<h3>
+Arquitectura
+
+</ul>
 
 
 
 
 
+
+![image](https://github.com/user-attachments/assets/25ad4324-ac09-404f-b25e-889d663d6b74)
 
 
 
