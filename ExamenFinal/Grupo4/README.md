@@ -39,7 +39,8 @@ El proceso de evaluación de vulnerabilidades con CVSS 4.0 implica varios pasos:
  3.	Evaluación de Métricas Temporales y Ambientales: Considerar factores temporales (como la disponibilidad de parches) y ajustar la puntuación de acuerdo con el contexto de la organización (por ejemplo, la criticidad de los activos afectados).
  4.	Cálculo de la Puntuación CVSS: Utilizar una calculadora CVSS para calcular la puntuación final, que puede oscilar entre 0.0 (sin riesgo) y 10.0 (riesgo crítico).
  5.	Documentación y Reporte: Documentar las vulnerabilidades evaluadas, sus puntuaciones CVSS y cualquier recomendación para mitigación. Esto es crucial para la priorización y el seguimiento de las acciones correctivas.
- 3. Priorización de Vulnerabilidades
+
+    3. Priorización de Vulnerabilidades
 Una vez que se han evaluado las vulnerabilidades utilizando CVSS 4.0, es posible priorizarlas de manera efectiva. Las vulnerabilidades con puntuaciones más altas deben ser abordadas primero, especialmente aquellas que afectan activos críticos o que tienen un impacto significativo en la organización. Además, el contexto empresarial y la criticidad del sistema afectado deben ser considerados al priorizar las acciones de remediación.
 
 ## 2. Beneficios de CVSS 4.0
@@ -56,14 +57,18 @@ Una vez que se han evaluado las vulnerabilidades utilizando CVSS 4.0, es posible
 ## 2)	Identificación de Vulnerabilidades:
 Snyk es una herramienta de seguridad diseñada para ayudar a los desarrolladores a identificar y remediar vulnerabilidades en sus aplicaciones, especialmente en el código abierto y las dependencias. Se utiliza en la gestión de vulnerabilidades de las siguientes maneras:
  1.	Escaneo de Código y Dependencias - Snyk permite a los desarrolladores escanear su código y las dependencias de sus aplicaciones en busca de vulnerabilidades conocidas. Esto incluye soporte para varios lenguajes de programación.
- Beneficios de Usar Snyk
+
+## Beneficios de Usar Snyk
+
 •	Aumento de la Seguridad:
-•	Ayuda a las organizaciones a mejorar la seguridad de sus aplicaciones al identificar y remediar vulnerabilidades de manera proactiva.
+Ayuda a las organizaciones a mejorar la seguridad de sus aplicaciones al identificar y remediar vulnerabilidades de manera proactiva.
+
 •	Eficiencia en el Desarrollo:
-•	Al integrar la seguridad en el proceso de desarrollo, Snyk permite a los equipos trabajar de manera más eficiente, reduciendo el tiempo dedicado a la gestión de vulnerabilidades.
+Al integrar la seguridad en el proceso de desarrollo, Snyk permite a los equipos trabajar de manera más eficiente, reduciendo el tiempo dedicado a la gestión de vulnerabilidades.
+
 •	Facilitación de la Cumplimentación Normativa:
-## 2)	Identificación de Vulnerabilidades:
-Snyk es una herramienta de seguridad diseñada para ayudar a los desarrolladores a identificar y remediar vulnerabilidades en sus aplicaciones, especialmente en el código abierto y las dependencias. Se utiliza en la gestión de vulnerabilidades de las siguientes maneras:
+Contribuye a cumplir con regulaciones y estándares de seguridad al proporcionar un enfoque estructurado para la gestión de vulnerabilidades.
+
 
 ### 1.	Escaneo de Código y Dependencias - Snyk permite a los desarrolladores escanear su código y las dependencias de sus aplicaciones en busca de vulnerabilidades conocidas. Esto incluye soporte para varios lenguajes de programación.
 Beneficios de Usar Snyk
