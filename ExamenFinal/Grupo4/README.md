@@ -6,7 +6,7 @@
 
  ## **Exámen Final**  
  
-## **Evaluación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS 
+## **Evaluación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS** 
 
 ---
 
