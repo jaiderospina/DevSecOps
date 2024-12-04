@@ -129,6 +129,44 @@ Realizamos Los  siguientes paso para la integración de JENKINS con el repositor
 
 - En panel de control seleccionamos la opción de nueva tarea para empezar la creación de la tarea a ejecutar.
 
+- ![image](https://github.com/user-attachments/assets/855b6f8e-b7d2-4f4d-8e25-7234f19126bf)
+
+Se realiza la configuración para la integración con el repositorio de github. Donde se evidencia el repository URL.
+
+![image](https://github.com/user-attachments/assets/8c2b0c32-288f-4880-a160-7e5b5eb065b1)
+![image](https://github.com/user-attachments/assets/fd68c37c-d6d2-4bef-b722-f0f3d672c5b6)
+
+![image](https://github.com/user-attachments/assets/0f77c524-2926-4fb3-b977-8bbff295f2b5)
+
+![image](https://github.com/user-attachments/assets/fdbfb180-acca-4518-9f6d-20ab4a31dc82)
+
+Se evidencia la creación de  la tarea examen final.
+
+![image](https://github.com/user-attachments/assets/a42b5111-aa0c-4816-b62d-cc36c82d9e94)
+
+Cuando se realiza commit el repositorio de github, en la pestaña cambios dentro de la tarea se puede evidenciar  un reporte de cada modificación realizada.
+
+![image](https://github.com/user-attachments/assets/a1851da2-8f35-488b-a34f-746ecfe6000f)
+
+![image](https://github.com/user-attachments/assets/dde11de4-f732-42ec-8da6-ec18c9aa3de5)
+
+Se hace click en githubweb, y redirecciona al repositorio de github mostrando ( en color verde) el commit realizado.
+
+![image](https://github.com/user-attachments/assets/eff208d5-22f1-451a-845e-d3eb9313d3d0)
+
+Cuando se  realiza la creación de la tarea, automáticamente se genera una carpeta local donde se descarga el repositorio que se esta integrando con Jenkins.
+
+![image](https://github.com/user-attachments/assets/5983b5ea-6f71-438f-8b11-5eaa71b1c16c)
+
+
+
+
+
+
+
+
+
+
 
 
 
