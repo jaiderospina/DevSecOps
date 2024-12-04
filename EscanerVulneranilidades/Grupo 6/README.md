@@ -3,7 +3,7 @@
 ## Integrantes
 1. Erick Celis
 2. Diego Sindicue
-3. Integrante 3
+3. Diego Padilla
 
 ## Introducción
 
