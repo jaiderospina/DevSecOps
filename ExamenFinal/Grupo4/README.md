@@ -58,6 +58,16 @@ Una vez que se han evaluado las vulnerabilidades utilizando CVSS 4.0, es posible
 Snyk es una herramienta de seguridad diseñada para ayudar a los desarrolladores a identificar y remediar vulnerabilidades en sus aplicaciones, especialmente en el código abierto y las dependencias. Se utiliza en la gestión de vulnerabilidades de las siguientes maneras:
  1.	Escaneo de Código y Dependencias - Snyk permite a los desarrolladores escanear su código y las dependencias de sus aplicaciones en busca de vulnerabilidades conocidas. Esto incluye soporte para varios lenguajes de programación.
 
+Beneficios de Usar Snyk
+•	Aumento de la Seguridad:
+Ayuda a las organizaciones a mejorar la seguridad de sus aplicaciones al identificar y remediar vulnerabilidades de manera proactiva.
+
+•	Eficiencia en el Desarrollo:
+	Al integrar la seguridad en el proceso de desarrollo, Snyk permite a los equipos trabajar de manera más eficiente, reduciendo el tiempo dedicado a la gestión de vulnerabilidades.
+ 
+•	Facilitación de la Cumplimentación Normativa:
+Contribuye a cumplir con regulaciones y estándares de seguridad al proporcionar un enfoque estructurado para la gestión de vulnerabilidades.
+
 ## Beneficios de Usar Snyk
 
 •	Aumento de la Seguridad:
@@ -73,11 +83,13 @@ Contribuye a cumplir con regulaciones y estándares de seguridad al proporcionar
 ### 1.	Escaneo de Código y Dependencias - Snyk permite a los desarrolladores escanear su código y las dependencias de sus aplicaciones en busca de vulnerabilidades conocidas. Esto incluye soporte para varios lenguajes de programación.
 Beneficios de Usar Snyk
 •	Aumento de la Seguridad:
-•	Ayuda a las organizaciones a mejorar la seguridad de sus aplicaciones al identificar y remediar vulnerabilidades de manera proactiva.
+Ayuda a las organizaciones a mejorar la seguridad de sus aplicaciones al identificar y remediar vulnerabilidades de manera proactiva.
+
 •	Eficiencia en el Desarrollo:
-•	Al integrar la seguridad en el proceso de desarrollo, Snyk permite a los equipos trabajar de manera más eficiente, reduciendo el tiempo dedicado a la gestión de vulnerabilidades.
+Al integrar la seguridad en el proceso de desarrollo, Snyk permite a los equipos trabajar de manera más eficiente, reduciendo el tiempo dedicado a la gestión de vulnerabilidades.
+
 •	Facilitación de la Cumplimentación Normativa:
-•	Contribuye a cumplir con regulaciones y estándares de seguridad al proporcionar un enfoque estructurado para la gestión de vulnerabilidades.
+Contribuye a cumplir con regulaciones y estándares de seguridad al proporcionar un enfoque estructurado para la gestión de vulnerabilidades.
 
 # Ejecutar herramientas de análisis de seguridad
 
