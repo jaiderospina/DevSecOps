@@ -37,18 +37,18 @@ CVSS 4.0 se compone de tres grupos principales de métricas: Métricas Base, Mé
 
 El proceso de evaluación de vulnerabilidades con CVSS 4.0 implica varios pasos:
 
-### 1.	Identificación de Vulnerabilidades: Utilizar herramientas de análisis de seguridad (SAST, DAST, escáneres de dependencias) para identificar vulnerabilidades en el código, configuraciones y dependencias.
-### 2.	Asignación de Métricas Base: Evaluar cada vulnerabilidad identificada y asignar puntuaciones a las métricas base. Esto incluye determinar el vector de ataque, la complejidad del ataque, los privilegios requeridos, la interacción del usuario y el impacto en la confidencialidad, integridad y disponibilidad.
-### 3.	Evaluación de Métricas Temporales y Ambientales: Considerar factores temporales (como la disponibilidad de parches) y ajustar la puntuación de acuerdo con el contexto de la organización (por ejemplo, la criticidad de los activos afectados).
-### 4.	Cálculo de la Puntuación CVSS: Utilizar una calculadora CVSS para calcular la puntuación final, que puede oscilar entre 0.0 (sin riesgo) y 10.0 (riesgo crítico).
-### 5.	Documentación y Reporte: Documentar las vulnerabilidades evaluadas, sus puntuaciones CVSS y cualquier recomendación para mitigación. Esto es crucial para la priorización y el seguimiento de las acciones correctivas.
-### 3. Priorización de Vulnerabilidades
+ 1.	Identificación de Vulnerabilidades: Utilizar herramientas de análisis de seguridad (SAST, DAST, escáneres de dependencias) para identificar vulnerabilidades en el código, configuraciones y dependencias.
+ 2.	Asignación de Métricas Base: Evaluar cada vulnerabilidad identificada y asignar puntuaciones a las métricas base. Esto incluye determinar el vector de ataque, la complejidad del ataque, los privilegios requeridos, la interacción del usuario y el impacto en la confidencialidad, integridad y disponibilidad.
+ 3.	Evaluación de Métricas Temporales y Ambientales: Considerar factores temporales (como la disponibilidad de parches) y ajustar la puntuación de acuerdo con el contexto de la organización (por ejemplo, la criticidad de los activos afectados).
+ 4.	Cálculo de la Puntuación CVSS: Utilizar una calculadora CVSS para calcular la puntuación final, que puede oscilar entre 0.0 (sin riesgo) y 10.0 (riesgo crítico).
+ 5.	Documentación y Reporte: Documentar las vulnerabilidades evaluadas, sus puntuaciones CVSS y cualquier recomendación para mitigación. Esto es crucial para la priorización y el seguimiento de las acciones correctivas.
+ 3. Priorización de Vulnerabilidades
 Una vez que se han evaluado las vulnerabilidades utilizando CVSS 4.0, es posible priorizarlas de manera efectiva. Las vulnerabilidades con puntuaciones más altas deben ser abordadas primero, especialmente aquellas que afectan activos críticos o que tienen un impacto significativo en la organización. Además, el contexto empresarial y la criticidad del sistema afectado deben ser considerados al priorizar las acciones de remediación.
 
 ## 2. Beneficios de CVSS 4.0
-### •	Consistencia: Proporciona un enfoque estandarizado para evaluar vulnerabilidades, lo que facilita la comunicación y la comprensión entre equipos técnicos y de gestión.
-### •	Adaptabilidad: La inclusión de métricas temporales y ambientales permite a las organizaciones ajustar la evaluación según su contexto específico.
-### •	Mejora Continua: Al integrar CVSS 4.0 en el ciclo de vida de desarrollo de software y la gestión de vulnerabilidades, las organizaciones pueden mejorar continuamente su postura de seguridad y respuesta a incidentes.
+ •	Consistencia: Proporciona un enfoque estandarizado para evaluar vulnerabilidades, lo que facilita la comunicación y la comprensión entre equipos técnicos y de gestión.
+ •	Adaptabilidad: La inclusión de métricas temporales y ambientales permite a las organizaciones ajustar la evaluación según su contexto específico.
+ •	Mejora Continua: Al integrar CVSS 4.0 en el ciclo de vida de desarrollo de software y la gestión de vulnerabilidades, las organizaciones pueden mejorar continuamente su postura de seguridad y respuesta a incidentes.
 
 # Desarrollo de la actividad.
 
@@ -58,8 +58,8 @@ Una vez que se han evaluado las vulnerabilidades utilizando CVSS 4.0, es posible
 
 ## 2)	Identificación de Vulnerabilidades:
 Snyk es una herramienta de seguridad diseñada para ayudar a los desarrolladores a identificar y remediar vulnerabilidades en sus aplicaciones, especialmente en el código abierto y las dependencias. Se utiliza en la gestión de vulnerabilidades de las siguientes maneras:
-### 1.	Escaneo de Código y Dependencias - Snyk permite a los desarrolladores escanear su código y las dependencias de sus aplicaciones en busca de vulnerabilidades conocidas. Esto incluye soporte para varios lenguajes de programación.
-### Beneficios de Usar Snyk
+ 1.	Escaneo de Código y Dependencias - Snyk permite a los desarrolladores escanear su código y las dependencias de sus aplicaciones en busca de vulnerabilidades conocidas. Esto incluye soporte para varios lenguajes de programación.
+ Beneficios de Usar Snyk
 •	Aumento de la Seguridad:
 •	Ayuda a las organizaciones a mejorar la seguridad de sus aplicaciones al identificar y remediar vulnerabilidades de manera proactiva.
 •	Eficiencia en el Desarrollo:
