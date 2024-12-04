@@ -46,7 +46,7 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 
 ![Advertencia de Node.js](./images/deprecation-nodejs.png)
 
-_Nota: Aunque aparece una advertencia indicando que la versión 16.x ya no es soportada activamente, se procede con el proceso para fines de compatibilidad en el proyecto._
+_Nota: Aunque aparece una advertencia indicando que la versión 16.x.x ya no es soportada activamente, se procede con el proceso para fines de compatibilidad en el proyecto._
 
 
 
