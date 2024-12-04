@@ -45,7 +45,9 @@ Una vez que se han evaluado las vulnerabilidades utilizando CVSS 4.0, es posible
 
 ## 4. Beneficios de CVSS 4.0
  •	Consistencia: Proporciona un enfoque estandarizado para evaluar vulnerabilidades, lo que facilita la comunicación y la comprensión entre equipos técnicos y de gestión.
+ 
  •	Adaptabilidad: La inclusión de métricas temporales y ambientales permite a las organizaciones ajustar la evaluación según su contexto específico.
+ 
  •	Mejora Continua: Al integrar CVSS 4.0 en el ciclo de vida de desarrollo de software y la gestión de vulnerabilidades, las organizaciones pueden mejorar continuamente su postura de seguridad y respuesta a incidentes.
 
 # Desarrollo de la actividad.
