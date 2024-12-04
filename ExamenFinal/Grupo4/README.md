@@ -17,7 +17,7 @@ Este proceso abarca varias etapas, comenzando con la identificación de vulnerab
 ## Evaluación de Vulnerabilidades con CVSS 4.0
 La evaluación de vulnerabilidades es un componente fundamental en la gestión de la seguridad de la información, y el uso de un sistema estandarizado como el Common Vulnerability Scoring System (CVSS) proporciona un marco coherente y comprensible para medir la gravedad de las vulnerabilidades. La versión más reciente, CVSS 4.0, introduce mejoras significativas en la forma en que se evalúan y priorizan las vulnerabilidades, adaptándose a las necesidades cambiantes del panorama de amenazas actual.
 
-## 1. Componentes de CVSS 4.0
+### 1. Componentes de CVSS 4.0
 CVSS 4.0 se compone de tres grupos principales de métricas: Métricas Base, Métricas Temporales y Métricas Ambientales. Cada uno de estos grupos proporciona una perspectiva diferente sobre la vulnerabilidad y su impacto potencial.
 
 •	Métricas Base: Estas métricas representan las características intrínsecas de la vulnerabilidad que son constantes a lo largo del tiempo y en diferentes entornos. Incluyen:
@@ -40,10 +40,10 @@ El proceso de evaluación de vulnerabilidades con CVSS 4.0 implica varios pasos:
  4.	Cálculo de la Puntuación CVSS: Utilizar una calculadora CVSS para calcular la puntuación final, que puede oscilar entre 0.0 (sin riesgo) y 10.0 (riesgo crítico).
  5.	Documentación y Reporte: Documentar las vulnerabilidades evaluadas, sus puntuaciones CVSS y cualquier recomendación para mitigación. Esto es crucial para la priorización y el seguimiento de las acciones correctivas.
 
-    3. Priorización de Vulnerabilidades
+## 3. Priorización de Vulnerabilidades
 Una vez que se han evaluado las vulnerabilidades utilizando CVSS 4.0, es posible priorizarlas de manera efectiva. Las vulnerabilidades con puntuaciones más altas deben ser abordadas primero, especialmente aquellas que afectan activos críticos o que tienen un impacto significativo en la organización. Además, el contexto empresarial y la criticidad del sistema afectado deben ser considerados al priorizar las acciones de remediación.
 
-## 2. Beneficios de CVSS 4.0
+## 4. Beneficios de CVSS 4.0
  •	Consistencia: Proporciona un enfoque estandarizado para evaluar vulnerabilidades, lo que facilita la comunicación y la comprensión entre equipos técnicos y de gestión.
  •	Adaptabilidad: La inclusión de métricas temporales y ambientales permite a las organizaciones ajustar la evaluación según su contexto específico.
  •	Mejora Continua: Al integrar CVSS 4.0 en el ciclo de vida de desarrollo de software y la gestión de vulnerabilidades, las organizaciones pueden mejorar continuamente su postura de seguridad y respuesta a incidentes.
