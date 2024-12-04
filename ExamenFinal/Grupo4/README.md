@@ -70,8 +70,7 @@ Ayuda a las organizaciones a mejorar la seguridad de sus aplicaciones al identif
 •	Facilitación de la Cumplimentación Normativa:
 Contribuye a cumplir con regulaciones y estándares de seguridad al proporcionar un enfoque estructurado para la gestión de vulnerabilidades.
 
-### 1.	Escaneo de Código y Dependencias - Snyk permite a los desarrolladores escanear su código y las dependencias de sus aplicaciones en busca de vulnerabilidades conocidas. Esto incluye soporte para varios lenguajes de programación.
-Beneficios de Usar Snyk
+
 
 # Ejecutar herramientas de análisis de seguridad
 
