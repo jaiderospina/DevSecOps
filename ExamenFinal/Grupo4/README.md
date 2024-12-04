@@ -6,7 +6,7 @@
 
  ## **Exámen Final**  
  
-**Evaluación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS 4.0**
+## **Evaluación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS 4.0**
 
 ## Gestión de Vulnerabilidades
 
@@ -56,6 +56,7 @@ Una vez que se han evaluado las vulnerabilidades utilizando CVSS 4.0, es posible
 
 ![imagen](https://github.com/user-attachments/assets/19ab482b-08b0-4c49-bfbb-e961e1316f17)
 
+
 ## 2)	Identificación de Vulnerabilidades:
 Snyk es una herramienta de seguridad diseñada para ayudar a los desarrolladores a identificar y remediar vulnerabilidades en sus aplicaciones, especialmente en el código abierto y las dependencias. Se utiliza en la gestión de vulnerabilidades de las siguientes maneras:
  1.	Escaneo de Código y Dependencias - Snyk permite a los desarrolladores escanear su código y las dependencias de sus aplicaciones en busca de vulnerabilidades conocidas. Esto incluye soporte para varios lenguajes de programación.
@@ -76,26 +77,40 @@ Contribuye a cumplir con regulaciones y estándares de seguridad al proporcionar
 
 ![imagen](https://github.com/user-attachments/assets/05baaa99-a24e-46f8-9bdf-89b13c71caf2)
 
+---
+
 ![imagen](https://github.com/user-attachments/assets/2831453c-c785-43b1-8940-2745b2e50730)
 
-
+---
 ### Evaluación con CVSS 4.0:
 •	Asignar puntuaciones CVSS 4.0 a las vulnerabilidades identificadas considerando los nuevos factores de impacto, métricas ambientales y temporales.
 
 ![image](https://github.com/user-attachments/assets/5d54494f-01a2-4b19-ab47-b583d6cbff6b)
 
+---
+
 ![image](https://github.com/user-attachments/assets/31243a1f-0e6a-4a48-a291-f3cf097f829c)
 
+---
+
 ![image](https://github.com/user-attachments/assets/6f8caf23-fe17-43c2-b251-fc743a9eda11)
+
+---
 
 •	Priorización:
 Crear una lista priorizada de las vulnerabilidades más críticas, justificando las decisiones con base en el contexto empresarial (disponibilidad, impacto en datos críticos, etc.)vulnerabilidades encontradas con detalles clave (vector, alcance, etc.)
 
 ![image](https://github.com/user-attachments/assets/104392fd-6b88-486c-b5ce-6e4b450c5c92)
 
+---
+
 ![image](https://github.com/user-attachments/assets/59a7a104-778f-4235-b7a0-c6c9b1e2f489)
 
+---
+
 ![image](https://github.com/user-attachments/assets/2ef4ee4f-59ab-4edb-8b17-cf520b3a629f)
+
+---
 
 ![image](https://github.com/user-attachments/assets/271fb938-682a-4399-8f03-3558b5a3aeee)
 
@@ -103,19 +118,34 @@ Crear una lista priorizada de las vulnerabilidades más críticas, justificando 
 
 ![image](https://github.com/user-attachments/assets/397ede83-343e-49f1-9dc7-6b54d97895ca)
 
+---
+
 ![image](https://github.com/user-attachments/assets/4aca0f68-b615-4014-8604-65d88ba04761)
+
+---
 
 ![image](https://github.com/user-attachments/assets/25703c80-95d9-4889-90dd-6e36f2437812)
 
+---
+
 ![image](https://github.com/user-attachments/assets/cb46b4f4-6aa6-4b03-b49b-1024011ee832)
+
+---
 
 ![image](https://github.com/user-attachments/assets/faba8557-ebff-444a-ae81-5ae0a49f0f86)
 
+---
+
 ![image](https://github.com/user-attachments/assets/21a15588-942f-4e67-ae7c-5d4f8f473b41)
+
+---
 
 ![image](https://github.com/user-attachments/assets/4812d7c4-5807-48e8-8cb3-e8032c93a3ad)
 
+---
+
 ![image](https://github.com/user-attachments/assets/034accf4-e389-49a9-8cf9-364c29761ade)
+
 
 **Snyk** es una herramienta esencial para los desarrolladores que buscan asegurar sus aplicaciones y dependencias de código abierto. Su capacidad para escanear, monitorear y remediar vulnerabilidades de manera eficiente la convierte en una solución valiosa en el panorama actual de la seguridad de software.
 
@@ -128,30 +158,48 @@ Realizamos Los  siguientes paso para la integración de JENKINS con el repositor
 
 - En panel de control seleccionamos la opción de nueva tarea para empezar la creación de la tarea a ejecutar.
 
+  ---
+
 ![image](https://github.com/user-attachments/assets/855b6f8e-b7d2-4f4d-8e25-7234f19126bf)
 
 - Se realiza la configuración para la integración con el repositorio de github. Donde se evidencia el repository URL.
 
 ![image](https://github.com/user-attachments/assets/8c2b0c32-288f-4880-a160-7e5b5eb065b1)
+
+---
 ![image](https://github.com/user-attachments/assets/fd68c37c-d6d2-4bef-b722-f0f3d672c5b6)
+
+---
 
 ![image](https://github.com/user-attachments/assets/0f77c524-2926-4fb3-b977-8bbff295f2b5)
 
+---
+
 ![image](https://github.com/user-attachments/assets/fdbfb180-acca-4518-9f6d-20ab4a31dc82)
+
+---
 
 - Se evidencia la creación de  la tarea exámen final.
 
 ![image](https://github.com/user-attachments/assets/a42b5111-aa0c-4816-b62d-cc36c82d9e94)
 
+---
+
 - Cuando se realiza commit el repositorio de github, en la pestaña cambios dentro de la tarea se puede evidenciar  un reporte de cada modificación realizada.
 
 ![image](https://github.com/user-attachments/assets/a1851da2-8f35-488b-a34f-746ecfe6000f)
 
+---
+
 ![image](https://github.com/user-attachments/assets/dde11de4-f732-42ec-8da6-ec18c9aa3de5)
+
+---
 
 - Se hace click en githubweb, y redirecciona al repositorio de github mostrando ( en color verde) el commit realizado.
 
 ![image](https://github.com/user-attachments/assets/eff208d5-22f1-451a-845e-d3eb9313d3d0)
+
+---
 
 - Cuando se  realiza la creación de la tarea, automáticamente se genera una carpeta local donde se descarga el repositorio que se esta integrando con Jenkins.
 
