@@ -116,14 +116,9 @@ Crear una lista priorizada de las vulnerabilidades más críticas, justificando 
 **Snyk** es una herramienta esencial para los desarrolladores que buscan asegurar sus aplicaciones y dependencias de código abierto. Su capacidad para escanear, monitorear y remediar vulnerabilidades de manera eficiente la convierte en una solución valiosa en el panorama actual de la seguridad de software.
 
 ### Integración en DevSecOps
-- Para la integración utilizamos la herramienta JENKINS.
+Para la integración utilizamos la herramienta JENKINS.
+
 **Jenkins** es una herramienta de integración continua y entrega continua (CI/CD) de código abierto utilizada principalmente en el desarrollo de software. Su principal función es automatizar el proceso de desarrollo, permitiendo la integración continua de código y la entrega continua de aplicaciones a través de pipelines de automatización.
-  
-Jenkins se utiliza principalmente en las siguientes áreas:
-•	Integración Continua (CI).
-•	Entrega Continua (CD).
-•	Automatización de pruebas y tareas repetitivas.
-•	Automatización de tareas repetitivas.
 
 Realizamos Los  siguientes paso para la integración de JENKINS con el repositorio Github.
 
