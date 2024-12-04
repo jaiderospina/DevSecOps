@@ -6,11 +6,13 @@
 
  ## **Exámen Final**  
  
-## **Evaluación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS 4.0**
+## **Evaluación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS **
 
 ---
 
-El objetivo de esta actividad es desarrollar la capacidad para identificar, evaluar y priorizar vulnerabilidades utilizando CVSS 4.0 en un pipeline DevSecOps, asegurando que las soluciones de seguridad sean implementadas de manera continua y efectiva.
+En un entorno DevSecOps el objetivo  es identificar, evaluar y mitigar vulnerabilidades de manera continua. Este enfoque ágil, basado en la automatización de procesos mediante pipelines de CI/CD, permite identificar vulnerabilidades desde el momento en que el código es escrito hasta su despliegue en producción. 
+
+---
 
 ## Gestión de Vulnerabilidades
 
@@ -54,6 +56,8 @@ Una vez que se han evaluado las vulnerabilidades utilizando CVSS 4.0, es posible
  
  •	Mejora Continua: Al integrar CVSS 4.0 en el ciclo de vida de desarrollo de software y la gestión de vulnerabilidades, las organizaciones pueden mejorar continuamente su postura de seguridad y respuesta a incidentes.
 
+ ---
+
 # Desarrollo de la actividad.
 
 ## 1)	Crear un repositorio en GitHub, que contenga una aplicación web básica
@@ -75,6 +79,7 @@ Ayuda a las organizaciones a mejorar la seguridad de sus aplicaciones al identif
 •	Facilitación de la Cumplimentación Normativa:
 Contribuye a cumplir con regulaciones y estándares de seguridad al proporcionar un enfoque estructurado para la gestión de vulnerabilidades.
 
+---
 
 
 # Ejecutar herramientas de análisis de seguridad
@@ -89,20 +94,28 @@ Contribuye a cumplir con regulaciones y estándares de seguridad al proporcionar
 ### Evaluación con CVSS 4.0:
 •	Asignar puntuaciones CVSS 4.0 a las vulnerabilidades identificadas considerando los nuevos factores de impacto, métricas ambientales y temporales.
 
+---
+
+
 ![image](https://github.com/user-attachments/assets/5d54494f-01a2-4b19-ab47-b583d6cbff6b)
+
 
 ---
 
 ![image](https://github.com/user-attachments/assets/31243a1f-0e6a-4a48-a291-f3cf097f829c)
 
+
 ---
 
 ![image](https://github.com/user-attachments/assets/6f8caf23-fe17-43c2-b251-fc743a9eda11)
+
 
 ---
 
 •	Priorización:
 Crear una lista priorizada de las vulnerabilidades más críticas, justificando las decisiones con base en el contexto empresarial (disponibilidad, impacto en datos críticos, etc.)vulnerabilidades encontradas con detalles clave (vector, alcance, etc.)
+
+---
 
 ![image](https://github.com/user-attachments/assets/104392fd-6b88-486c-b5ce-6e4b450c5c92)
 
@@ -117,6 +130,8 @@ Crear una lista priorizada de las vulnerabilidades más críticas, justificando 
 ---
 
 ![image](https://github.com/user-attachments/assets/271fb938-682a-4399-8f03-3558b5a3aeee)
+
+---
 
 **Simulación de vulnerabilidades:** Puedes introducir vulnerabilidades conocidas en tu código.
 
@@ -151,7 +166,10 @@ Crear una lista priorizada de las vulnerabilidades más críticas, justificando 
 ![image](https://github.com/user-attachments/assets/034accf4-e389-49a9-8cf9-364c29761ade)
 
 
+
 **Snyk** es una herramienta esencial para los desarrolladores que buscan asegurar sus aplicaciones y dependencias de código abierto. Su capacidad para escanear, monitorear y remediar vulnerabilidades de manera eficiente la convierte en una solución valiosa en el panorama actual de la seguridad de software.
+
+---
 
 ### Integración en DevSecOps
 Para la integración utilizamos la herramienta JENKINS.
@@ -162,9 +180,10 @@ Realizamos Los  siguientes paso para la integración de JENKINS con el repositor
 
 - En panel de control seleccionamos la opción de nueva tarea para empezar la creación de la tarea a ejecutar.
 
-  ---
 
 ![image](https://github.com/user-attachments/assets/855b6f8e-b7d2-4f4d-8e25-7234f19126bf)
+
+---
 
 - Se realiza la configuración para la integración con el repositorio de github. Donde se evidencia el repository URL.
 
