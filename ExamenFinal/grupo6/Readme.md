@@ -322,7 +322,7 @@ CMD ["npm", "start"]
 ![Contenido del archivo Dockerfile](./images/dockerfile.png)
 
 
-```
+
 
 ## **6. Ajustes en Docker y Dependencias**
 
