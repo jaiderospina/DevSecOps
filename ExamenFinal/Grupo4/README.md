@@ -19,12 +19,12 @@ La evaluación de vulnerabilidades es un componente fundamental en la gestión d
 
 ## 1. Componentes de CVSS 4.0
 CVSS 4.0 se compone de tres grupos principales de métricas: Métricas Base, Métricas Temporales y Métricas Ambientales. Cada uno de estos grupos proporciona una perspectiva diferente sobre la vulnerabilidad y su impacto potencial.
-### •	Métricas Base: Estas métricas representan las características intrínsecas de la vulnerabilidad que son constantes a lo largo del tiempo y en diferentes entornos. Incluyen:
-### •	Vector de Ataque (AV): Describe cómo un atacante puede explotar la vulnerabilidad (local, adyacente, red).
-###•	Complejidad del Ataque (AC): Evalúa la dificultad para explotar la vulnerabilidad.
-###•	Privilegios Requeridos (PR): Indica si se requieren privilegios para llevar a cabo el ataque.
-###•	Interacción del Usuario (UI): Determina si se necesita la interacción del usuario para explotar la vulnerabilidad.
-###•	Impacto (I): Evalúa el efecto en la confidencialidad, integridad y disponibilidad si se explota la vulnerabilidad.
+ •	Métricas Base: Estas métricas representan las características intrínsecas de la vulnerabilidad que son constantes a lo largo del tiempo y en diferentes entornos. Incluyen:
+•	Vector de Ataque (AV): Describe cómo un atacante puede explotar la vulnerabilidad (local, adyacente, red).
+•	Complejidad del Ataque (AC): Evalúa la dificultad para explotar la vulnerabilidad.
+•	Privilegios Requeridos (PR): Indica si se requieren privilegios para llevar a cabo el ataque.
+•	Interacción del Usuario (UI): Determina si se necesita la interacción del usuario para explotar la vulnerabilidad.
+•	Impacto (I): Evalúa el efecto en la confidencialidad, integridad y disponibilidad si se explota la vulnerabilidad.
 
 El proceso de evaluación de vulnerabilidades con CVSS 4.0 implica varios pasos:
 
