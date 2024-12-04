@@ -279,6 +279,9 @@ https://github.com/acortes2/examen_devsecops
 https://github.com/acortes2/examen_devsecops
 
 ![image](https://github.com/user-attachments/assets/7061d87c-ddb6-4537-afdd-0783e08e2b0c)
+![image](https://github.com/user-attachments/assets/c4144582-03d3-4e1c-840b-a35e04c002cf)
+
+
 
 
 
