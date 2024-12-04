@@ -13,15 +13,6 @@
 La gestión de vulnerabilidades es un proceso crítico en la ciberseguridad que implica la identificación, evaluación, tratamiento y mitigación de vulnerabilidades en sistemas y aplicaciones. En un entorno tecnológico en constante evolución, donde las amenazas son cada vez más sofisticadas y las brechas de seguridad pueden resultar en pérdidas significativas para las organizaciones, la gestión efectiva de vulnerabilidades se convierte en una prioridad estratégica.
 Este proceso abarca varias etapas, comenzando con la identificación de vulnerabilidades a través de herramientas de análisis de seguridad, como SAST (Static Application Security Testing) y DAST (Dynamic Application Security Testing). Estas herramientas permiten detectar debilidades en el código fuente y en la configuración de la infraestructura, proporcionando información valiosa sobre posibles vectores de ataque.
 
-## Gestión de Vulnerabilidades
-
-La gestión de vulnerabilidades es un proceso crítico en la ciberseguridad que implica la identificación, evaluación, tratamiento y mitigación de vulnerabilidades en sistemas y aplicaciones. En un entorno tecnológico en constante evolución, donde las amenazas son cada vez más sofisticadas y las brechas de seguridad pueden resultar en pérdidas significativas para las organizaciones, la gestión efectiva de vulnerabilidades se convierte en una prioridad estratégica.
-Este proceso abarca varias etapas, comenzando con la identificación de vulnerabilidades a través de herramientas de análisis de seguridad, como SAST (Static Application Security Testing) y DAST (Dynamic Application Security Testing). Estas herramientas permiten detectar debilidades en el código fuente y en la configuración de la infraestructura, proporcionando información valiosa sobre posibles vectores de ataque.
-
-## Gestión de Vulnerabilidades
-
-La gestión de vulnerabilidades es un proceso crítico en la ciberseguridad que implica la identificación, evaluación, tratamiento y mitigación de vulnerabilidades en sistemas y aplicaciones. En un entorno tecnológico en constante evolución, donde las amenazas son cada vez más sofisticadas y las brechas de seguridad pueden resultar en pérdidas significativas para las organizaciones, la gestión efectiva de vulnerabilidades se convierte en una prioridad estratégica.
-Este proceso abarca varias etapas, comenzando con la identificación de vulnerabilidades a través de herramientas de análisis de seguridad, como SAST (Static Application Security Testing) y DAST (Dynamic Application Security Testing). Estas herramientas permiten detectar debilidades en el código fuente y en la configuración de la infraestructura, proporcionando información valiosa sobre posibles vectores de ataque.
 
 ## Evaluación de Vulnerabilidades con CVSS 4.0
 La evaluación de vulnerabilidades es un componente fundamental en la gestión de la seguridad de la información, y el uso de un sistema estandarizado como el Common Vulnerability Scoring System (CVSS) proporciona un marco coherente y comprensible para medir la gravedad de las vulnerabilidades. La versión más reciente, CVSS 4.0, introduce mejoras significativas en la forma en que se evalúan y priorizan las vulnerabilidades, adaptándose a las necesidades cambiantes del panorama de amenazas actual.
@@ -82,6 +73,36 @@ Beneficios de Usar Snyk
 ![imagen](https://github.com/user-attachments/assets/05baaa99-a24e-46f8-9bdf-89b13c71caf2)
 
 ![imagen](https://github.com/user-attachments/assets/2831453c-c785-43b1-8940-2745b2e50730)
+
+
+### Evaluación con CVSS 4.0:
+•	Asignar puntuaciones CVSS 4.0 a las vulnerabilidades identificadas considerando los nuevos factores de impacto, métricas ambientales y temporales.
+
+![image](https://github.com/user-attachments/assets/5d54494f-01a2-4b19-ab47-b583d6cbff6b)
+
+![image](https://github.com/user-attachments/assets/31243a1f-0e6a-4a48-a291-f3cf097f829c)
+
+![image](https://github.com/user-attachments/assets/6f8caf23-fe17-43c2-b251-fc743a9eda11)
+
+•	Priorización:
+Crear una lista priorizada de las vulnerabilidades más críticas, justificando las decisiones con base en el contexto empresarial (disponibilidad, impacto en datos críticos, etc.)vulnerabilidades encontradas con detalles clave (vector, alcance, etc.)
+
+![image](https://github.com/user-attachments/assets/104392fd-6b88-486c-b5ce-6e4b450c5c92)
+
+![image](https://github.com/user-attachments/assets/59a7a104-778f-4235-b7a0-c6c9b1e2f489)
+
+![image](https://github.com/user-attachments/assets/2ef4ee4f-59ab-4edb-8b17-cf520b3a629f)
+
+![image](https://github.com/user-attachments/assets/271fb938-682a-4399-8f03-3558b5a3aeee)
+
+
+
+
+
+
+
+
+
 
 
 
