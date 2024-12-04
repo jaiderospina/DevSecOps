@@ -95,6 +95,44 @@ Crear una lista priorizada de las vulnerabilidades más críticas, justificando 
 
 ![image](https://github.com/user-attachments/assets/271fb938-682a-4399-8f03-3558b5a3aeee)
 
+**Simulación de vulnerabilidades:** Puedes introducir vulnerabilidades conocidas en tu código.
+
+![image](https://github.com/user-attachments/assets/397ede83-343e-49f1-9dc7-6b54d97895ca)
+
+![image](https://github.com/user-attachments/assets/4aca0f68-b615-4014-8604-65d88ba04761)
+
+![image](https://github.com/user-attachments/assets/25703c80-95d9-4889-90dd-6e36f2437812)
+
+![image](https://github.com/user-attachments/assets/cb46b4f4-6aa6-4b03-b49b-1024011ee832)
+
+![image](https://github.com/user-attachments/assets/faba8557-ebff-444a-ae81-5ae0a49f0f86)
+
+![image](https://github.com/user-attachments/assets/21a15588-942f-4e67-ae7c-5d4f8f473b41)
+
+![image](https://github.com/user-attachments/assets/4812d7c4-5807-48e8-8cb3-e8032c93a3ad)
+
+![image](https://github.com/user-attachments/assets/034accf4-e389-49a9-8cf9-364c29761ade)
+
+**Snyk** es una herramienta esencial para los desarrolladores que buscan asegurar sus aplicaciones y dependencias de código abierto. Su capacidad para escanear, monitorear y remediar vulnerabilidades de manera eficiente la convierte en una solución valiosa en el panorama actual de la seguridad de software.
+
+### Integración en DevSecOps
+- Para la integración utilizamos la herramienta JENKINS.
+**Jenkins** es una herramienta de integración continua y entrega continua (CI/CD) de código abierto utilizada principalmente en el desarrollo de software. Su principal función es automatizar el proceso de desarrollo, permitiendo la integración continua de código y la entrega continua de aplicaciones a través de pipelines de automatización.
+  
+Jenkins se utiliza principalmente en las siguientes áreas:
+•	Integración Continua (CI).
+•	Entrega Continua (CD).
+•	Automatización de pruebas y tareas repetitivas.
+•	Automatización de tareas repetitivas.
+
+Realizamos Los  siguientes paso para la integración de JENKINS con el repositorio Github.
+
+- En panel de control seleccionamos la opción de nueva tarea para empezar la creación de la tarea a ejecutar.
+
+
+
+
+
 
 
 
