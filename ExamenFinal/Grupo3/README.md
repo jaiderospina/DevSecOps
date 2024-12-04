@@ -272,6 +272,17 @@ aqui mostraremos el paso a paso de como se utilizo la herramienta
 
 https://github.com/acortes2/examen_devsecops
 
+### Paso 14 :white_check_mark:
+
+> - subimos la imagen a docker hub
+
+https://github.com/acortes2/examen_devsecops
+
+![image](https://github.com/user-attachments/assets/7061d87c-ddb6-4537-afdd-0783e08e2b0c)
+
+
+
+
 
 
 
