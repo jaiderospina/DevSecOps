@@ -230,7 +230,7 @@ Realizamos Los  siguientes paso para la integración de JENKINS con el repositor
 
 ---
 
-## **Conclusión:
+## **Conclusión:**
 La identificación, evaluación y priorización de vulnerabilidades es un proceso fundamental dentro de un entorno DevSecOps. Las estrategias de mitigación, como la aplicación de parches, la refactorización del código, la configuración segura, y la implementación de validaciones automáticas, forman un ciclo de mejora continua que es esencial para mantener la seguridad en un entorno ágil y en constante evolución. Finalmente, las propuestas de mejora continua, incluyendo el monitoreo y las alertas automáticas, son claves para mantener un sistema seguro  frente a nuevas amenazas.
 
 
