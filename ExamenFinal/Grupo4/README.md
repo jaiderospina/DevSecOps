@@ -8,6 +8,10 @@
  
 ## **Evaluación y Priorización de Vulnerabilidades en un Entorno DevSecOps mediante CVSS 4.0**
 
+---
+
+El objetivo de esta actividad es desarrollar la capacidad para identificar, evaluar y priorizar vulnerabilidades utilizando CVSS 4.0 en un pipeline DevSecOps, asegurando que las soluciones de seguridad sean implementadas de manera continua y efectiva.
+
 ## Gestión de Vulnerabilidades
 
 La gestión de vulnerabilidades es un proceso crítico en la ciberseguridad que implica la identificación, evaluación, tratamiento y mitigación de vulnerabilidades en sistemas y aplicaciones. En un entorno tecnológico en constante evolución, donde las amenazas son cada vez más sofisticadas y las brechas de seguridad pueden resultar en pérdidas significativas para las organizaciones, la gestión efectiva de vulnerabilidades se convierte en una prioridad estratégica.
@@ -204,6 +208,11 @@ Realizamos Los  siguientes paso para la integración de JENKINS con el repositor
 - Cuando se  realiza la creación de la tarea, automáticamente se genera una carpeta local donde se descarga el repositorio que se esta integrando con Jenkins.
 
 ![image](https://github.com/user-attachments/assets/5983b5ea-6f71-438f-8b11-5eaa71b1c16c)
+
+---
+
+## **Conclusión:
+La identificación, evaluación y priorización de vulnerabilidades es un proceso fundamental dentro de un entorno DevSecOps. Las estrategias de mitigación, como la aplicación de parches, la refactorización del código, la configuración segura, y la implementación de validaciones automáticas, forman un ciclo de mejora continua que es esencial para mantener la seguridad en un entorno ágil y en constante evolución. Finalmente, las propuestas de mejora continua, incluyendo el monitoreo y las alertas automáticas, son claves para mantener un sistema seguro  frente a nuevas amenazas.
 
 
 
