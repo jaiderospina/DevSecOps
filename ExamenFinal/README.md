@@ -57,4 +57,7 @@ Desarrollar la capacidad para identificar, evaluar, y priorizar vulnerabilidades
    - **Presentación:** 20% (impacto visual, comunicación de ideas).
    - **Propuesta de integración:** 40% (viabilidad, innovación y alineación con prácticas DevSecOps).
 
+## NOTA.
+
+Como se explico en clase adoptar las prçticas adoptadas en los anteriores laboratorios, principalmente lo visto en clase sobre el escanner de vulnerabilidades ( Documentcaión en Overview)
 ---
