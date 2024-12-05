@@ -26,7 +26,8 @@ cd devsecops-env
 
 **Resultado visible en terminal:**
 
-![Creación del Directorio](./images/creacion-directorio.png)
+![Creación del Directorio](./Imagen1.png)  
+![Creación del Directorio](./Imagen2.png)  
 
 
 
@@ -36,21 +37,21 @@ cd devsecops-env
 
 Para configurar Node.js, se utiliza el script oficial de NodeSource. Este paso asegura que las fuentes necesarias estén disponibles para la instalación.
 
-**Comando utilizado:**
+**Comando utilizado:**  
 
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 ```
 
-**Resultado visible en terminal:**
+**Resultado visible en terminal:**  
 
-![Advertencia de Node.js](./images/deprecation-nodejs.png)
+![Advertencia de Node.js](./Imagen3.png)  
 
 _Nota: Aunque aparece una advertencia indicando que la versión 16.x.x ya no es soportada activamente, se procede con el proceso para fines de compatibilidad en el proyecto._
 
 
 
-### **2.2 Instalación de Node.js**
+### **2.2 Instalación de Node.js**  
 
 Una vez configurado NodeSource, se instala Node.js utilizando el gestor de paquetes `apt`. Este paso también instala todas las dependencias necesarias.
 
@@ -60,9 +61,9 @@ Una vez configurado NodeSource, se instala Node.js utilizando el gestor de paque
 sudo apt install -y nodejs
 ```
 
-**Resultado visible en terminal:**
+**Resultado visible en terminal:**  
 
-![Instalación de Node.js](./images/instalacion-nodejs.png)
+![Instalación de Node.js](./Imagen4.png)  
 
 
 
@@ -73,12 +74,13 @@ Después de la instalación, es importante confirmar que Node.js está funcionan
 **Comando utilizado:**
 
 ```bash
+nom -v
 node -v
 ```
 
-**Resultado visible en terminal:**
+**Resultado visible en terminal:**  
 
-![Verificación de Node.js](./images/verificacion-nodejs.png)
+![Verificación de Node.js](./Imagen5.png)  
 
 
 
@@ -96,7 +98,7 @@ npm init -y
 
 **Resultado visible en terminal:**
 
-![Inicialización de npm](./images/npm-init.png)
+![Inicialización de npm](./Imagen6.png)
 
 
 
@@ -114,11 +116,11 @@ touch Dockerfile docker-compose.yml
 
 **Resultado visible en terminal:**
 
-![Estructura del proyecto](./images/estructura-proyecto.png)
+![Estructura del proyecto](./Imagen7.png)  
 
 
 
-### **3.3 Instalación de Express**
+### **3.3 Instalación de Express**  
 
 Para configurar un servidor en Node.js, se instala el paquete **Express**, que simplifica el desarrollo de aplicaciones web.
 
@@ -128,9 +130,9 @@ Para configurar un servidor en Node.js, se instala el paquete **Express**, que s
 npm install express
 ```
 
-**Resultado visible en terminal:**
+**Resultado visible en terminal:**  
 
-![Instalación de Express](./images/install-express.png)
+![Instalación de Express](./Imagen8.png)
 
 
 
@@ -144,9 +146,9 @@ Se instala **Nodemon** como dependencia de desarrollo. Esta herramienta permite 
 npm install --save-dev nodemon
 ```
 
-**Resultado visible en terminal:**
+**Resultado visible en terminal:**  
 
-![Instalación de Nodemon](./images/install-nodemon.png)
+![Instalación de Nodemon](./Imagen9.png)  
 
 
 
@@ -161,6 +163,9 @@ Se crea el archivo principal `index.js` en la carpeta `src`. Este archivo contie
 ```bash
 nano src/index.js
 ```
+
+**Resultado visible en terminal:**  
+![index](./Imagen10.png)  
 
 **Contenido del archivo `index.js`:**
 
@@ -191,7 +196,7 @@ app.listen(port, () => {
 
 **Resultado visible en terminal:**
 
-![Contenido del archivo index.js](./images/index-js.png)
+![Contenido del archivo index.js](./Imagen11.png)
 
 
 ### **4.2 Crear el modelo `documents.js`**
@@ -203,6 +208,7 @@ Se define el archivo `documents.js` en la carpeta `src/models`. Este archivo con
 ```bash
 nano src/models/documents.js
 ```
+![Contenido del archivo index.js](./Imagen12.png)
 
 **Contenido del archivo `documents.js`:**
 
@@ -222,7 +228,7 @@ module.exports = { createDocument, editDocument, documents };
 
 **Resultado visible en terminal:**
 
-![Contenido del archivo documents.js](./images/documents-js.png)
+![Contenido del archivo documents.js](./Imagen13.png)
 
 
 
@@ -237,6 +243,7 @@ Se define el controlador `documentsController.js` en la carpeta `src/controllers
 ```bash
 nano src/controllers/documentsController.js
 ```
+![Contenido del archivo documents.js](./Imagen14.png)
 
 **Contenido del archivo `documentsController.js`:**
 
@@ -276,13 +283,14 @@ router.get('/', (req, res) => {
 // Exportar el router
 module.exports = router;
 ```
-```
+
 
 **Resultado visible en terminal:**
 
-![Contenido del archivo documentsController.js](./images/documents-controller.png)
+![Contenido del archivo documentsController.js](./Imagen15.png)  
+![Contenido del archivo documentsController.js](./Imagen16.png)
 
-```
+
 
 ### **5.2 Configurar el archivo Dockerfile**
 
@@ -293,6 +301,8 @@ Se crea el archivo `Dockerfile` para construir un contenedor Docker que ejecute 
 ```bash
 nano Dockerfile
 ```
+
+![Contenido del archivo documentsController.js](./Imagen17.png)
 
 **Contenido del archivo `Dockerfile`:**
 
@@ -319,7 +329,7 @@ CMD ["npm", "start"]
 
 **Resultado visible en terminal:**
 
-![Contenido del archivo Dockerfile](./images/dockerfile.png)
+![Contenido del archivo Dockerfile](./Imagen18.png)
 
 
 
@@ -335,6 +345,8 @@ Se realiza una configuración adicional en el archivo `Dockerfile` para optimiza
 ```bash
 nano Dockerfile
 ```
+![Contenido del archivo documentsController.js](./Imagen17.png)
+
 
 **Contenido actualizado del archivo `Dockerfile`:**
 
@@ -360,7 +372,7 @@ CMD ["node", "src/index.js"]
 
 **Resultado visible en terminal:**
 
-![Actualización del archivo Dockerfile](./images/dockerfile-actualizado.png)
+![Contenido del archivo Dockerfile](./Imagen18.png)
 
 
 
@@ -373,6 +385,7 @@ El archivo `docker-compose.yml` se configura para gestionar el servicio del cont
 ```bash
 nano docker-compose.yml
 ```
+![Contenido del archivo docker-compose.yml](./Imagen19.png)
 
 **Contenido del archivo `docker-compose.yml`:**
 
@@ -394,7 +407,7 @@ services:
 
 **Resultado visible en terminal:**
 
-![Contenido del archivo docker-compose.yml](./images/docker-compose.png)
+![Contenido del archivo docker-compose.yml](./Imagen20.png)
 
 
 
@@ -410,7 +423,7 @@ npm install
 
 **Resultado visible en terminal:**
 
-![Instalación de dependencias](./images/npm-install.png)
+![Instalación de dependencias](./Imagen21.png)
 
 
 ## **7. Construcción y Pruebas del Contenedor**
@@ -427,7 +440,7 @@ sudo docker-compose build
 
 **Resultado visible en terminal:**
 
-![Construcción de la imagen del contenedor](./images/docker-compose-build.png)
+![Construcción de la imagen del contenedor](./Imagen22.png)
 
 
 
@@ -443,7 +456,7 @@ sudo docker-compose up
 
 **Resultado visible en terminal:**
 
-![Inicio del contenedor](./images/docker-compose-up.png)
+![Inicio del contenedor](./Imagen23.png)
 
 
 
@@ -461,7 +474,7 @@ curl -X POST http://localhost:3000/documents \
 
 **Resultado visible en terminal:**
 
-![Solicitud POST para crear documento](./images/curl-post.png)
+![Solicitud POST para crear documento](./Imagen24.png)
 
 
 
@@ -477,7 +490,7 @@ curl http://localhost:3000/documents
 
 **Resultado visible en terminal:**
 
-![Solicitud GET para listar documentos](./images/curl-get.png)
+![Solicitud GET para listar documentos](./Imagen25.png)
 
 
 ## **8. Gestión de Documentos y Simulación de Vulnerabilidades**
@@ -496,7 +509,7 @@ curl -X PUT http://localhost:3000/documents/1 \
 
 **Resultado visible en terminal:**
 
-![Actualizar documento existente](./images/curl-put-update.png)
+![Actualizar documento existente](./Imagen26.png)
 
 
 
@@ -512,7 +525,7 @@ curl http://localhost:3000/documents
 
 **Resultado visible en terminal:**
 
-![Verificar cambios realizados](./images/curl-get-verificado.png)
+![Verificar cambios realizados](./Imagen27.png)
 
 
 
@@ -530,7 +543,7 @@ curl -X PUT http://localhost:3000/documents/999 \
 
 **Resultado visible en terminal:**
 
-![Intento de actualizar documento inexistente](./images/curl-put-error.png)
+![Intento de actualizar documento inexistente](./Imagen28.png)
 
 
 
@@ -543,6 +556,7 @@ Se modifica el archivo `src/index.js` para agregar una ruta vulnerable que simul
 ```bash
 nano src/index.js
 ```
+![Intento de actualizar documento inexistente](./Imagen29.png)
 
 **Código agregado en `src/index.js`:**
 
@@ -557,7 +571,7 @@ app.get('/vulnerable', (req, res) => {
 
 **Resultado visible en terminal:**
 
-![Ruta vulnerable agregada](./images/index-vulnerable.png)
+![Ruta vulnerable agregada](./Imagen30.png)
 
 
 
@@ -572,6 +586,7 @@ Se realizan pruebas para simular inyecciones SQL, un vector de ataque común en 
 ```bash
 curl "http://localhost:3000/vulnerable?input=' OR '1'='1"
 ```
+![Ruta vulnerable agregada](./Imagen32.png)  
 
 En este ejemplo, se introduce un payload para ejecutar una consulta que siempre devuelve verdadero, lo que compromete la base de datos.
 
@@ -586,6 +601,7 @@ El siguiente ejemplo demuestra una vulnerabilidad de XSS (Cross-Site Scripting),
 ```bash
 curl "http://localhost:3000/xss?input=<script>alert('XSS')</script>"
 ```
+![Ruta vulnerable agregada](./Imagen35.png)  
 
 El código inyectado genera una alerta en el navegador, lo que indica que la entrada no fue debidamente sanitizada.
 
@@ -602,6 +618,8 @@ curl "http://localhost:3000/vulnerable?input=test"
 curl "http://localhost:3000/vulnerable?input=%27%20OR%20%271%27=%271"
 ```
 
+![Ruta vulnerable agregada](./Imagen34.png)  
+
 La primera consulta utiliza un valor válido, mientras que la segunda intenta explotar una inyección SQL.
 
 
@@ -615,6 +633,8 @@ En esta etapa, se identifica una fuga de información sensible debido a una mala
 ```bash
 curl http://localhost:3000/leak
 ```
+![Ruta vulnerable agregada](./Imagen36.png)  
+
 
 El resultado muestra información interna del servidor que podría ser utilizada por un atacante para comprometer la seguridad del sistema.
 
@@ -627,6 +647,7 @@ Para realizar un análisis de vulnerabilidades, se utiliza la herramienta OWASP 
 ```bash
 sudo apt install zaproxy
 ```
+![Ruta vulnerable agregada](./Imagen37.png)  
 
 Con este comando se instala OWASP ZAP desde los repositorios oficiales de Kali Linux, asegurando la compatibilidad del sistema.
 
@@ -638,8 +659,10 @@ Una vez instalado, OWASP ZAP se ejecuta utilizando el siguiente comando:
 ```bash
 zaproxy
 ```
+![Ruta vulnerable agregada](./Imagen38.png)  
 
-Esto inicia la herramienta y muestra mensajes de configuración por defecto en la consola.
+Esto inicia la herramienta y muestra mensajes de configuración por defecto en la consola.  
+
 
 
 
@@ -652,8 +675,9 @@ En esta etapa, se establece el proxy local en OWASP ZAP. Se configura como `127.
   - **Address:** `127.0.0.1`
   - **Port:** `8080`
 
-#### Vista de Configuración del Proxy:
-![Configuración del Proxy en OWASP ZAP](file-H3NoHirMo1XhLX1hWbdwem.png)
+#### Vista de Configuración del Proxy:  
+
+![Ruta vulnerable agregada](./Imagen39.png)  
 
 
 
@@ -668,8 +692,9 @@ Para que OWASP ZAP capture el tráfico, es necesario configurar el navegador par
    - Habilitar "Also use this proxy for HTTPS".
 4. Confirmar los cambios y aplicar la configuración.
 
-#### Vista de Configuración en el Navegador:
-![Configuración del Proxy en el Navegador](file-W2Q9ZHSg8KQVviDFgENtw7.png)
+#### Vista de Configuración en el Navegador:  
+
+![Configuración del Proxy en el Navegador](./Imagen40.png)   
 
 Esto asegura que todas las solicitudes HTTP(S) pasen a través de OWASP ZAP, permitiendo su análisis y prueba.
 
@@ -687,8 +712,9 @@ about:config
 1. En la barra de búsqueda, escriba `security.ssl.enable_ocsp_stapling` y cambie su valor a `false`. Esto asegura que Firefox no valide los certificados usando OCSP durante las pruebas.
 2. Este ajuste es temporal y debe ser revertido después de las pruebas.
 
-**Captura:**
-![Configuración de OCSP Stapling](file-APV31vv5oGsuNt8uKAWXNz)
+**Captura:**  
+
+![Configuración de OCSP Stapling](./Imagen41.png)  
 
 
 ### **12.2 Configuración de Sitios en ZAP**
@@ -703,8 +729,8 @@ En ZAP, se agregaron los sitios relevantes detectados para su análisis. Esto pe
 1. En la sección de "Sites" de ZAP, los sitios relevantes son listados, incluyendo dominios específicos.
 2. Estos sitios son analizados posteriormente con herramientas específicas.
 
-**Captura:**
-![Sitios Configurados](file-THfHfcH7sWdqMUQeAAmsQ4)
+**Captura:**  
+![Sitios Configurados](./Imagen42.png)  
 
 
 
@@ -720,8 +746,8 @@ Se ejecuta un spider (explorador web) sobre el sitio objetivo para identificar p
 2. Opcionalmente, se habilita el "AJAX Spider" para analizar interacciones dinámicas en sitios web.
 3. Se inicia el análisis con el botón `Attack`.
 
-**Captura:**
-![Spider en Proceso](file-8DUakVSRhXGyvD56UXU72m)
+**Captura:**  
+![Spider en Proceso](./Imagen43.png)  
 
 
 
@@ -736,8 +762,8 @@ Después del análisis, ZAP proporciona una lista de alertas de seguridad identi
 1. Se visualizan las vulnerabilidades detectadas, como encabezados HTTP ausentes o fugas de información.
 2. Estas alertas proporcionan detalles y posibles soluciones para mitigar riesgos.
 
-**Captura:**
-![Alertas Detectadas](file-CDbDAwPkzNtqErEMmDoZ9f)
+**Captura:**  
+![Alertas Detectadas](./Imagen44.png)  
 
 
 
@@ -769,11 +795,14 @@ A continuación, se presenta un resumen detallado de las vulnerabilidades identi
 - **Privileges Required (PR):** `None (N)`
 - **User Interaction (UI):** `None (N)`
 
+![Alertas Detectadas](./Imagen45.png)    
+
 #### **Vulnerable System Impact Metrics**
 - **Confidentiality (VC):** `Low (L)`
 - **Integrity (VI):** `Low (L)`
 - **Availability (VA):** `Low (L)`
 
+![Alertas Detectadas](./Imagen46.png) 
 
 
 ### **Conclusiones**
@@ -886,6 +915,10 @@ mkdir -p .github/workflows
 touch .github/workflows/ci-pipeline.yml
 ```
 
+**capturas**  
+![Alertas Detectadas](./Imagen49.png)  
+![Alertas Detectadas](./Imagen50.png)  
+![Alertas Detectadas](./Imagen47.png)    
 
 ## **2. Contenido del Archivo del Pipeline**
 El archivo YAML configura un pipeline con etapas de construcción, análisis y despliegue.
@@ -935,6 +968,8 @@ jobs:
           docker exec zap zap-cli quick-scan --self-contained --spider http://localhost:3000
 ```
 
+**Captura:**
+![Configuración de OCSP Stapling](./Imagen48.png)  
 
 ## **3. Inicialización del Repositorio Git**
 Se inicializa el repositorio Git y se configura la rama predeterminada como `main`.
@@ -944,6 +979,8 @@ Se inicializa el repositorio Git y se configura la rama predeterminada como `mai
 ```bash
 git init
 ```
+**Captura:**
+![Configuración de OCSP Stapling](./Imagen51.png)  
 
 ### **3.2 Configuración de la rama principal como 'main'**
 
@@ -951,7 +988,9 @@ git init
 git branch -m main
 git config --global init.defaultBranch main
 ```
-
+**Captura:**
+![Configuración de OCSP Stapling](./Imagen52.png)  
+![Configuración de OCSP Stapling](./Imagen53.png)  
 
 
 ## **4. Preparación de los Cambios para el Repositorio**
@@ -962,6 +1001,8 @@ Se agregan los cambios al índice y se realiza el commit inicial.
 ```bash
 git add .
 ```
+**Captura:**
+![Configuración de OCSP Stapling](./Imagen54.png)  
 
 ### **4.2 Realizar el commit inicial**
 
@@ -969,4 +1010,6 @@ git add .
 git commit -m "Initial commit"
 ```
 
+**Captura:**
+![Configuración de OCSP Stapling](./Imagen55.png)  
 
