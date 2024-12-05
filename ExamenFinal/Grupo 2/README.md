@@ -37,8 +37,21 @@ se realiza la creación del workflow
 ![image](https://github.com/user-attachments/assets/bd269c78-d6b9-4eb1-beab-e15d8f0a9a27)
 
 hacemos git para agregar al repositorio de Github
+![image](https://github.com/user-attachments/assets/84f4c956-98bc-4773-87cd-587d10b66906)
 
+identificar vulnerabilidades en el código anteriormente, se procede a utilizar la herramienta 
+Snyk, la cual nos permitirá evaluar las vulnerabilidades y posteriormente corregirlas.
+![image](https://github.com/user-attachments/assets/ab9cdf02-7f3a-48e0-a346-45db73523452)
 
+Se instala snyk con visual code para evidenciar las vulnerabilidades y se ve el resultado 
+del escaneo de vulnerabilidades con Snyk en VS con el código con vulnerabilidades.
+![image](https://github.com/user-attachments/assets/a1931319-a0c5-4eb8-9ff7-6eae7adf940c)
+
+Se verifica en Snyk y se identifica el total de vulnerabilidades encontradas en el código.
+![image](https://github.com/user-attachments/assets/eceb7ab3-6588-4be8-a879-03ec02e7c73a)
+
+Use of Hard-coded Credentials (CWE-798) es una vulnerabilidad en el desarrollo web que consiste en incrustar credenciales, como nombres de usuario y contraseñas, en el código fuente de una aplicación o sistema web
+![image](https://github.com/user-attachments/assets/6a4548bd-dba5-454c-8cdb-595a345ce6a0)
 
 
 
