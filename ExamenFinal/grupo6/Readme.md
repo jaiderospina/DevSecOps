@@ -969,6 +969,7 @@ jobs:
 ```
 
 **Captura:**
+
 ![Configuración de OCSP Stapling](./Imagen48.png)  
 
 ## **3. Inicialización del Repositorio Git**
@@ -980,6 +981,7 @@ Se inicializa el repositorio Git y se configura la rama predeterminada como `mai
 git init
 ```
 **Captura:**
+
 ![Configuración de OCSP Stapling](./Imagen51.png)  
 
 ### **3.2 Configuración de la rama principal como 'main'**
@@ -989,6 +991,7 @@ git branch -m main
 git config --global init.defaultBranch main
 ```
 **Captura:**
+
 ![Configuración de OCSP Stapling](./Imagen52.png)  
 ![Configuración de OCSP Stapling](./Imagen53.png)  
 
@@ -1002,6 +1005,7 @@ Se agregan los cambios al índice y se realiza el commit inicial.
 git add .
 ```
 **Captura:**
+
 ![Configuración de OCSP Stapling](./Imagen54.png)  
 
 ### **4.2 Realizar el commit inicial**
@@ -1011,5 +1015,6 @@ git commit -m "Initial commit"
 ```
 
 **Captura:**
+
 ![Configuración de OCSP Stapling](./Imagen55.png)  
 
