@@ -16,5 +16,33 @@ Instalación del contenedor de la base de datos
 ![image](https://github.com/user-attachments/assets/2383d12f-278d-43db-b488-fa5aecd636cd)
 ![image](https://github.com/user-attachments/assets/fbef7d0d-7982-4e06-a2ff-841737dbf901)
 ![image](https://github.com/user-attachments/assets/de0e4e1a-701a-4f9d-8237-184d6621c508)
-![image](https://github.com/user-attachments/assets/9927aa4a-c895-4b16-8fbc-c859435bcda3)
+![image](https://github.com/user-attachments/assets/f556921b-b983-48cd-ab70-c65fcd3bba22)
+
+
+Se crea un Commit a GITHUB
+![image](https://github.com/user-attachments/assets/44aba3be-98f6-4f37-a16a-341e7cacaaed)
+
+Creación de repositorio y conexión en GITHUB
+![image](https://github.com/user-attachments/assets/eb66932a-894e-4c4f-bb11-25efbb89fd42)
+
+Subir los archivos al repositorio remoto:
+![image](https://github.com/user-attachments/assets/3ca38576-faa8-4a9b-b3dc-4c184474a48c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
