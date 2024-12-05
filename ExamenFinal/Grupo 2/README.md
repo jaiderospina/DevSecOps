@@ -28,13 +28,15 @@ Creación de repositorio y conexión en GITHUB
 Subir los archivos al repositorio remoto:
 ![image](https://github.com/user-attachments/assets/3ca38576-faa8-4a9b-b3dc-4c184474a48c)
 
+Los documentos del proyecto se subieron al repo de forma correcta, sistema de CI/CD y se crean 2 branch con el fin de identificar los cambios que se hagan en la rama DEV y  pasarlos a la rama main si se considera que el código es seguro para ejecutarlo.
 
+![image](https://github.com/user-attachments/assets/ef34e6b2-1533-4330-b081-b43f80d75d72)
 
+se realiza la creación del workflow
+![image](https://github.com/user-attachments/assets/542ace75-afdc-42d3-927d-b2552cc9cdf2)
+![image](https://github.com/user-attachments/assets/bd269c78-d6b9-4eb1-beab-e15d8f0a9a27)
 
-
-
-
-
+hacemos git para agregar al repositorio de Github
 
 
 
