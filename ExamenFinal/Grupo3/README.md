@@ -318,6 +318,7 @@ Verificamos los procesos corriendo en el SO
 ![image](https://github.com/user-attachments/assets/bacfb168-72b5-4395-ab25-c721ca157922)
 
 Análisis de la aplicación
+
 ![image](https://github.com/user-attachments/assets/9eafa413-2f5d-4126-b5b5-290f712df142)
 
 ![image](https://github.com/user-attachments/assets/1f4d7610-d0d0-494f-817e-9cd5d94de94d)
