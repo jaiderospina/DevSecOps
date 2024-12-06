@@ -98,10 +98,13 @@ con los presentes comandos descargamos el archivo docker-compose.yaml y lo corre
 
 2. Acá visualizamos la descarga del archivo docker-compose.yml
 
-![image](https://github.com/user-attachments/assets/8fba0da1-5939-4582-b5d0-e3d483d3eb9b).
+
 
 
 ![image](https://github.com/user-attachments/assets/cb564c87-9cdb-4366-b31a-05ead005ea77)
+
+
+![image](https://github.com/user-attachments/assets/8fba0da1-5939-4582-b5d0-e3d483d3eb9b)
 
 
 
