@@ -164,6 +164,20 @@ Diagra de recursos
 
 
 
+![image](https://github.com/user-attachments/assets/9b08d8b9-adf8-4aff-b89c-9bdf8fc67192)
+
+
+### Paso 3 :white_check_mark:
+
+Se genera el cambio de dirección IP 
+
+![image](https://github.com/user-attachments/assets/ec752aa8-4343-4a28-a2ee-df9c381d42d2)
+
+
+
+
+
+
 
 
 
