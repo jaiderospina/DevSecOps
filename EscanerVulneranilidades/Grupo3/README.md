@@ -123,25 +123,7 @@ Cuando escaneamos una vulnerabilidad con OpenVAS, el proceso implica varias etap
 
 
 
-## 4. Evaluación de la Severidad:
-Clasificación de Vulnerabilidades: OpenVAS clasifica las vulnerabilidades detectadas según su gravedad, que puede ser:
-Crítica (posibles exploits inmediatos, alto riesgo).
-Alta (puede ser explotada, pero con menor impacto inmediato).
-Media o Baja (requiere condiciones específicas para ser explotada o es de menor riesgo).
-Impacto Potencial: Además de la severidad, OpenVAS evalúa el impacto potencial de la vulnerabilidad, indicando si puede comprometer la confidencialidad, integridad o disponibilidad del sistema.
-## 5. Generación de Informes:
-Informe de Resultados: Una vez que el escaneo ha terminado, OpenVAS genera un informe detallado que incluye:
-Vulnerabilidades detectadas.
-Descripción de cada vulnerabilidad.
-Nivel de severidad.
-Recomendaciones de mitigación o corrección (como actualizar una aplicación, cambiar configuraciones inseguras, etc.).
-Opciones de Informe: Los informes pueden ser personalizados para incluir detalles específicos o para ser exportados en diferentes formatos (PDF, HTML, XML, etc.).
-## 6. Acciones Posteriores:
-Mitigación de Vulnerabilidades: Basado en los informes generados, los administradores de sistemas o equipos de seguridad deben tomar medidas correctivas, que pueden incluir:
-Aplicación de parches de seguridad.
-Modificación de configuraciones inseguras.
-Desactivación de servicios no necesarios.
-Re-escaneo: Después de aplicar las correcciones, es común realizar un nuevo escaneo para verificar que las vulnerabilidades hayan sido efectivamente solucionadas
+
 
 
 ## Conclusión:
