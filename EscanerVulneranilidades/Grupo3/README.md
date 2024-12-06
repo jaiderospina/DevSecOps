@@ -86,9 +86,6 @@ Habilitamos puertos de comunicación
 
 ## 2. Dockerizacion
 
-![image](https://github.com/user-attachments/assets/cb564c87-9cdb-4366-b31a-05ead005ea77)
-
-
 ## 1. Inicio del Escaneo:
 Configuración del Escaneo: Se configura el escaneo en OpenVAS, donde seleccionas el objetivo (la IP o rango de IPs), el tipo de escaneo y las políticas de seguridad (por ejemplo, si quieres realizar un escaneo rápido o profundo).
 Selección de pruebas (NVTs): OpenVAS utiliza pruebas conocidas como NVTs (Network Vulnerability Tests), que son scripts diseñados para detectar vulnerabilidades específicas en servicios, aplicaciones y sistemas operativos. Estas pruebas están basadas en una base de datos de vulnerabilidades conocida y se actualizan frecuencia.
@@ -102,6 +99,7 @@ con los presentes comandos descargamos el archivo docker-compose.yaml y lo corre
 2. Acá visualizamos la descarga del archivo docker-compose.yml
 
 ![image](https://github.com/user-attachments/assets/8fba0da1-5939-4582-b5d0-e3d483d3eb9b)
+![image](https://github.com/user-attachments/assets/cb564c87-9cdb-4366-b31a-05ead005ea77)
 
 
 
