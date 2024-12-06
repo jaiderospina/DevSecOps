@@ -361,7 +361,75 @@ El CVE-1999-0524 describe una vulnerabilidad relacionada con la configuración d
 2.	Restringir el acceso: Configurar ACLs (listas de control de acceso) para limitar las direcciones IP desde las cuales se puede acceder al servicio SNMP.
 3.	Supervisar logs: Monitorear los intentos de acceso y las configuraciones del dispositivo para detectar posibles intrusiones.
 4.	Deshabilitar SNMP si no es necesario.
-Esta vulnerabilidad tiene más de dos décadas, pero aún puede ser relevante si se usan dispositivos antiguos o configuraciones obsoletas en entornos modernos.
+Esta vulnerabilidad tiene más de dos décadas, pero aún puede ser relevante si se usan dispositivos antiguos o configuraciones obsoletas en entornos modernos.4
+
+
+# Comandos básicos de Linux
+Navegación por el sistema de archivos
+pwd - Muestra el directorio actual.
+ls - Lista los archivos y directorios.
+ls -l - Muestra detalles en formato largo.
+ls -a - Incluye archivos ocultos.
+cd [ruta] - Cambia de directorio.
+cd .. - Sube un nivel en el árbol de directorios.
+cd / - Va al directorio raíz.
+Gestión de archivos y directorios
+touch [archivo] - Crea un archivo vacío.
+mkdir [directorio] - Crea un directorio.
+cp [origen] [destino] - Copia archivos o directorios.
+cp -r - Copia recursivamente directorios.
+mv [origen] [destino] - Mueve o renombra archivos.
+rm [archivo] - Elimina archivos.
+rm -r [directorio] - Elimina directorios recursivamente.
+Visualización de archivos
+cat [archivo] - Muestra el contenido de un archivo.
+less [archivo] - Muestra el contenido de un archivo página por página.
+head [archivo] - Muestra las primeras líneas de un archivo.
+tail [archivo] - Muestra las últimas líneas de un archivo.
+tail -f [archivo] - Sigue el crecimiento del archivo (útil para logs).
+Gestión de procesos
+ps - Muestra los procesos en ejecución.
+ps aux - Lista todos los procesos con detalles.
+top o htop - Monitoriza procesos en tiempo real.
+kill [PID] - Finaliza un proceso por su ID.
+killall [nombre] - Finaliza procesos por nombre.
+Redes y conectividad
+ifconfig o ip a - Muestra configuraciones de red.
+ping [host] - Verifica conectividad con un host.
+curl [URL] - Realiza solicitudes HTTP.
+wget [URL] - Descarga archivos desde una URL.
+Gestión de permisos
+chmod [permisos] [archivo] - Cambia los permisos de un archivo.
+chown [usuario:grupo] [archivo] - Cambia el propietario de un archivo.
+Comandos básicos de Docker
+Gestión de imágenes
+docker pull [imagen] - Descarga una imagen del Docker Hub.
+docker images - Lista las imágenes locales.
+docker rmi [imagen] - Elimina una imagen.
+Gestión de contenedores
+docker ps - Lista los contenedores en ejecución.
+docker ps -a - Incluye contenedores detenidos.
+docker run [imagen] - Inicia un contenedor desde una imagen.
+docker run -d [imagen] - Inicia un contenedor en segundo plano.
+docker run -it [imagen] - Inicia un contenedor con acceso interactivo.
+docker stop [ID/nombre] - Detiene un contenedor.
+docker start [ID/nombre] - Inicia un contenedor detenido.
+docker restart [ID/nombre] - Reinicia un contenedor.
+docker rm [ID/nombre] - Elimina un contenedor.
+Inspección y logs
+docker logs [ID/nombre] - Muestra los logs de un contenedor.
+docker logs -f [ID/nombre] - Sigue los logs en tiempo real.
+docker inspect [ID/nombre] - Detalla la configuración de un contenedor o imagen.
+docker exec [ID/nombre] [comando] - Ejecuta un comando dentro de un contenedor en ejecución.
+docker exec -it [ID/nombre] /bin/bash - Abre una terminal interactiva.
+Gestión de volúmenes y redes
+docker volume ls - Lista los volúmenes.
+docker volume rm [volumen] - Elimina un volumen.
+docker network ls - Lista las redes.
+docker network rm [red] - Elimina una red.
+Limpieza
+docker system prune - Elimina datos no utilizados (contenedores detenidos, redes, volúmenes, etc.).
+docker system prune -a - Incluye imágenes no utilizadas.
 
 
 
