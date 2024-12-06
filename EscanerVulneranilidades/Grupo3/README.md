@@ -240,6 +240,18 @@ Las BD para generar analisis de vulnerabilidad estan actualizadas
 
 ![image](https://github.com/user-attachments/assets/2b7587ef-e364-447c-9896-231dc246bd0a)
 
+![image](https://github.com/user-attachments/assets/5dab52a4-49f9-44ea-876c-1a0c07eeec81)
+
+
+### Paso 10 :white_check_mark:
+
+Vulneravilidad encontrada
+
+![image](https://github.com/user-attachments/assets/6aedc92e-b1cf-4351-ac74-8c0d7c648d1e)
+
+
+
+
 
 
 
