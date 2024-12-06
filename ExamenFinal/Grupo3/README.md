@@ -282,6 +282,73 @@ https://github.com/acortes2/examen_devsecops
 ![image](https://github.com/user-attachments/assets/c4144582-03d3-4e1c-840b-a35e04c002cf)
 
 
+### Paso 15 :white_check_mark:
+
+> - Escaneo de la aplicación
+
+En una máquina virtual con kalilinux instalamos el openvas y corrimos en Docker la aplicación 
+
+![image](https://github.com/user-attachments/assets/c000702d-a5e7-4a69-998e-cebcab1f575d)
+
+![image](https://github.com/user-attachments/assets/58af2d91-3022-489c-b3b2-7c944a91b080)
+
+![image](https://github.com/user-attachments/assets/118c09f7-4bff-4faa-a487-92e3f881a379)
+
+![image](https://github.com/user-attachments/assets/33d8fb4b-c7d5-49e3-8ed4-386640f68dc5)
+
+ ![image](https://github.com/user-attachments/assets/57d0baff-81c7-4612-8716-37e971e03f37)
+
+Se evidencia la Instalación Docker
+![image](https://github.com/user-attachments/assets/3163dbb8-6465-4477-8514-60cb5a51c4b5)
+
+
+Corremos la imagen previamente subida a Docker hub 
+![image](https://github.com/user-attachments/assets/067c4a07-3ceb-4340-b083-968a93aa7502)
+
+Verificamos la ejecución del Docker
+![image](https://github.com/user-attachments/assets/17e870b1-0722-4b2d-bbb6-30ddd4c5ca5a)
+
+![image](https://github.com/user-attachments/assets/c308b631-2ec8-4754-9ca7-cba675d491b4)
+
+![image](https://github.com/user-attachments/assets/71b6280c-4854-4601-8504-be16f4e34f0b)
+
+Verificamos los procesos corriendo en el SO
+![image](https://github.com/user-attachments/assets/bacfb168-72b5-4395-ab25-c721ca157922)
+
+Análisis de la aplicación
+![image](https://github.com/user-attachments/assets/9eafa413-2f5d-4126-b5b5-290f712df142)
+
+![image](https://github.com/user-attachments/assets/1f4d7610-d0d0-494f-817e-9cd5d94de94d)
+
+![image](https://github.com/user-attachments/assets/c5f9765c-820f-4e8e-af8b-8b59bf6f2874)
+
+![image](https://github.com/user-attachments/assets/1b59b060-4113-4a18-bae6-71fd325be8d6)
+
+![image](https://github.com/user-attachments/assets/c7655777-66ab-40ba-a32c-a2cb1fdd1a73)
+
+![image](https://github.com/user-attachments/assets/3624e43e-4d71-4743-a3da-df89d9f4309a)
+
+![image](https://github.com/user-attachments/assets/c344f832-f635-4f1f-92cc-088df3a4be28)
+
+![image](https://github.com/user-attachments/assets/bacb32a6-4c7a-4805-afb4-9ed47ad57896)
+
+![image](https://github.com/user-attachments/assets/1cf93965-ca87-4305-be8b-1da6e701bc26)
+
+![image](https://github.com/user-attachments/assets/66fec489-6a13-4348-ab1c-ebd05d062f13)
+
+![image](https://github.com/user-attachments/assets/f8cbd81d-4442-41d1-81e5-966d9597ad70)
+
+![image](https://github.com/user-attachments/assets/3e7f3706-4953-4979-ae28-c54767fb8fcf)
+
+![image](https://github.com/user-attachments/assets/bc2b7113-07e1-45d2-a4af-640080ed96e4)
+
+
+
+
+
+
+
+
 
 
 
