@@ -140,6 +140,8 @@ Diagra de recursos
 
 ![image](https://github.com/user-attachments/assets/fc30d45f-c672-4cdf-a011-92c65fe2c186)
 
+se inicia el servicio de open vas
+
 
 
 ![image](https://github.com/user-attachments/assets/b70f62d8-b95b-4e8e-ab92-2f0ad2c74c86)
