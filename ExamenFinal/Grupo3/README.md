@@ -298,7 +298,7 @@ En una máquina virtual con kalilinux instalamos el openvas y corrimos en Docker
 
  ![image](https://github.com/user-attachments/assets/57d0baff-81c7-4612-8716-37e971e03f37)
 
-Se evidencia la Instalación Docker
+### Paso 16 :white_check_mark: Se evidencia la Instalación Docker
 
 ![image](https://github.com/user-attachments/assets/3163dbb8-6465-4477-8514-60cb5a51c4b5)
 
@@ -333,6 +333,8 @@ Análisis de la aplicación
 
 ![image](https://github.com/user-attachments/assets/bacb32a6-4c7a-4805-afb4-9ed47ad57896)
 
+![image](https://github.com/user-attachments/assets/4f3b33a6-b4dd-43a1-b189-ebbe2e557e7c)
+
 ![image](https://github.com/user-attachments/assets/1cf93965-ca87-4305-be8b-1da6e701bc26)
 
 ![image](https://github.com/user-attachments/assets/66fec489-6a13-4348-ab1c-ebd05d062f13)
@@ -360,7 +362,6 @@ El CVE-1999-0524 describe una vulnerabilidad relacionada con la configuración d
 Esta vulnerabilidad tiene más de dos décadas, pero aún puede ser relevante si se usan dispositivos antiguos o configuraciones obsoletas en entornos modernos.
 
 
-![image](https://github.com/user-attachments/assets/4f3b33a6-b4dd-43a1-b189-ebbe2e557e7c)
 
 
 
