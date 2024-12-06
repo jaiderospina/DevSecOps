@@ -47,8 +47,29 @@ Auditoría de sistemas operativos: Analizar máquinas con sistemas como Linux, W
 Escaneo de aplicaciones web: Detectar fallos en servidores y aplicaciones web.
 
 
+## Metodos de instalación OpenVas:
+
+## Instalación desde nube EC2
+
+Creamos una instancia ec2 de Amazon 
+![image](https://github.com/user-attachments/assets/e59a6ef4-b49c-44d2-9e30-be679395147a)
+
+
+Nos conectamos por ssh 
+![image](https://github.com/user-attachments/assets/3b09b7e3-f06d-4f4c-a60d-c78a0c7af1cf)
+
+
+
+Habilitamos puertos de comunicación 
+![image](https://github.com/user-attachments/assets/b6f75571-3612-4c75-bc89-727b1380e95c)
+
+
 
 ## PROCESO DE ESCANEO CON OPEN VAS
+
+
+
+## Dockerizacion
 
 ## 1. Inicio del Escaneo:
 Configuración del Escaneo: Se configura el escaneo en OpenVAS, donde seleccionas el objetivo (la IP o rango de IPs), el tipo de escaneo y las políticas de seguridad (por ejemplo, si quieres realizar un escaneo rápido o profundo).
