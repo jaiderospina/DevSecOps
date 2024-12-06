@@ -235,7 +235,7 @@ Se evidencia que las BD estan activas
 ### Paso 9 :white_check_mark:
 
 
-Las BD para generar analisis de vilnerabilidad estan actualizadas 
+Las BD para generar analisis de vulnerabilidad estan actualizadas 
 
 
 ![image](https://github.com/user-attachments/assets/2b7587ef-e364-447c-9896-231dc246bd0a)
