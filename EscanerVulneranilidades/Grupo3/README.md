@@ -1,4 +1,4 @@
-## Taller Escaner Vulneravilidades
+# Taller Escaner Vulneravilidades
 
 ## Integrantes Grupo
 
@@ -10,7 +10,7 @@
 > - Alejandro Cortes
 > - Charles Guerrero
 
-## ¿Qué es OpenVAS?
+# ¿Qué es OpenVAS?
 
 OpenVAS (Open Vulnerability Assessment System) es una herramienta de código abierto utilizada para realizar evaluaciones de seguridad y escaneos de vulnerabilidades en sistemas informáticos, redes y aplicaciones. Su objetivo es identificar posibles debilidades y riesgos de seguridad que puedan ser explotados por atacantes.
 OpenVAS puede escanear:
@@ -49,9 +49,9 @@ Escaneo de aplicaciones web: Detectar fallos en servidores y aplicaciones web.
 
 
 
-## Metodos de instalación OpenVas que usamos:
+# Metodos de instalación OpenVas que usamos:
 
-## Instalación desde nube EC2
+## 1. Instalación desde nube EC2
 
 Creamos una instancia ec2 de Amazon 
 ![image](https://github.com/user-attachments/assets/e59a6ef4-b49c-44d2-9e30-be679395147a)
@@ -68,9 +68,7 @@ Habilitamos puertos de comunicación
 
 
 
-
-
-## Dockerizacion
+# 2. Dockerizacion
 
 ## 1. Inicio del Escaneo:
 Configuración del Escaneo: Se configura el escaneo en OpenVAS, donde seleccionas el objetivo (la IP o rango de IPs), el tipo de escaneo y las políticas de seguridad (por ejemplo, si quieres realizar un escaneo rápido o profundo).
@@ -106,7 +104,7 @@ con los presentes comandos descargamos el archivo docker-compose.yaml y lo corre
 Cuando escaneamos una vulnerabilidad con OpenVAS, el proceso implica varias etapas clave para detectar y evaluar posibles fallos de seguridad en el sistema objetivo. Aquí te explico qué sucede paso a paso durante el escaneo
 
 
-
+# 3. Maquina virtual Linux
 
 
 
