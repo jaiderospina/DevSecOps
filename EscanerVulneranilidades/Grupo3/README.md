@@ -128,10 +128,14 @@ Cuando escaneamos una vulnerabilidad con OpenVAS, el proceso implica varias etap
 
 ## 3. Maquina virtual Linux
 
+Diagra de recursos
+
 ![image](https://github.com/user-attachments/assets/727a8d4f-40d9-4e54-aa2b-dde2252e001e)
 
 
-## Se ingresa a Kali 
+### Paso 1 :white_check_mark:
+
+> - Se ingresa a Kali 
 
 
 ![image](https://github.com/user-attachments/assets/fc30d45f-c672-4cdf-a011-92c65fe2c186)
@@ -139,6 +143,42 @@ Cuando escaneamos una vulnerabilidad con OpenVAS, el proceso implica varias etap
 
 
 ![image](https://github.com/user-attachments/assets/b70f62d8-b95b-4e8e-ab92-2f0ad2c74c86)
+
+
+### Paso 2 :white_check_mark:
+
+> -  Se evidencia la conexión
+![image](https://github.com/user-attachments/assets/9a8da555-7388-411d-8696-ffaaf49141fd)
+
+---
+
+<br></br>
+
+![image](https://github.com/user-attachments/assets/71eb6232-3fe7-4644-932b-5a767790823e)
+
+---
+
+<br></br>
+
+![image](https://github.com/user-attachments/assets/fe0184df-f12b-4491-88b3-f12001947fcd)
+
+
+
+
+
+
+
+
+### Paso 3 :white_check_mark:
+
+
+
+
+
+
+
+
+
 
 
 
