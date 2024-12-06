@@ -1,4 +1,4 @@
-# Taller Escaner Vulneravilidades
+## Taller Escaner Vulneravilidades
 
 ## Integrantes Grupo
 
@@ -10,7 +10,24 @@
 > - Alejandro Cortes
 > - Charles Guerrero
 
-# ¿Qué es OpenVAS?
+## Tabla de Contenido
+
+## Introducción
+1.1.  ¿Qué es OpenVAS?
+1.2. Características clave:
+1.3. Para que se utiliza
+
+## Metodos Utilizados para la instalacion de Open Vas
+2.1.  Instalación desde nube EC2
+2.2.  Dockerizacion
+2.3.  Maquina Virtual en linux
+
+## Conclusiones y Recomendaciones
+5.1. Conclusiones
+
+
+
+## ¿Qué es OpenVAS?
 
 OpenVAS (Open Vulnerability Assessment System) es una herramienta de código abierto utilizada para realizar evaluaciones de seguridad y escaneos de vulnerabilidades en sistemas informáticos, redes y aplicaciones. Su objetivo es identificar posibles debilidades y riesgos de seguridad que puedan ser explotados por atacantes.
 OpenVAS puede escanear:
@@ -29,12 +46,6 @@ Interfaz Gráfica: Ofrece una interfaz fácil de usar a través de Greenbone Sec
 
 Base de Datos Actualizada: OpenVAS cuenta con una extensa base de datos con más de 50,000 pruebas de vulnerabilidad, que se actualiza constantemente.
 
-## Informes Detallados: 
-Genera informes completos sobre las vulnerabilidades encontradas, con clasificación por gravedad y recomendaciones de mitigación.
-
-Configuración Personalizada: Permite realizar escaneos ajustados a las necesidades específicas del entorno, personalizando políticas y opciones de escaneo.
-
-## Ventajas de OpenVAS:
 
 Gratuito y de código abierto.
 Actualizaciones frecuentes para detectar vulnerabilidades nuevas.
@@ -47,6 +58,7 @@ Escaneos detallados y análisis profundo de la seguridad.
 Evaluación de redes: Identificar vulnerabilidades en routers, switches y dispositivos de red.
 Auditoría de sistemas operativos: Analizar máquinas con sistemas como Linux, Windows o macOS.
 Escaneo de aplicaciones web: Detectar fallos en servidores y aplicaciones web.
+
 
 
 
