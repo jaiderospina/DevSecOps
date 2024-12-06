@@ -197,7 +197,7 @@ Diagra de recursos
 
 ## Conclusión:
 
-OpenVAS es una herramienta esencial para la gestión de seguridad en infraestructuras IT, permitiendo detectar vulnerabilidades antes de que los atacantes puedan explotarlas. Es ideal para profesionales de seguridad que buscan una solución poderosa y gratuita para proteger sus sistemas y redes.
+OpenVAS es una herramienta esencial para la gestión de seguridad en infraestructuras IT y servicios web, permitiendo detectar vulnerabilidades antes de que los atacantes puedan explotarlas. Es ideal para profesionales de seguridad que buscan una solución poderosa y gratuita para proteger sus sistemas y redes.
 
 
 
