@@ -50,6 +50,10 @@ Escaneo de aplicaciones web: Detectar fallos en servidores y aplicaciones web.
 
 ## PROCESO DE ESCANEO CON OPEN VAS
 
+## 1. Inicio del Escaneo:
+Configuración del Escaneo: Se configura el escaneo en OpenVAS, donde seleccionas el objetivo (la IP o rango de IPs), el tipo de escaneo y las políticas de seguridad (por ejemplo, si quieres realizar un escaneo rápido o profundo).
+Selección de pruebas (NVTs): OpenVAS utiliza pruebas conocidas como NVTs (Network Vulnerability Tests), que son scripts diseñados para detectar vulnerabilidades específicas en servicios, aplicaciones y sistemas operativos. Estas pruebas están basadas en una base de datos de vulnerabilidades conocida y se actualizan frecuencia.
+
 1. Creamos una carpeta y la abrimos con visual studio.  
 
 con los presentes comandos descargamos el archivo docker-compose.yaml y lo corremos 
@@ -77,21 +81,14 @@ con los presentes comandos descargamos el archivo docker-compose.yaml y lo corre
 ![image](https://github.com/user-attachments/assets/e03d9446-820d-44af-9312-55f31b7d5b1b)
 
 
-Cuando escaneamos una vulnerabilidad con OpenVAS, el proceso implica varias etapas clave para detectar y evaluar posibles fallos de seguridad en el sistema objetivo. Aquí te explico qué sucede paso a paso durante el escaneo:
+Cuando escaneamos una vulnerabilidad con OpenVAS, el proceso implica varias etapas clave para detectar y evaluar posibles fallos de seguridad en el sistema objetivo. Aquí te explico qué sucede paso a paso durante el escaneo
 
-## 1. Inicio del Escaneo:
-Configuración del Escaneo: Se configura el escaneo en OpenVAS, donde seleccionas el objetivo (la IP o rango de IPs), el tipo de escaneo y las políticas de seguridad (por ejemplo, si quieres realizar un escaneo rápido o profundo).
-Selección de pruebas (NVTs): OpenVAS utiliza pruebas conocidas como NVTs (Network Vulnerability Tests), que son scripts diseñados para detectar vulnerabilidades específicas en servicios, aplicaciones y sistemas operativos. Estas pruebas están basadas en una base de datos de vulnerabilidades conocida y se actualizan frecuentemente.
-## 2. Exploración de Servicios y Puertos:
-Descubrimiento de Servicios: OpenVAS escanea los puertos abiertos del objetivo para identificar los servicios activos (como HTTP, FTP, SSH, bases de datos, etc.).
-Identificación de Versiones: Una vez detectados los servicios, OpenVAS intenta identificar las versiones exactas de las aplicaciones y sistemas operativos en ejecución. Esto es crucial para detectar vulnerabilidades específicas relacionadas con una versión particular del software.
-## 3. Ejecución de las Pruebas de Vulnerabilidades (NVTs):
-Pruebas de Vulnerabilidad: OpenVAS ejecuta una serie de pruebas automatizadas en cada servicio y aplicación identificados. Estas pruebas buscan vulnerabilidades conocidas que puedan ser explotadas. Algunos ejemplos son:
-Desbordamientos de búfer.
-Fallas en la autenticación.
-Inyección de comandos o SQL.
-Configuraciones incorrectas de seguridad.
-Comparación con Base de Datos de Vulnerabilidades: Cada NVT compara la información obtenida de los servicios y las configuraciones con su base de datos de vulnerabilidades conocida. Esto le permite identificar si una vulnerabilidad es relevante para el servicio o la versión del software.
+
+
+
+
+
+
 ## 4. Evaluación de la Severidad:
 Clasificación de Vulnerabilidades: OpenVAS clasifica las vulnerabilidades detectadas según su gravedad, que puede ser:
 Crítica (posibles exploits inmediatos, alto riesgo).
