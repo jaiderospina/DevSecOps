@@ -65,6 +65,9 @@ Escaneo de aplicaciones web: Detectar fallos en servidores y aplicaciones web.
 # Metodos de instalación OpenVas que usamos:
 
 ## 1. Instalación desde nube EC2
+![image](https://github.com/user-attachments/assets/727a8d4f-40d9-4e54-aa2b-dde2252e001e)
+
+
 
 Creamos una instancia ec2 de Amazon 
 ![image](https://github.com/user-attachments/assets/e59a6ef4-b49c-44d2-9e30-be679395147a)
@@ -82,6 +85,9 @@ Habilitamos puertos de comunicación
 
 
 ## 2. Dockerizacion
+
+![image](https://github.com/user-attachments/assets/cb564c87-9cdb-4366-b31a-05ead005ea77)
+
 
 ## 1. Inicio del Escaneo:
 Configuración del Escaneo: Se configura el escaneo en OpenVAS, donde seleccionas el objetivo (la IP o rango de IPs), el tipo de escaneo y las políticas de seguridad (por ejemplo, si quieres realizar un escaneo rápido o profundo).
@@ -118,7 +124,11 @@ Cuando escaneamos una vulnerabilidad con OpenVAS, el proceso implica varias etap
 
 
 ## 3. Maquina virtual Linux
-:rocket: ¡Lanzamiento exitoso!
+
+![image](https://github.com/user-attachments/assets/19109612-e85f-446c-a8de-60a852155ce6)
+
+
+
 
 
 
