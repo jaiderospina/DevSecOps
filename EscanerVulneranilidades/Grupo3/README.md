@@ -9,12 +9,10 @@
 > - Monica Florez Mejia
 > - Alejandro Cortes
 > - Charles Guerrero
- 
-## QUE ES OPEN Vass
 
-OpenVAS (Open Vulnerability Assessment System) es una plataforma de código abierto diseñada para realizar evaluaciones de seguridad y auditorías de vulnerabilidades en sistemas informáticos. Es una herramienta integral que permite identificar posibles debilidades en redes, aplicaciones, servicios y dispositivos mediante el análisis de vulnerabilidades conocidas.
+## ¿Qué es OpenVAS?
 
-¿Qué es lo que evalúa?
+OpenVAS (Open Vulnerability Assessment System) es una herramienta de código abierto utilizada para realizar evaluaciones de seguridad y escaneos de vulnerabilidades en sistemas informáticos, redes y aplicaciones. Su objetivo es identificar posibles debilidades y riesgos de seguridad que puedan ser explotados por atacantes.
 OpenVAS puede escanear:
 
 Redes: Detecta configuraciones incorrectas o vulnerabilidades en routers, switches y otros dispositivos de red.
@@ -22,9 +20,6 @@ Sistemas Operativos: Examina máquinas con sistemas operativos como Linux, Windo
 Aplicaciones Web y Servicios: Evalúa aplicaciones web, servidores web, bases de datos, y otros servicios en busca de vulnerabilidades.
 
 
-## ¿Qué es OpenVAS?
-
-OpenVAS (Open Vulnerability Assessment System) es una herramienta de código abierto utilizada para realizar evaluaciones de seguridad y escaneos de vulnerabilidades en sistemas informáticos, redes y aplicaciones. Su objetivo es identificar posibles debilidades y riesgos de seguridad que puedan ser explotados por atacantes.
 
 ## Características clave:
 
