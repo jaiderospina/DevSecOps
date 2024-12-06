@@ -213,49 +213,30 @@ Nuevamente en Kali para validar la conexión con la IP asignada
 ![image](https://github.com/user-attachments/assets/48a4631e-efd7-4345-a33a-84c218c3a8b9)
 
 
+![image](https://github.com/user-attachments/assets/a4abc658-5333-43ef-bcf0-ad205c152a81)
+
+
+![image](https://github.com/user-attachments/assets/81bba1a3-7d91-4616-b67d-987ec8b45d4b)
+
+
+### Paso 8 :white_check_mark:
+
+
+Se evidencia que las BD estan activas 
+
+![image](https://github.com/user-attachments/assets/bd40f270-63db-4b9d-869b-76b401f010b2)
 
 
 
+![image](https://github.com/user-attachments/assets/5e0b857c-8544-4b64-824f-b8e7070612e2)
+
+### Paso 9 :white_check_mark:
 
 
+Las BD para generar analisis de vilnerabilidad estan actualizadas 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Paso 3 :white_check_mark:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/2b7587ef-e364-447c-9896-231dc246bd0a)
 
 
 
