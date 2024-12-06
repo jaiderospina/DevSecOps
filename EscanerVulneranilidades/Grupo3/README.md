@@ -69,7 +69,7 @@ Habilitamos puertos de comunicación
 
 
 
-# 2. Dockerizacion
+## 2. Dockerizacion
 
 ## 1. Inicio del Escaneo:
 Configuración del Escaneo: Se configura el escaneo en OpenVAS, donde seleccionas el objetivo (la IP o rango de IPs), el tipo de escaneo y las políticas de seguridad (por ejemplo, si quieres realizar un escaneo rápido o profundo).
@@ -105,7 +105,8 @@ con los presentes comandos descargamos el archivo docker-compose.yaml y lo corre
 Cuando escaneamos una vulnerabilidad con OpenVAS, el proceso implica varias etapas clave para detectar y evaluar posibles fallos de seguridad en el sistema objetivo. Aquí te explico qué sucede paso a paso durante el escaneo
 
 
-# 3. Maquina virtual Linux
+## 3. Maquina virtual Linux
+:rocket: ¡Lanzamiento exitoso!
 
 
 
