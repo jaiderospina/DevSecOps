@@ -40,6 +40,7 @@ Actualizaciones frecuentes para detectar vulnerabilidades nuevas.
 Escaneos detallados y análisis profundo de la seguridad.
 
 
+
 ## ¿Para qué se utiliza?
 
 Evaluación de redes: Identificar vulnerabilidades en routers, switches y dispositivos de red.
@@ -47,7 +48,8 @@ Auditoría de sistemas operativos: Analizar máquinas con sistemas como Linux, W
 Escaneo de aplicaciones web: Detectar fallos en servidores y aplicaciones web.
 
 
-## Metodos de instalación OpenVas:
+
+## Metodos de instalación OpenVas que usamos:
 
 ## Instalación desde nube EC2
 
@@ -65,7 +67,6 @@ Habilitamos puertos de comunicación
 
 
 
-## PROCESO DE ESCANEO CON OPEN VAS
 
 
 
