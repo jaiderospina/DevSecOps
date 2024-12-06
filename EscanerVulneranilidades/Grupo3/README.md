@@ -175,6 +175,57 @@ Se genera el cambio de dirección IP
 
 
 
+![image](https://github.com/user-attachments/assets/5709432a-9285-46cd-b4d5-85f3d0ca255e)
+
+
+### Paso 4 :white_check_mark:
+
+Se asigna IP a escanear 
+
+![image](https://github.com/user-attachments/assets/e1007375-cdab-45da-9201-28b5814059b2)
+
+
+![image](https://github.com/user-attachments/assets/c86a0bb1-43b1-4f3a-a7f0-50c6ef2e302d)
+
+
+![image](https://github.com/user-attachments/assets/4cad434b-51d1-445a-8c8e-2a784cf48d5e)
+
+### Paso 5 :white_check_mark:
+
+Se evidencia la conexión a NAT  
+
+
+![image](https://github.com/user-attachments/assets/1b1e480a-d9b3-4d3a-b11b-7ad331d30783)
+
+
+### Paso 6 :white_check_mark:
+
+ 
+Vamos a generar cambio en la conexion para hacer puente con la tarjeta de red del computador 
+
+![image](https://github.com/user-attachments/assets/291d8692-eb8a-44cd-999f-2a530c26267b)
+
+
+### Paso 7 :white_check_mark:
+
+Nuevamente en Kali para validar la conexión con la IP asignada 
+
+![image](https://github.com/user-attachments/assets/48a4631e-efd7-4345-a33a-84c218c3a8b9)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
