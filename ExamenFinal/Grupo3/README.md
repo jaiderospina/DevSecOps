@@ -342,6 +342,24 @@ Análisis de la aplicación
 
 ![image](https://github.com/user-attachments/assets/bc2b7113-07e1-45d2-a4af-640080ed96e4)
 
+# CVE 1999-0524
+El CVE-1999-0524 describe una vulnerabilidad relacionada con la configuración de SNMP (Simple Network Management Protocol). En términos generales, este CVE se refiere a la existencia de una comunidad predeterminada o débil configurada en dispositivos de red que utilizan SNMP, como "public" o "private". Estas comunidades actúan como contraseñas para acceder a información de administración del dispositivo, y si no se cambian de sus valores predeterminados, pueden ser explotadas fácilmente por atacantes.
+
+> - Detalles clave:
+
+•	Problema: Uso de comunidades SNMP predeterminadas o triviales.
+•	Impacto: Acceso no autorizado a información sensible o incluso a la configuración del dispositivo de red.
+•	Solución: Cambiar las comunidades SNMP predeterminadas por valores personalizados y robustos. Si SNMP no es necesario, deshabilitarlo para reducir la superficie de ataque.
+
+> - Buenas prácticas para mitigar este tipo de vulnerabilidad:
+1.	Usar SNMPv3: Las versiones anteriores como SNMPv1 y SNMPv2 son menos seguras, ya que no cifran los datos. SNMPv3 incluye cifrado y autenticación.
+2.	Restringir el acceso: Configurar ACLs (listas de control de acceso) para limitar las direcciones IP desde las cuales se puede acceder al servicio SNMP.
+3.	Supervisar logs: Monitorear los intentos de acceso y las configuraciones del dispositivo para detectar posibles intrusiones.
+4.	Deshabilitar SNMP si no es necesario.
+Esta vulnerabilidad tiene más de dos décadas, pero aún puede ser relevante si se usan dispositivos antiguos o configuraciones obsoletas en entornos modernos.
+
+
+![image](https://github.com/user-attachments/assets/4f3b33a6-b4dd-43a1-b189-ebbe2e557e7c)
 
 
 
