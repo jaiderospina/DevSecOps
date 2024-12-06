@@ -303,10 +303,10 @@ En una máquina virtual con kalilinux instalamos el openvas y corrimos en Docker
 ![image](https://github.com/user-attachments/assets/3163dbb8-6465-4477-8514-60cb5a51c4b5)
 
 
-Corremos la imagen previamente subida a Docker hub 
+### Paso 17 :white_check_mark: Corremos la imagen previamente subida a Docker hub 
 ![image](https://github.com/user-attachments/assets/067c4a07-3ceb-4340-b083-968a93aa7502)
 
-Verificamos la ejecución del Docker
+### Paso 18 :white_check_mark: Verificamos la ejecución del Docker
 
 ![image](https://github.com/user-attachments/assets/17e870b1-0722-4b2d-bbb6-30ddd4c5ca5a)
 
@@ -314,10 +314,10 @@ Verificamos la ejecución del Docker
 
 ![image](https://github.com/user-attachments/assets/71b6280c-4854-4601-8504-be16f4e34f0b)
 
-Verificamos los procesos corriendo en el SO
+### Paso 19 :white_check_mark: Verificamos los procesos corriendo en el SO
 ![image](https://github.com/user-attachments/assets/bacfb168-72b5-4395-ab25-c721ca157922)
 
-Análisis de la aplicación
+### Paso 20 :white_check_mark: Análisis de la aplicación
 
 ![image](https://github.com/user-attachments/assets/9eafa413-2f5d-4126-b5b5-290f712df142)
 
