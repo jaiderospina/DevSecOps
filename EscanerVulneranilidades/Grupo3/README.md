@@ -29,7 +29,8 @@ Interfaz Gráfica: Ofrece una interfaz fácil de usar a través de Greenbone Sec
 
 Base de Datos Actualizada: OpenVAS cuenta con una extensa base de datos con más de 50,000 pruebas de vulnerabilidad, que se actualiza constantemente.
 
-## Informes Detallados: Genera informes completos sobre las vulnerabilidades encontradas, con clasificación por gravedad y recomendaciones de mitigación.
+## Informes Detallados: 
+Genera informes completos sobre las vulnerabilidades encontradas, con clasificación por gravedad y recomendaciones de mitigación.
 
 Configuración Personalizada: Permite realizar escaneos ajustados a las necesidades específicas del entorno, personalizando políticas y opciones de escaneo.
 
