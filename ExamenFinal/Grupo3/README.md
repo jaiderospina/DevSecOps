@@ -424,7 +424,7 @@ kill [PID] - Finaliza un proceso por su ID.
 killall [nombre] - Finaliza procesos por nombre.
 
 > - Redes y conectividad
-> - 
+
 ifconfig o ip a - Muestra configuraciones de red
 
 ping [host] - Verifica conectividad con un host.
@@ -440,7 +440,7 @@ chmod [permisos] [archivo] - Cambia los permisos de un archivo.
 chown [usuario:grupo] [archivo] - Cambia el propietario de un archivo.
 
 > - Comandos básicos de Docker
-Gestión de 
+Gestión de imágenes
 
 docker pull [imagen] - Descarga una imagen del Docker Hub.
 
@@ -449,7 +449,7 @@ docker images - Lista las imágenes locales.
 docker rmi [imagen] - Elimina una imagen.
 
 > - Gestión de contenedores
-> - 
+
 docker ps - Lista los contenedores en ejecución.
 
 docker ps -a - Incluye contenedores detenidos.
