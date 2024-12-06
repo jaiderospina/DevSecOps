@@ -11,9 +11,6 @@
 > - Charles Guerrero
 
 ---
-<h2 style="text-align:center">Desarrollo del Examen Final</h2>
-
-En el siguiente informe se presentarán las imágenes y la información detallada sobre el escaneo de una vulnerabilidad, utilizando una aplicación llamada 
 
 <br></br>
 
