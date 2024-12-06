@@ -496,7 +496,8 @@ docker system prune -a - Incluye imágenes no utilizadas.
 
 
 
-[Ver documentación]([docs/documentacion.md](https://uniminuto0-my.sharepoint.com/:f:/g/personal/charles_guerrero_uniminuto_edu_co/EuHgsauSFXZHruOsw4fou7AB4-de7O1cKi3vWv2tU1FAjg?e=jv5taY))
+#Informe análisis de vulnerabilidades generado por Openvas Link
+https://uniminuto0-my.sharepoint.com/:f:/g/personal/charles_guerrero_uniminuto_edu_co/EuHgsauSFXZHruOsw4fou7AB4-de7O1cKi3vWv2tU1FAjg?e=jv5taY
 
 
 
