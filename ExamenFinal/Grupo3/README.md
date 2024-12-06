@@ -307,6 +307,7 @@ Corremos la imagen previamente subida a Docker hub
 ![image](https://github.com/user-attachments/assets/067c4a07-3ceb-4340-b083-968a93aa7502)
 
 Verificamos la ejecución del Docker
+
 ![image](https://github.com/user-attachments/assets/17e870b1-0722-4b2d-bbb6-30ddd4c5ca5a)
 
 ![image](https://github.com/user-attachments/assets/c308b631-2ec8-4754-9ca7-cba675d491b4)
@@ -333,9 +334,9 @@ Análisis de la aplicación
 
 ![image](https://github.com/user-attachments/assets/bacb32a6-4c7a-4805-afb4-9ed47ad57896)
 
-![image](https://github.com/user-attachments/assets/4f3b33a6-b4dd-43a1-b189-ebbe2e557e7c)
-
 ![image](https://github.com/user-attachments/assets/1cf93965-ca87-4305-be8b-1da6e701bc26)
+
+![image](https://github.com/user-attachments/assets/4f3b33a6-b4dd-43a1-b189-ebbe2e557e7c)
 
 ![image](https://github.com/user-attachments/assets/66fec489-6a13-4348-ab1c-ebd05d062f13)
 
