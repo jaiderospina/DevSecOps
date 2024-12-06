@@ -250,6 +250,22 @@ Vulneravilidad encontrada
 ![image](https://github.com/user-attachments/assets/6aedc92e-b1cf-4351-ac74-8c0d7c648d1e)
 
 
+### Paso 11 :white_check_mark:
+
+servicios que se encuentran corriendo dentro del host
+
+![image](https://github.com/user-attachments/assets/6f88d513-cfa2-4847-92eb-695037038a14)
+
+
+### Paso 12 :white_check_mark:
+
+sistema debian linux 9
+
+![image](https://github.com/user-attachments/assets/912eefdc-c5ec-454d-8f4c-89255da9b645)
+
+
+
+
 
 
 
