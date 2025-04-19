@@ -59,5 +59,5 @@ Desarrollar la capacidad para identificar, evaluar, y priorizar vulnerabilidades
 
 ## NOTA.
 
-Como se explico en clase adoptar las prçticas adoptadas en los anteriores laboratorios, principalmente lo visto en clase sobre el escanner de vulnerabilidades ( Documentcaión en Overview)
+Como se explicó en clase adoptar las práticas adoptadas en los anteriores laboratorios, principalmente lo visto en clase sobre el escanner de vulnerabilidades ( Documentcaión en Overview)
 ---
